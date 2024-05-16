@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -24,9 +25,10 @@ def main():
             version_path = os.path.join(project_path, version)
             return_code = build(scripts, version_path)
             if not return_code == 0:
-                print(return_code)
                 print("Build failed for " + os.path.join(project, version))
             error_exit |= not return_code == 0
+            shutil.rmtree(version_path)
+
     if error_exit:
         sys.exit("Build failed for some projects.")
 

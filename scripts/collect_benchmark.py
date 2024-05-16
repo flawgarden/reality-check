@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import csv
 import os
 import subprocess
@@ -18,7 +19,8 @@ def download_or_skip(save_path, version, zip_url):
         print(filename)
         command = 'wget -P %s' % save_path + '/ ' + zip_url
         print(command)
-        subprocess.run(args=command, shell=True)
+        subprocess.run(args=command, shell=True, stdout=subprocess.DEVNULL,
+                       stderr=subprocess.STDOUT)
         with ZipFile(filename) as file:
             dir = Path(filename).parent.resolve().absolute().as_posix()
             print(dir)
@@ -28,7 +30,13 @@ def download_or_skip(save_path, version, zip_url):
 
 def main():
     parent = Path(__file__).resolve().parents[1].as_posix()
-    with open(parent + '/cves_db.csv') as csvfile:
+    ap = argparse.ArgumentParser()
+
+    ap.add_argument("-db", "--database", required=True,
+                    help="path to cve database")
+    args = ap.parse_args()
+
+    with open(parent + '/' + args.database) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             save_path = parent + '/benchmark/' + row['project']

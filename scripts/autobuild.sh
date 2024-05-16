@@ -17,7 +17,7 @@ if [ -f pom.xml ]; then
   requireCommand mvn
   echo "Compile with mvn" >> /dev/stderr
   mvn clean package -f pom.xml -B -V -e \
-      -Dfindbugs.skip -Dcheckstyle.skip -Dpmd.skip=true -Dspotbugs.skip \
-      -Denforcer.skip -Dmaven.javadoc.skip -DskipTests -Dmaven.test.skip.exec \
-      -Dlicense.skip=true -Drat.skip=true -Dspotless.check.skip=true > /dev/null 2>&1
+    -Dfindbugs.skip -Dcheckstyle.skip -Dpmd.skip=true -Dspotbugs.skip \
+    -Denforcer.skip -Dmaven.javadoc.skip -DskipTests -Dmaven.test.skip.exec \
+    -Dlicense.skip=true -Drat.skip=true -Dspotless.check.skip=true > /dev/null 2>&1
 fi

@@ -12,8 +12,7 @@ requireCommand git
 requireCommand python3
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-BASE_DIR="$(cd $SCRIPT_DIR/../data && pwd)"
 
-cd $SCRIPT_DIR/../
-./scripts/collect_benchmark.py
-./scripts/markup_benchmark.py
+cd $SCRIPT_DIR
+./collect_benchmark.py -db=cves_db.csv
+./markup_benchmark.py
