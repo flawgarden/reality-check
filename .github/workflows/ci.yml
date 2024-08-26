@@ -1,4 +1,4 @@
-name: Bootstrap and build
+name: Bootstrap and markup
 
 on: workflow_dispatch
 
