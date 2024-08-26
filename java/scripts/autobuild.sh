@@ -9,7 +9,7 @@ requireCommand() {
 }
 
 entry_point=$1
-cd $entry_point
+cd "$entry_point"
 echo "$entry_point" >> /dev/stderr
 
 set -e
