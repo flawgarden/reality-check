@@ -22,10 +22,6 @@ for OPT in "$@"; do
       BOOTSTRAP_OPTIONS="$BOOTSTRAP_OPTIONS --exit-on-error"
       shift 1
   fi
-  if [[ "$OPT" = *"--update"* ]]; then
-      BOOTSTRAP_OPTIONS="$BOOTSTRAP_OPTIONS --update"
-      shift 1
-  fi
 done
 
 if [[ "$EXIT_ON_ERROR" = "true" ]]; then

@@ -27,5 +27,5 @@ if [[ "$EXIT_ON_ERROR" = "true" ]]; then
 fi
 
 cd "$SCRIPT_DIR" || exit
-./collect_benchmark.py -l=java -db=cves_db.csv
-./markup_benchmark.py -l=java
+../collect_benchmark.py -l=java -db=cves_db.csv
+../markup_benchmark.py -l=java
