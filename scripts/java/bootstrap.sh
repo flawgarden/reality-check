@@ -11,10 +11,21 @@ requireCommand() {
 requireCommand git
 requireCommand python3
 
-
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-cd $SCRIPT_DIR
-# ../java/scripts/bootstrap.sh
-../collect_benchmark.py -l=java -db=cves_db.csv
-../markup_benchmark.py -l=java
+EXIT_ON_ERROR="false"
+
+for OPT in "$@"; do
+  if [[ "$OPT" = *"--exit-on-error"* ]]; then
+      EXIT_ON_ERROR="true"
+      shift 1
+  fi
+done
+
+if [[ "$EXIT_ON_ERROR" = "true" ]]; then
+  set -e
+fi
+
+cd "$SCRIPT_DIR" || exit
+./collect_benchmark.py -l=java -db=cves_db.csv
+./markup_benchmark.py -l=java

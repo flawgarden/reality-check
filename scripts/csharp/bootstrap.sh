@@ -11,10 +11,8 @@ requireCommand() {
 requireCommand git
 requireCommand python3
 
-
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-cd $SCRIPT_DIR
-# ../java/scripts/bootstrap.sh
-../collect_benchmark.py -l=csharp -db=cves_db.csv
-../markup_benchmark.py -l=csharp
+cd "$SCRIPT_DIR" || exit
+./collect_benchmark.py -l=csharp -db=cves_db.csv
+./markup_benchmark.py -l=csharp
