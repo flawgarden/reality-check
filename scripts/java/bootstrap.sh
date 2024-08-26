@@ -15,5 +15,6 @@ requireCommand python3
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 cd $SCRIPT_DIR
-./java/bootstrap.sh
-./csharp/bootstrap.sh
+# ../java/scripts/bootstrap.sh
+../collect_benchmark.py -l=java -db=cves_db.csv
+../markup_benchmark.py -l=java

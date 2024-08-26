@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import csv
 import json
 import os
@@ -18,11 +19,7 @@ def parse_cvs(csv_path_str, path_key):
             start_line = region[0]
             end_line = region[1]
             name = parts[2]
-            kind = ""
-            if name[0].isupper():
-                kind = "type"
-            else:
-                kind = "function"
+            kind = "function"
             location = {
                 "filePath": file_path,
                 "startLine": int(start_line),
@@ -211,7 +208,16 @@ def convert_in_one(
 
 def main():
     parent = Path(__file__).resolve().parents[1]
+
+    ap = argparse.ArgumentParser()
+
+    ap.add_argument("-l", "--language", required=True,
+                    help="language of cve database")
+    args = ap.parse_args()
+
+    parent = parent / args.language
     parent_str = parent.absolute().as_posix()
+    print(parent_str)
     version_to_cves = {}
     cve_to_vul_version = {}
     cve_to_patch_version = {}
