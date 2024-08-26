@@ -1,0 +1,160 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-vert.x-3.6.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-12537"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/headers/VertxHttpHeaders.java"
+                },
+                "region": {
+                  "startLine": 431,
+                  "endLine": 435
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MapEntry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/headers/VertxHttpHeaders.java"
+                },
+                "region": {
+                  "startLine": 520,
+                  "endLine": 532
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "add0",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/HttpUtils.java"
+                },
+                "region": {
+                  "startLine": 47,
+                  "endLine": 764
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/HttpHeaders.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 346
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/HttpHeaders.java"
+                },
+                "region": {
+                  "startLine": 340,
+                  "endLine": 342
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createOptimized",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/HttpClientRequestImpl.java"
+                },
+                "region": {
+                  "startLine": 171,
+                  "endLine": 176
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "headers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/Http2HeadersAdaptor.java"
+                },
+                "region": {
+                  "startLine": 141,
+                  "endLine": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "add",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/Http2HeadersAdaptor.java"
+                },
+                "region": {
+                  "startLine": 175,
+                  "endLine": 181
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

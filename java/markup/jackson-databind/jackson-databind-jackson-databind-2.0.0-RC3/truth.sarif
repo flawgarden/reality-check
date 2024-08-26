@@ -1,0 +1,298 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.0.0-RC3"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-14718"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-14720"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-14721"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-16942"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/EnumSetDeserializer.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "EnumSetDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanSerializerBase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java"
+                },
+                "region": {
+                  "startLine": 312,
+                  "endLine": 385
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createContextual",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_idFrom",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/JavaType.java"
+                },
+                "region": {
+                  "startLine": 249,
+                  "endLine": 249
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isEnumType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 156
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreatorCollector",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StdKeyDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "deserializeKey",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 163,
+                  "endLine": 165
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BasicDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 847,
+                  "endLine": 911
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createMapDeserializer",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-14719"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

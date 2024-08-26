@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-keycloak-1.0.4.Final"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2014-3651"
+          },
+          "ruleId": "CWE-400",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/src/main/java/org/keycloak/services/resources/QRCodeResource.java"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "QRCodeResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/src/main/java/org/keycloak/services/resources/QRCodeResource.java"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createQrCode",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

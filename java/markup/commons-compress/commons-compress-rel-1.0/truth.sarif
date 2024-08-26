@@ -1,0 +1,211 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-commons-compress-rel-1.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-36090"
+          },
+          "ruleId": "CWE-130",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 91
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 185
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getNextZipEntry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getNextArEntry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 262
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TarUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AsiExtraField",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java"
+                },
+                "region": {
+                  "startLine": 262,
+                  "endLine": 293
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseFromLocalFileData",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 382,
+                  "endLine": 386
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readCString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CpioArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 281,
+                  "endLine": 286
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readBinaryLong",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 288,
+                  "endLine": 293
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readAsciiLong",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

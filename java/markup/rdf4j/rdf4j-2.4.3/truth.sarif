@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-rdf4j-2.4.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-20227"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "util/src/main/java/org/eclipse/rdf4j/common/io/ZipUtil.java"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 117
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipUtil",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "util/src/main/java/org/eclipse/rdf4j/common/io/ZipUtil.java"
+                },
+                "region": {
+                  "startLine": 97,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writeEntry",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

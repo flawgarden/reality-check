@@ -1,0 +1,203 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-vertx-web-3.5.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-12544"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValid",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLTypeValidatorFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createXMLTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLTypeValidatorFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createXMLTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createDocumentBuilderFactoryInstance",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-12542"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/StaticHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 132,
+                  "endLine": 168
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handle",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web/src/test/java/io/vertx/ext/web/handler/StaticHandlerTest.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 730
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StaticHandlerTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

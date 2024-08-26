@@ -1,0 +1,186 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-vertx-web-3.5.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-12544"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValid",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLTypeValidatorFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createXMLTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLTypeValidatorFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createXMLTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-12542"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/StaticHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 132,
+                  "endLine": 155
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handle",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web/src/test/java/io/vertx/ext/web/handler/StaticHandlerTest.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 726
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StaticHandlerTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

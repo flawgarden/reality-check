@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-vert.x-3.4.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-12537"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/io/vertx/test/core/HttpTest.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 3788
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/HttpUtils.java"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 467
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/HttpHeaders.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 336
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/HttpHeaders.java"
+                },
+                "region": {
+                  "startLine": 330,
+                  "endLine": 332
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createOptimized",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/HttpClientRequestImpl.java"
+                },
+                "region": {
+                  "startLine": 193,
+                  "endLine": 200
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "headers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/Http2HeadersAdaptor.java"
+                },
+                "region": {
+                  "startLine": 142,
+                  "endLine": 145
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "add",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/Http2HeadersAdaptor.java"
+                },
+                "region": {
+                  "startLine": 170,
+                  "endLine": 173
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

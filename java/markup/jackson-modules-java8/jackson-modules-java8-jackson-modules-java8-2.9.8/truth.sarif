@@ -1,0 +1,211 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-modules-java8-jackson-modules-java8-2.9.8"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-1000873"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/main/java/com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer.java"
+                },
+                "region": {
+                  "startLine": 280,
+                  "endLine": 285
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_fromDecimal",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/main/java/com/fasterxml/jackson/datatype/jsr310/DecimalUtils.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DecimalUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/main/java/com/fasterxml/jackson/datatype/jsr310/DecimalUtils.java"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "toDecimal",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/test/java/com/fasterxml/jackson/datatype/jsr310/TestDecimalUtils.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testExtractNanosecondDecimal01",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/test/java/com/fasterxml/jackson/datatype/jsr310/TestDecimalUtils.java"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testExtractNanosecondDecimal02",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/test/java/com/fasterxml/jackson/datatype/jsr310/TestDecimalUtils.java"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testExtractNanosecondDecimal03",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/test/java/com/fasterxml/jackson/datatype/jsr310/TestDecimalUtils.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testExtractNanosecondDecimal04",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/test/java/com/fasterxml/jackson/datatype/jsr310/TestDecimalUtils.java"
+                },
+                "region": {
+                  "startLine": 72,
+                  "endLine": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testExtractNanosecondDecimal05",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/test/java/com/fasterxml/jackson/datatype/jsr310/TestDecimalUtils.java"
+                },
+                "region": {
+                  "startLine": 79,
+                  "endLine": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testExtractNanosecondDecimal06",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/main/java/com/fasterxml/jackson/datatype/jsr310/deser/DurationDeserializer.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DurationDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "datetime/src/main/java/com/fasterxml/jackson/datatype/jsr310/deser/DurationDeserializer.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "deserialize",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

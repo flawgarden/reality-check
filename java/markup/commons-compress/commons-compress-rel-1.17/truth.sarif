@@ -1,0 +1,874 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-commons-compress-rel-1.17"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-11771"
+          },
+          "ruleId": "CWE-835",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/Pack200TestCase.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Pack200TestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 157
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BrotliCompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 135
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "singleByteReadReturnsMinusOneAtEof",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BlockLZ4CompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/SevenZTestCase.java"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZTestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/SevenZTestCase.java"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testSevenZArchiveCreation",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DumpArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DeflateCompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 68,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "singleByteReadReturnsMinusOneAtEof",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArjArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CpioArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 155
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Deflate64CompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/SevenZTestCase.java"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZTestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/SevenZTestCase.java"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testSevenZArchiveCreation",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/LZMATestCase.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "LZMATestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DumpArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BlockLZ4CompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CpioArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 155
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Deflate64CompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CpioArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 300,
+                  "endLine": 338
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "read",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 157
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BrotliCompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 135
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "singleByteReadReturnsMinusOneAtEof",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/LZMATestCase.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "LZMATestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BZip2CompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/Pack200TestCase.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Pack200TestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FramedSnappyCompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 172,
+                  "endLine": 174
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 508,
+                  "endLine": 542
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readStored",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/GZipTestCase.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 282
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "GZipTestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 366
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 618
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FramedLZ4CompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CpioArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 300,
+                  "endLine": 338
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "read",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BZip2CompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Maven221MultiVolumeTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testRead7ZipMultiVolumeArchiveForStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 366
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 618
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FramedLZ4CompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FramedSnappyCompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 172,
+                  "endLine": 174
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 508,
+                  "endLine": 542
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readStored",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/GZipTestCase.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 282
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "GZipTestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Maven221MultiVolumeTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testRead7ZipMultiVolumeArchiveForStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArjArchiveInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DeflateCompressorInputStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStreamTest.java"
+                },
+                "region": {
+                  "startLine": 68,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "singleByteReadReturnsMinusOneAtEof",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

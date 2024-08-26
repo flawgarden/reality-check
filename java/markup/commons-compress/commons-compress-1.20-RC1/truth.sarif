@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-commons-compress-1.20-RC1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-35515"
+          },
+          "ruleId": "CWE-835",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/Folder.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Folder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/Folder.java"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getOrderedCoders",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

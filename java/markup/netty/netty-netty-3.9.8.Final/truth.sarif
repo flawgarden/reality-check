@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-netty-netty-3.9.8.Final"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2015-2156"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/jboss/netty/example/http/upload/HttpUploadServerHandler.java"
+                },
+                "region": {
+                  "startLine": 291,
+                  "endLine": 329
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writeResponse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/jboss/netty/handler/codec/http/Cookie.java"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 219
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Cookie",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/jboss/netty/handler/codec/http/Cookie.java"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getMaxAge",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/jboss/netty/handler/codec/http/Cookie.java"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setMaxAge",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.9.9"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-12384"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-14893"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-16335"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-14379"
+          },
+          "ruleId": "CWE-1321",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-14439"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-14540"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-17267"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-14892"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-12814"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

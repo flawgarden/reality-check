@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Ombi-4.38.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-32322"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Ombi/Controllers/V2/SystemController.cs"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Ombi.Controllers.V2_SystemController_Download",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Ombi/Controllers/V2/SystemController.cs"
+                },
+                "region": {
+                  "startLine": 47,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Ombi.Controllers.V2_SystemController_ReadLogFile",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

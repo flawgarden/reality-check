@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-cxf-fediz-fediz-1.3.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-4464"
+          },
+          "ruleId": "CWE-284",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/core/src/main/java/org/apache/cxf/fediz/core/config/FedizContext.java"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 93
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getAudienceUris",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/core/src/main/java/org/apache/cxf/fediz/core/handler/SigninHandler.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/core/src/main/java/org/apache/cxf/fediz/core/handler/SigninHandler.java"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validateAudienceRestrictions",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

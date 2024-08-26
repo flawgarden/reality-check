@@ -1,0 +1,160 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-cxf-fediz-fediz-1.2.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-7661"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/spring2/src/main/java/org/apache/cxf/fediz/spring/web/FederationAuthenticationEntryPoint.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 189
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FederationAuthenticationEntryPoint",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/spring2/src/main/java/org/apache/cxf/fediz/spring/web/FederationAuthenticationEntryPoint.java"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 187
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "commence",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/spring2/src/main/java/org/apache/cxf/fediz/spring/web/FederationAuthenticationFilter.java"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FederationAuthenticationFilter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/spring2/src/main/java/org/apache/cxf/fediz/spring/web/FederationAuthenticationFilter.java"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "attemptAuthentication",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/spring/src/main/java/org/apache/cxf/fediz/spring/web/FederationAuthenticationEntryPoint.java"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 178
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FederationAuthenticationEntryPoint",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/spring/src/main/java/org/apache/cxf/fediz/spring/web/FederationAuthenticationEntryPoint.java"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "commence",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/spring/src/main/java/org/apache/cxf/fediz/spring/web/FederationAuthenticationFilter.java"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FederationAuthenticationFilter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "plugins/spring/src/main/java/org/apache/cxf/fediz/spring/web/FederationAuthenticationFilter.java"
+                },
+                "region": {
+                  "startLine": 57,
+                  "endLine": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "attemptAuthentication",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

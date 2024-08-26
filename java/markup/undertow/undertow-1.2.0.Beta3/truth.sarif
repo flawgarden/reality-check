@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-undertow-1.2.0.Beta3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2014-7816"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "servlet/src/main/java/io/undertow/servlet/handlers/DefaultServlet.java"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 367
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DefaultServlet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "servlet/src/main/java/io/undertow/servlet/handlers/DefaultServlet.java"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 173
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "doGet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/handlers/resource/ResourceHandler.java"
+                },
+                "region": {
+                  "startLine": 123,
+                  "endLine": 273
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "serveResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "servlet/src/main/java/io/undertow/servlet/handlers/ServletPathMatches.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 459
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ServletPathMatches",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "servlet/src/main/java/io/undertow/servlet/handlers/ServletPathMatches.java"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 145
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "findWelcomeFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/handlers/URLDecodingHandler.java"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "URLDecodingHandler",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

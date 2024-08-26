@@ -55,7 +55,7 @@ def convert(
         if cve_to_vul_version[cve] == version:
             vul_csv_path_str = cve_to_vul_csv[cve]
             locations = parse_cvs(
-                parent_path_str + "/markup/vulnerable/" + vul_csv_path_str, "Vul_Path"
+                parent_path_str + "/vulnerable/" + vul_csv_path_str, "Vul_Path"
             )
             result = {}
             result["kind"] = "fail"
@@ -85,7 +85,7 @@ def convert(
         if cve_to_patch_version[cve] == version:
             patch_csv_path_str = cve_to_patch_csv[cve]
             locations = parse_cvs(
-                parent_path_str + "/markup/patched/" + patch_csv_path_str,
+                parent_path_str + "/patched/" + patch_csv_path_str,
                 "Fix_Path",
             )
             result = {}
@@ -113,6 +113,7 @@ def convert(
                 result["locations"].append(location)
             results.append(result)
     sarif_data_out["runs"][0]["results"] = results
+    os.makedirs(version_path_str, exist_ok=True)
     out_file = open(version_path_str + "/truth.sarif", "w")
     json.dump(sarif_data_out, out_file, indent=2)
 
@@ -138,7 +139,7 @@ def convert_in_one(
         project = version_to_project[version]
         vul_csv_path_str = cve_to_vul_csv[cve]
         locations = parse_cvs(
-            parent_path_str + "/markup/vulnerable/" + vul_csv_path_str, "Vul_Path"
+            parent_path_str + "/vulnerable/" + vul_csv_path_str, "Vul_Path"
         )
         result = {}
         result["kind"] = "fail"
@@ -171,7 +172,7 @@ def convert_in_one(
         project = version_to_project[version]
         patch_csv_path_str = cve_to_patch_csv[cve]
         locations = parse_cvs(
-            parent_path_str + "/markup/patched/" + patch_csv_path_str, "Fix_Path"
+            parent_path_str + "/patched/" + patch_csv_path_str, "Fix_Path"
         )
         result = {}
         result["kind"] = "pass"
@@ -200,7 +201,7 @@ def convert_in_one(
             result["locations"].append(location)
         results.append(result)
     sarif_data_out["runs"][0]["results"] = results
-    bench_path = Path(parent_path_str) / "benchmark"
+    bench_path = Path(parent_path_str) / "markup"
     bench_parent_path_str = bench_path.resolve().absolute().as_posix()
     out_file = open(bench_parent_path_str + "/.truth.sarif", "w")
     json.dump(sarif_data_out, out_file, indent=2)
@@ -249,18 +250,21 @@ def main():
             cves_set.add(cve)
             cve_to_vul_version[cve] = vul_version
             cve_to_patch_version[cve] = patch_version
-    java_cve_root_path_str = (
+    benchmark_root_path_str = (
         (parent / "benchmark/").resolve().absolute().as_posix()
+    )
+    markup_root_path_str = (
+        (parent / "markup/").resolve().absolute().as_posix()
     )
     proj_dirs = [
         proj_dir
-        for proj_dir in os.listdir(java_cve_root_path_str)
-        if os.path.isdir(os.path.join(java_cve_root_path_str, proj_dir))
+        for proj_dir in os.listdir(benchmark_root_path_str)
+        if os.path.isdir(os.path.join(benchmark_root_path_str, proj_dir))
     ]
     for proj_dir in proj_dirs:
-        for version_dir in os.listdir(java_cve_root_path_str + "/" + proj_dir):
+        for version_dir in os.listdir(benchmark_root_path_str + "/" + proj_dir):
             version_dir_absolute = (
-                java_cve_root_path_str + "/" + proj_dir + "/" + version_dir
+                markup_root_path_str + "/" + proj_dir + "/" + version_dir
             )
             convert(
                 parent_str,

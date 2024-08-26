@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-directory-ldap-api-1.0.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-1337"
+          },
+          "ruleId": "CWE-200",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ldap/client/api/src/main/java/org/apache/directory/ldap/client/api/LdapNetworkConnection.java"
+                },
+                "region": {
+                  "startLine": 3916,
+                  "endLine": 3924
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sessionCreated",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ldap/client/api/src/main/java/org/apache/directory/ldap/client/api/LdapNetworkConnection.java"
+                },
+                "region": {
+                  "startLine": 4042,
+                  "endLine": 4108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "addSslFilter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ldap/client/api/src/main/java/org/apache/directory/ldap/client/api/LdapNetworkConnection.java"
+                },
+                "region": {
+                  "startLine": 4291,
+                  "endLine": 4336
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writeRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ldap/client/api/src/main/java/org/apache/directory/ldap/client/api/LdapNetworkConnection.java"
+                },
+                "region": {
+                  "startLine": 259,
+                  "endLine": 262
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "LdapNetworkConnection",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ldap/client/api/src/main/java/org/apache/directory/ldap/client/api/LdapNetworkConnection.java"
+                },
+                "region": {
+                  "startLine": 646,
+                  "endLine": 894
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connect",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ldap/client/api/src/main/java/org/apache/directory/ldap/client/api/LdapNetworkConnection.java"
+                },
+                "region": {
+                  "startLine": 2047,
+                  "endLine": 2370
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "messageReceived",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

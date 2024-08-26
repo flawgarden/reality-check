@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-json-smart-v2-2.4.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-31684"
+          },
+          "ruleId": "CWE-787",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "json-smart/src/main/java/net/minidev/json/parser/JSONParserByteArray.java"
+                },
+                "region": {
+                  "startLine": 77,
+                  "endLine": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "indexOf",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

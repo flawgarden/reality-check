@@ -1,0 +1,245 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-undertow-1.4.0.Final"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-2666"
+          },
+          "ruleId": "CWE-444",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/protocols/http2/Http2HeaderBlockParser.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Http2HeaderBlockParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/protocols/http2/Http2HeaderBlockParser.java"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "emitHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http2/Http2ReceiveListener.java"
+                },
+                "region": {
+                  "startLine": 119,
+                  "endLine": 180
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleRequests",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/ajp/AjpRequestParser.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 559
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AjpRequestParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/ajp/AjpRequestParser.java"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 425
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/UndertowMessages.java"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 474
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UndertowMessages",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/Connectors.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 329
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Connectors",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/ajp/AjpReadListener.java"
+                },
+                "region": {
+                  "startLine": 102,
+                  "endLine": 250
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleEvent",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/util/Methods.java"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 143
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Methods",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/util/Methods.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "fromString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http/HttpRequestParser.java"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 857
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpRequestParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http/HttpRequestParser.java"
+                },
+                "region": {
+                  "startLine": 340,
+                  "endLine": 405
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handlePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http/HttpReadListener.java"
+                },
+                "region": {
+                  "startLine": 137,
+                  "endLine": 250
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleEventWithNoRunningRequest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

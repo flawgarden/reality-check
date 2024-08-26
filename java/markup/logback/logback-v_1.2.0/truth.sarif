@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-logback-v_1.2.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-5929"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "logback-classic/src/test/java/ch/qos/logback/classic/LoggerSerializationTest.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 165
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "LoggerSerializationTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "logback-classic/src/test/java/ch/qos/logback/classic/LoggerSerializationTest.java"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "logback-classic/src/test/java/ch/qos/logback/classic/LoggerSerializationTest.java"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 128
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writeAndRead",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

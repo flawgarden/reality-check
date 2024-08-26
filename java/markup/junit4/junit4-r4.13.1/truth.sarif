@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-junit4-r4.13.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-15250"
+          },
+          "ruleId": "CWE-732",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/junit/rules/TemporaryFolder.java"
+                },
+                "region": {
+                  "startLine": 235,
+                  "endLine": 255
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createTemporaryFolderIn",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/junit/rules/TemporaryFolder.java"
+                },
+                "region": {
+                  "startLine": 57,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TemporaryFolder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/junit/rules/TempFolderRuleTest.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 281
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TempFolderRuleTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

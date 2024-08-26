@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-santuario-java-xmlsec-2.1.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2019-12400"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/utils/XMLUtils.java"
+                },
+                "region": {
+                  "startLine": 1244,
+                  "endLine": 1250
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getDocumentBuilder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/utils/XMLUtils.java"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 1291
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/utils/XMLUtils.java"
+                },
+                "region": {
+                  "startLine": 1072,
+                  "endLine": 1088
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newDocument",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/utils/XMLUtils.java"
+                },
+                "region": {
+                  "startLine": 1090,
+                  "endLine": 1092
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "read",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/utils/XMLUtils.java"
+                },
+                "region": {
+                  "startLine": 1183,
+                  "endLine": 1185
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "repoolDocumentBuilder",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

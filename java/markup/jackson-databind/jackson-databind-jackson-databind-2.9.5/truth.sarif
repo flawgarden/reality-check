@@ -1,0 +1,101 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.9.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-7489"
+          },
+          "ruleId": "CWE-184",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 159
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IllegalTypesCheckTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 122
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validateSubType",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-11307"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 122
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

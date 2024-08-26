@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-qpid-broker-j-6.1.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-8741"
+          },
+          "ruleId": "CWE-200",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "broker-core/src/main/java/org/apache/qpid/server/security/auth/manager/AbstractScramAuthenticationManager.java"
+                },
+                "region": {
+                  "startLine": 300,
+                  "endLine": 369
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getSaltAndPasswordKeys",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

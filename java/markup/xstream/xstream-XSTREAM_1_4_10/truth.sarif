@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-xstream-XSTREAM_1_4_10"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-7957"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/test/com/thoughtworks/acceptance/SecurityVulnerabilityTest.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SecurityVulnerabilityTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/java/com/thoughtworks/xstream/converters/reflection/SunLimitedUnsafeReflectionProvider.java"
+                },
+                "region": {
+                  "startLine": 74,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newInstance",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/java/com/thoughtworks/xstream/security/PrimitiveTypePermission.java"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "allows",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

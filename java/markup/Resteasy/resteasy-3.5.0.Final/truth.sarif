@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-resteasy-3.5.0.Final"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-7561"
+          },
+          "ruleId": "CWE-444",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "resteasy-jaxrs/src/main/java/org/jboss/resteasy/spi/CorsHeaders.java"
+                },
+                "region": {
+                  "startLine": 7,
+                  "endLine": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CorsHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "resteasy-jaxrs/src/main/java/org/jboss/resteasy/plugins/interceptors/CorsFilter.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 203
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CorsFilter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "resteasy-jaxrs/src/main/java/org/jboss/resteasy/plugins/interceptors/CorsFilter.java"
+                },
+                "region": {
+                  "startLine": 125,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "filter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "resteasy-jaxrs/src/main/java/org/jboss/resteasy/plugins/interceptors/CorsFilter.java"
+                },
+                "region": {
+                  "startLine": 161,
+                  "endLine": 193
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "preflight",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

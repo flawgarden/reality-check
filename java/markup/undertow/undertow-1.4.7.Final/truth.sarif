@@ -1,0 +1,432 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-undertow-1.4.7.Final"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2016-9589"
+          },
+          "ruleId": "CWE-400",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http/ParseState.java"
+                },
+                "region": {
+                  "startLine": 113,
+                  "endLine": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "headerValuesCache",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http/ParseState.java"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ParseState",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 287
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SimpleParserTestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseState",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testEncodedSlashDisallowed",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testEncodedSlashAllowed",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 73,
+                  "endLine": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testColonSlashInURL",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 85,
+                  "endLine": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testColonSlashInFullURL",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testPathParameters",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 122,
+                  "endLine": 131
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testFullUrlRootPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 173,
+                  "endLine": 181
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testCanonicalPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 184,
+                  "endLine": 192
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testNoHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 195,
+                  "endLine": 210
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testQueryParams",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 213,
+                  "endLine": 240
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testSameHttpStringReturned",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 244,
+                  "endLine": 257
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testEmptyQueryParams",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/SimpleParserTestCase.java"
+                },
+                "region": {
+                  "startLine": 259,
+                  "endLine": 268
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testNonEncodedAsciiCharacters",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/UndertowMessages.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 506
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UndertowMessages",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/UndertowOptions.java"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 290
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UndertowOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/ParserResumeTestCase.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ParserResumeTestCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/test/java/io/undertow/server/protocol/http/ParserResumeTestCase.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "context",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http/HttpRequestParser.java"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 863
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpRequestParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http/HttpRequestParser.java"
+                },
+                "region": {
+                  "startLine": 644,
+                  "endLine": 658
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleHeaderValue",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http/HttpRequestParser.java"
+                },
+                "region": {
+                  "startLine": 660,
+                  "endLine": 755
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleHeaderValueCacheMiss",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/protocol/http/HttpReadListener.java"
+                },
+                "region": {
+                  "startLine": 93,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpReadListener",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

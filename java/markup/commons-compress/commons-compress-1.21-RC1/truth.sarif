@@ -1,0 +1,1768 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-commons-compress-1.21-RC1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-36090"
+          },
+          "ruleId": "CWE-130",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/BinaryTree.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BinaryTree",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/BinaryTree.java"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 203
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "decode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 187,
+                  "endLine": 189
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 262,
+                  "endLine": 404
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getNextZipEntry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 411,
+                  "endLine": 427
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readFirstLocalFileHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 562
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DumpArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 321,
+                  "endLine": 405
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readDirectoryEntry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/dump/TapeInputStream.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TapeInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/dump/TapeInputStream.java"
+                },
+                "region": {
+                  "startLine": 276,
+                  "endLine": 344
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readBlock",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 362
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArjArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 136,
+                  "endLine": 162
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 219
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readMainHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 221,
+                  "endLine": 273
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readLocalFileHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/examples/Expander.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 374
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Expander",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/examples/Expander.java"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "expand",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 94,
+                  "endLine": 184
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getNextArEntry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 340,
+                  "endLine": 350
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getBSDLongName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 387,
+                  "endLine": 397
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readGNUStringTable",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 2152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 668,
+                  "endLine": 712
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readEncodedHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 644,
+                  "endLine": 653
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readArchiveProperties",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 984
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TarUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+                },
+                "region": {
+                  "startLine": 691,
+                  "endLine": 694
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parsePaxHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AsiExtraField",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java"
+                },
+                "region": {
+                  "startLine": 270,
+                  "endLine": 309
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseFromLocalFileData",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CpioArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 367,
+                  "endLine": 371
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readBinaryLong",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 373,
+                  "endLine": 377
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readAsciiLong",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 490,
+                  "endLine": 497
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readCString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java"
+                },
+                "region": {
+                  "startLine": 250,
+                  "endLine": 252
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "X0017_StrongEncryptionHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java"
+                },
+                "region": {
+                  "startLine": 333,
+                  "endLine": 402
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseFileFormat",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-35516"
+          },
+          "ruleId": "CWE-770",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 2152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 1054,
+                  "endLine": 1141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sanityCheckFolder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 2152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 582,
+                  "endLine": 609
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 668,
+                  "endLine": 712
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readEncodedHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 2081,
+                  "endLine": 2151
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArchiveStatistics",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 2112,
+                  "endLine": 2124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "assertValidity",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.java"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 161
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZFileOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.java"
+                },
+                "region": {
+                  "startLine": 99,
+                  "endLine": 160
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Builder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 2152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 2081,
+                  "endLine": 2151
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArchiveStatistics",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 2112,
+                  "endLine": 2124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "assertValidity",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 911,
+                  "endLine": 969
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sanityCheckSubStreamsInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 971,
+                  "endLine": 1052
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readSubStreamsInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 2152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 911,
+                  "endLine": 969
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sanityCheckSubStreamsInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 2152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 911,
+                  "endLine": 969
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sanityCheckSubStreamsInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 2152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 1054,
+                  "endLine": 1141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sanityCheckFolder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 582,
+                  "endLine": 609
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 668,
+                  "endLine": 712
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readEncodedHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 2081,
+                  "endLine": 2151
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArchiveStatistics",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 485,
+                  "endLine": 525
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "tryToLocateEndHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 823,
+                  "endLine": 874
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sanityCheckUnpackInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 1242,
+                  "endLine": 1366
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sanityCheckFilesInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 1525,
+                  "endLine": 1576
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "calculateStreamMap",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-35517"
+          },
+          "ruleId": "CWE-770",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 984
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TarUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+                },
+                "region": {
+                  "startLine": 691,
+                  "endLine": 694
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parsePaxHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarFile.java"
+                },
+                "region": {
+                  "startLine": 47,
+                  "endLine": 755
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TarFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarFile.java"
+                },
+                "region": {
+                  "startLine": 424,
+                  "endLine": 454
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "paxHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarFile.java"
+                },
+                "region": {
+                  "startLine": 456,
+                  "endLine": 466
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readGlobalPaxHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/examples/Expander.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 374
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Expander",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/examples/Expander.java"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "expand",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/BinaryTree.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BinaryTree",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/BinaryTree.java"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 203
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "decode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 362
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArjArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 136,
+                  "endLine": 162
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 219
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readMainHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 221,
+                  "endLine": 273
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readLocalFileHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CpioArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 367,
+                  "endLine": 371
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readBinaryLong",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 373,
+                  "endLine": 377
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readAsciiLong",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 490,
+                  "endLine": 497
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readCString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 2152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SevenZFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 668,
+                  "endLine": 712
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readEncodedHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+                },
+                "region": {
+                  "startLine": 644,
+                  "endLine": 653
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readArchiveProperties",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/dump/TapeInputStream.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TapeInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/dump/TapeInputStream.java"
+                },
+                "region": {
+                  "startLine": 276,
+                  "endLine": 344
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readBlock",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 984
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TarUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+                },
+                "region": {
+                  "startLine": 691,
+                  "endLine": 694
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parsePaxHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 94,
+                  "endLine": 184
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getNextArEntry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 340,
+                  "endLine": 350
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getBSDLongName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 387,
+                  "endLine": 397
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readGNUStringTable",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 104,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TarArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 569,
+                  "endLine": 576
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readGlobalPaxHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 603,
+                  "endLine": 626
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "paxHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 984
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TarUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+                },
+                "region": {
+                  "startLine": 691,
+                  "endLine": 694
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parsePaxHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java"
+                },
+                "region": {
+                  "startLine": 250,
+                  "endLine": 252
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "X0017_StrongEncryptionHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java"
+                },
+                "region": {
+                  "startLine": 333,
+                  "endLine": 402
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseFileFormat",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 562
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DumpArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 321,
+                  "endLine": 405
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readDirectoryEntry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 187,
+                  "endLine": 189
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipArchiveInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 262,
+                  "endLine": 404
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getNextZipEntry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+                },
+                "region": {
+                  "startLine": 411,
+                  "endLine": 427
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readFirstLocalFileHeader",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-35515"
+          },
+          "ruleId": "CWE-835",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/Folder.java"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 128
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Folder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/compress/archivers/sevenz/Folder.java"
+                },
+                "region": {
+                  "startLine": 57,
+                  "endLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getOrderedCoders",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

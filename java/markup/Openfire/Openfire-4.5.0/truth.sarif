@@ -1,0 +1,118 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Openfire-4.5.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2019-18394"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xmppserver/src/main/java/org/jivesoftware/util/FaviconServlet.java"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "doGet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xmppserver/src/main/java/org/jivesoftware/util/FaviconServlet.java"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "doGet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xmppserver/src/main/java/org/jivesoftware/util/FaviconServlet.java"
+                },
+                "region": {
+                  "startLine": 198,
+                  "endLine": 225
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getImage",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2019-18393"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xmppserver/src/main/java/org/jivesoftware/openfire/container/PluginServlet.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 698
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PluginServlet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xmppserver/src/main/java/org/jivesoftware/openfire/container/PluginServlet.java"
+                },
+                "region": {
+                  "startLine": 502,
+                  "endLine": 565
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleOtherRequest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

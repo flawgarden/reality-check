@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.13.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-36518"
+          },
+          "ruleId": "CWE-787",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UntypedObjectDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java"
+                },
+                "region": {
+                  "startLine": 239,
+                  "endLine": 301
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "deserialize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java"
+                },
+                "region": {
+                  "startLine": 438,
+                  "endLine": 476
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mapArray",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java"
+                },
+                "region": {
+                  "startLine": 492,
+                  "endLine": 554
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mapObject",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java"
+                },
+                "region": {
+                  "startLine": 598,
+                  "endLine": 616
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mapArrayToArray",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java"
+                },
+                "region": {
+                  "startLine": 669,
+                  "endLine": 669
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Vanilla",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

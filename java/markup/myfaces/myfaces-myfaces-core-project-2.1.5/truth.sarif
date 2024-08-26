@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-myfaces-myfaces-core-project-2.1.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2011-4367"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 441,
+                  "endLine": 489
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getLocalePrefixForLocateResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 519,
+                  "endLine": 551
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "libraryExists",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 519,
+                  "endLine": 551
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "libraryExists",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

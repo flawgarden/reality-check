@@ -1,0 +1,194 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.6.7.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2019-16943"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/JavaType.java"
+                },
+                "region": {
+                  "startLine": 267,
+                  "endLine": 267
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isEnumType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 110,
+                  "endLine": 112
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BasicDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 1103,
+                  "endLine": 1183
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createMapDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/EnumSetDeserializer.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "EnumSetDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 379
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreatorCollector",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java"
+                },
+                "region": {
+                  "startLine": 78,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_idFrom",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StdKeyDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java"
+                },
+                "region": {
+                  "startLine": 119,
+                  "endLine": 137
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "deserializeKey",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java"
+                },
+                "region": {
+                  "startLine": 141,
+                  "endLine": 145
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanSerializerBase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java"
+                },
+                "region": {
+                  "startLine": 382,
+                  "endLine": 515
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createContextual",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

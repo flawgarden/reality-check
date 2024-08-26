@@ -1,0 +1,135 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-swagger-parser-1.0.27"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-1000207"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DeserializationUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readYamlTree",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readYamlValue",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-1000208"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DeserializationUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readYamlTree",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readYamlValue",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

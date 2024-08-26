@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-sling-org-apache-sling-auth-core-org.apache.sling.auth.core-1.4.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-15700"
+          },
+          "ruleId": "CWE-200",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/sling/auth/core/AuthUtilTest.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 233
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AuthUtilTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/sling/auth/core/AuthUtilTest.java"
+                },
+                "region": {
+                  "startLine": 72,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_isRedirectValid_invalid_characters",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/sling/auth/core/AuthUtil.java"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 594
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AuthUtil",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/sling/auth/core/AuthUtil.java"
+                },
+                "region": {
+                  "startLine": 453,
+                  "endLine": 510
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isRedirectValid",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

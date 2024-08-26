@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-commons-email-EMAIL_1_5_RC1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-9801"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/mail/Email.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 1997
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Email",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/mail/Email.java"
+                },
+                "region": {
+                  "startLine": 1242,
+                  "endLine": 1246
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setSubject",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/mail/EmailUtils.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 335
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "EmailUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/mail/AbstractEmailTest.java"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 539
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AbstractEmailTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/mail/AbstractEmailTest.java"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testCharsValid",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/mail/EmailUtilsTest.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "EmailUtilsTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/mail/EmailUtilsTest.java"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testUrlEncoding",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-orientdb-2.1.9"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2015-2913"
+          },
+          "ruleId": "CWE-200",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpSessionManager.java"
+                },
+                "region": {
+                  "startLine": 139,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getInstance",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpSessionManager.java"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "OHttpSessionManager",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpSessionManager.java"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "checkSessionsValidity",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpSessionManager.java"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 93
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getSessions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpSessionManager.java"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 107
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getSession",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpSessionManager.java"
+                },
+                "region": {
+                  "startLine": 109,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createSession",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpSessionManager.java"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 129
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeSession",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpSessionManager.java"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getExpirationTime",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/src/main/java/com/orientechnologies/orient/server/network/protocol/http/OHttpSessionManager.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 137
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setExpirationTime",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

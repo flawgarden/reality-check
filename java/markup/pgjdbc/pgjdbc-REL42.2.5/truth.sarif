@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-pgjdbc-REL42.2.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-10936"
+          },
+          "ruleId": "CWE-297",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pgjdbc/src/main/java/org/postgresql/core/PGStream.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 568
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PGStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pgjdbc/src/main/java/org/postgresql/core/PGStream.java"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 126
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "hasMessagePending",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pgjdbc/src/main/java/org/postgresql/core/SocketFactoryFactory.java"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SocketFactoryFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pgjdbc/src/main/java/org/postgresql/PGProperty.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 635
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PGProperty",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pgjdbc/src/main/java/org/postgresql/PGProperty.java"
+                },
+                "region": {
+                  "startLine": 186,
+                  "endLine": 186
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SSL_MODE",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

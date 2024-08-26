@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-fusionauth-jwt-1.3.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-1000531"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/primeframework/jwt/JWTDecoder.java"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 197
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "JWTDecoder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/primeframework/jwt/JWTDecoder.java"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "decode",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
