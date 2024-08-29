@@ -1,0 +1,296 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Flask-AppBuilder-3.3.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-41265"
+          },
+          "ruleId": "CWE-287",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/api.py"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 112
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "login",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/api.py"
+                },
+                "region": {
+                  "startLine": 117,
+                  "endLine": 148
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "refresh",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 208,
+                  "endLine": 280
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 359,
+                  "endLine": 360
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "api_login_allow_multiple_providers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 379,
+                  "endLine": 380
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "auth_ldap_server",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 383,
+                  "endLine": 384
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "auth_ldap_use_tls",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 371,
+                  "endLine": 372
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "auth_role_admin",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 375,
+                  "endLine": 376
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "auth_role_public",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 363,
+                  "endLine": 364
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "auth_type",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 335,
+                  "endLine": 337
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "auth_type_provider_name",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 387,
+                  "endLine": 388
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "auth_user_registration",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 391,
+                  "endLine": 392
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "auth_user_registration_role",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 367,
+                  "endLine": 368
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "auth_username_ci",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/manager.py"
+                },
+                "region": {
+                  "startLine": 355,
+                  "endLine": 356
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "builtin_roles",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/schemas.py"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validate_password",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/security/schemas.py"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validate_provider",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
