@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Umbraco-CMS-release-7.3.8"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2015-8813"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Umbraco.Web/umbraco.presentation/umbraco/dashboard/FeedProxy.aspx.cs"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "dashboardUtilities_FeedProxy_Page_Load",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
