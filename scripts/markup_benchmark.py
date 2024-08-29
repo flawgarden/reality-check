@@ -118,95 +118,6 @@ def convert(
     json.dump(sarif_data_out, out_file, indent=2)
 
 
-def convert_in_one(
-    parent_path_str,
-    cves,
-    cve_to_vul_csv,
-    cve_to_patch_csv,
-    cve_to_vul_version,
-    cve_to_patch_version,
-    cve_to_cwe,
-    version_to_project,
-):
-    sarif_data_out = {
-        "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
-        "version": "2.1.0",
-        "runs": [{"tool": {"driver": {"name": "reality-check-benchmark"}}}],
-    }
-    results = []
-    for cve in cves:
-        version = cve_to_vul_version[cve]
-        project = version_to_project[version]
-        vul_csv_path_str = cve_to_vul_csv[cve]
-        locations = parse_cvs(
-            parent_path_str + "/vulnerable/" + vul_csv_path_str, "Vul_Path"
-        )
-        result = {}
-        result["kind"] = "fail"
-        result["message"] = {}
-        result["message"]["text"] = str(cve)
-        result["ruleId"] = str(cve_to_cwe[cve])
-        result["locations"] = []
-        for markup_location in locations:
-            location = {
-                "physicalLocation": {
-                    "artifactLocation": {
-                        "uri": project + "/" + version + "/" + markup_location["filePath"]
-                    },
-                    "region": {
-                        "startLine": markup_location["startLine"],
-                        "endLine": markup_location["endLine"],
-                    },
-                },
-                "logicalLocations": [
-                    {
-                        "name": markup_location["name"],
-                        "kind": markup_location["kind"],
-                    }
-                ],
-            }
-            result["locations"].append(location)
-        results.append(result)
-
-        version = cve_to_patch_version[cve]
-        project = version_to_project[version]
-        patch_csv_path_str = cve_to_patch_csv[cve]
-        locations = parse_cvs(
-            parent_path_str + "/patched/" + patch_csv_path_str, "Fix_Path"
-        )
-        result = {}
-        result["kind"] = "pass"
-        result["message"] = {}
-        result["message"]["text"] = str(cve)
-        result["ruleId"] = str(cve_to_cwe[cve])
-        result["locations"] = []
-        for markup_location in locations:
-            location = {
-                "physicalLocation": {
-                    "artifactLocation": {
-                        "uri": project + "/" + version + "/" + markup_location["filePath"]
-                    },
-                    "region": {
-                        "startLine": markup_location["startLine"],
-                        "endLine": markup_location["endLine"],
-                    },
-                },
-                "logicalLocations": [
-                    {
-                        "name": markup_location["name"],
-                        "kind": markup_location["kind"],
-                    }
-                ],
-            }
-            result["locations"].append(location)
-        results.append(result)
-    sarif_data_out["runs"][0]["results"] = results
-    bench_path = Path(parent_path_str) / "markup"
-    bench_parent_path_str = bench_path.resolve().absolute().as_posix()
-    out_file = open(bench_parent_path_str + "/.truth.sarif", "w")
-    json.dump(sarif_data_out, out_file, indent=2)
-
-
 def main():
     parent = Path(__file__).resolve().parents[1]
 
@@ -276,16 +187,6 @@ def main():
                 cve_to_patch_version,
                 cve_to_cwe,
             )
-    convert_in_one(
-        parent_str,
-        cves_set,
-        cve_to_vul_csv,
-        cve_to_patch_csv,
-        cve_to_vul_version,
-        cve_to_patch_version,
-        cve_to_cwe,
-        version_to_project,
-    )
 
 
 if __name__ == "__main__":

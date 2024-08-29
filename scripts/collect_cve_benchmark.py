@@ -122,6 +122,8 @@ def get_all_infos_row(
     vul_version_hash,
     patch_version_hash,
 ):
+    if vul_version_hash == "" or patch_version_hash == "":
+        return []
     project = Path(repo_url).name
     full_name = (Path(repo_url).parents[0] / project).as_posix()
     cwe = cve_to_cwe_map[cve]
@@ -207,7 +209,7 @@ def collect_markup_files(db_path, result_path, language):
             else:
                 vul_markup, patch_markup = cve_to_markup_map[cve]
                 with open(
-                    result_path / "vulnarable" / vul_markup_file,
+                    result_path / "vulnerable" / vul_markup_file,
                     "w",
                     encoding="UTF8",
                 ) as vul_csvfile:
@@ -229,7 +231,7 @@ def collect_markup_files(db_path, result_path, language):
                             [path + ":[" + start_line + "," + end_line + "]:" + name]
                         )
 
-def fix_language(language) {
+def fix_language(language):
     if language == "java":
         return "Java"
     if language == "csharp":
@@ -239,7 +241,6 @@ def fix_language(language) {
     if language == "go":
         return "Go"
     return None
-}
 
 def main():
     ap = argparse.ArgumentParser()
@@ -263,7 +264,7 @@ def main():
     data_vulnerable_path = data_path / "vulnerable"
     data_patched_path = data_path / "patched"
     db_path = args.database
-    vul_patch_hashes = args.vul_patch_hashes
+    vul_patch_hashes = args.version_hashes
 
     Path(data_path).mkdir(parents=True, exist_ok=True)
     Path(data_vulnerable_path).mkdir(parents=True, exist_ok=True)

@@ -1,12 +1,4 @@
 cve,project,commit_hash,cwe,vul_version_hash,patch_version_hash
-CVE-2013-6795,https://github.com/rackerlabs/openstack-guest-agents-windows-xenserver,ef16f88f20254b8083e361f11707da25f8482401,CWE-94,,
-CVE-2014-10074,https://github.com/Umbraco/Umbraco-CMS,cad06502235acabf7fb7dca779d2f78f08547e39,CWE-434,,
-CVE-2014-125028,https://github.com/valtech/valtech-idp-test-clients,f1e7b3d431c8681ec46445557125890c14fa295f,CWE-352,,
-CVE-2014-4172,https://github.com/Jasig/dotnet-cas-client,f0e030014fb7a39e5f38469f43199dc590fd0e8d,CWE-74,,
-CVE-2015-10025,https://github.com/luelista/miniConf,c06c2e5116c306e4e1bc79779f0eda2d1182f655,CWE-404,,
-CVE-2015-10039,https://github.com/dobos/domino,16f039073709a21a76526110d773a6cce0ce753a,CWE-89,,
-CVE-2015-10067,https://github.com/oznetmaster/SSharpSmartThreadPool,0e58073c831093aad75e077962e9fb55cad0dc5f,CWE-362,,
-CVE-2015-8813,https://github.com/umbraco/Umbraco-CMS,924a016ffe7ae7ea6d516c07a7852f0095eddbce,CWE-918,,
 CVE-2015-8814,https://github.com/umbraco/Umbraco-CMS,18c3345e47663a358a042652e697b988d6a380eb,CWE-352,,
 CVE-2017-15279,https://github.com/umbraco/Umbraco-CMS,fe2b86b681455ac975b294652064b2718d4e2ba2,CWE-79,,
 CVE-2017-15280,https://github.com/umbraco/Umbraco-CMS,5dde2efe0d2b3a47d17439e03acabb7ea2befb64,CWE-611,,
@@ -122,3 +114,4 @@ CVE-2024-34699,https://github.com/GZTimeWalker/GZCTF,31e775b65cddf82a567d68dcdc7
 CVE-2024-37304,https://github.com/NuGet/NuGetGallery,c52b023659f4ad7b626874c1063f2b5e878a4fe0,NVD-CWE-noinfo,,
 CVE-2024-37391,https://github.com/ProtonVPN/win-app,2e4e25036842aaf48838c6a59f14671b86c20aa7,NVD-CWE-noinfo,,
 CVE-2024-39677,https://github.com/nhibernate/nhibernate-core,b4a69d1a5ff5744312478d70308329af496e4ba9,NVD-CWE-noinfo,,
+CVE-2014-4172,https://github.com/Jasig/dotnet-cas-client,f0e030014fb7a39e5f38469f43199dc590fd0e8d,CWE-74,,
