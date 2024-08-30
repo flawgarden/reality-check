@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-script-security-plugin-script-security-1.49"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-1003000"
+          },
+          "ruleId": "CWE-96",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/GroovySandbox.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "GroovySandbox",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/GroovySandbox.java"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createSecureCompilerConfiguration",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/SandboxInterceptorTest.java"
+                },
+                "region": {
+                  "startLine": 79,
+                  "endLine": 1126
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SandboxInterceptorTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

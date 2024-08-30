@@ -1,0 +1,194 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-swagger-codegen-2.4.19"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-21364"
+          },
+          "ruleId": "CWE-732",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/main/java/io/swagger/codegen/languages/JavaClientCodegen.java"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "JavaClientCodegen",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/test/java/io/swagger/codegen/options/JaxRSServerOptionsProvider.java"
+                },
+                "region": {
+                  "startLine": 57,
+                  "endLine": 98
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/test/java/io/swagger/codegen/options/JavaClientOptionsProvider.java"
+                },
+                "region": {
+                  "startLine": 16,
+                  "endLine": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/main/java/io/swagger/codegen/languages/AbstractJavaCodegen.java"
+                },
+                "region": {
+                  "startLine": 197,
+                  "endLine": 492
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "processOpts",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/test/java/io/swagger/codegen/jaxrs/JaxRSServerOptionsTest.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setExpectations",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/test/java/io/swagger/codegen/config/CodegenConfiguratorTest.java"
+                },
+                "region": {
+                  "startLine": 161,
+                  "endLine": 172
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testAdditionalProperties",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/test/java/io/swagger/codegen/config/CodegenConfiguratorTest.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 376
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CodegenConfiguratorTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/test/java/io/swagger/codegen/config/CodegenConfiguratorTest.java"
+                },
+                "region": {
+                  "startLine": 249,
+                  "endLine": 257
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testDynamicProperties",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/main/java/io/swagger/codegen/languages/JavaJerseyServerCodegen.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "JavaJerseyServerCodegen",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-codegen/src/main/java/io/swagger/codegen/languages/JavaJerseyServerCodegen.java"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "processOpts",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

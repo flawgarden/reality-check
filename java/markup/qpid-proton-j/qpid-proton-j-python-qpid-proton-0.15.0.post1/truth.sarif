@@ -1,0 +1,262 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-qpid-proton-j-python-qpid-proton-0.15.0.post1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-17187"
+          },
+          "ruleId": "CWE-295",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/test/java/org/apache/qpid/proton/engine/impl/ssl/SimpleSslTransportWrapperTest.java"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 468
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SimpleSslTransportWrapperTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/test/java/org/apache/qpid/proton/engine/impl/ssl/SimpleSslTransportWrapperTest.java"
+                },
+                "region": {
+                  "startLine": 348,
+                  "endLine": 356
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testSslUnwrapThrowsException_returnsErrorResultAndRefusesFurtherInput",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SimpleSslTransportWrapper.java"
+                },
+                "region": {
+                  "startLine": 74,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SimpleSslTransportWrapper",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SimpleSslTransportWrapper.java"
+                },
+                "region": {
+                  "startLine": 354,
+                  "endLine": 369
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "process",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslImpl.java"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SslImpl",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/reactor/impl/IOHandler.java"
+                },
+                "region": {
+                  "startLine": 212,
+                  "endLine": 241
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Callback",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslEngineFacadeFactory.java"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 578
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SslEngineFacadeFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslEngineFacadeFactory.java"
+                },
+                "region": {
+                  "startLine": 203,
+                  "endLine": 233
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createAndInitialiseSslEngine",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/Transport.java"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 285
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Transport",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/Transport.java"
+                },
+                "region": {
+                  "startLine": 200,
+                  "endLine": 200
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ssl",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/SslDomain.java"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 145
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SslDomain",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/SslDomain.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "VerifyMode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslDomainImpl.java"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setPeerAuthentication",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslDomainImpl.java"
+                },
+                "region": {
+                  "startLine": 93,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getPeerAuthentication",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

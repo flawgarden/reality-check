@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-resteasy-4.0.0.Beta6"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-1695"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "resteasy-core/src/main/java/org/jboss/resteasy/plugins/delegates/MediaTypeHeaderDelegate.java"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValid",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

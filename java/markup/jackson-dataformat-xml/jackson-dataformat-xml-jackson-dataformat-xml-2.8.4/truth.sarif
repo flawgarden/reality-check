@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-dataformat-xml-jackson-dataformat-xml-2.8.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-7051"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.java"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XmlFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

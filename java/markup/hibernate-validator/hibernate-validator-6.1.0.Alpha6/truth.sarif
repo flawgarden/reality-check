@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-hibernate-validator-6.1.0.Alpha6"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-10219"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "engine/src/main/java/org/hibernate/validator/internal/constraintvalidators/hv/SafeHtmlValidator.java"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 100
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getFragmentAsDocument",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "engine/src/test/java/org/hibernate/validator/test/internal/constraintvalidators/hv/SafeHtmlValidatorTest.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 254
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SafeHtmlValidatorTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

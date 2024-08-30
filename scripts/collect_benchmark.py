@@ -34,8 +34,11 @@ def main():
 
     ap.add_argument("-db", "--database", required=True,
                     help="path to cve database")
+    ap.add_argument("-l", "--language", required=True,
+                    help="language of cve database")
     args = ap.parse_args()
 
+    parent = parent + '/' + args.language
     with open(parent + '/' + args.database) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:

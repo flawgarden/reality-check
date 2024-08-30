@@ -1,0 +1,1401 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-async-http-client-async-http-client-project-2.0.29"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-14063"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 154,
+                  "endLine": 161
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeUserInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 336
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UriParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "start",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "end",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "trimLeft",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "trimRight",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isFragmentOnly",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValidProtocolChars",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeInitialScheme",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "overrideWithContext",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 111,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "inheritContextQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 137
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "currentPositionStartsWith4Slashes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 139,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "currentPositionStartsWith2Slashes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeAuthority",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 190
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeIPV6",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 210,
+                  "endLine": 224
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeEmbedded2Dots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 226,
+                  "endLine": 234
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeTailing2Dots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 236,
+                  "endLine": 239
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeStartingDot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 241,
+                  "endLine": 244
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeTrailingDot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 246,
+                  "endLine": 254
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleRelativePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 266,
+                  "endLine": 287
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseAuthority",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 289,
+                  "endLine": 301
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeRegularPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 308,
+                  "endLine": 316
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 318,
+                  "endLine": 335
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "splitUrlAndQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 104,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeFragment",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "urlWithoutQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 154,
+                  "endLine": 161
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeUserInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 336
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UriParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "start",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "end",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "trimLeft",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "trimRight",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isFragmentOnly",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValidProtocolChars",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeInitialScheme",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "overrideWithContext",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 111,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "inheritContextQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 137
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "currentPositionStartsWith4Slashes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 139,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "currentPositionStartsWith2Slashes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeAuthority",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 190
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeIPV6",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 210,
+                  "endLine": 224
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeEmbedded2Dots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 226,
+                  "endLine": 234
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeTailing2Dots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 236,
+                  "endLine": 239
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeStartingDot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 241,
+                  "endLine": 244
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeTrailingDot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 246,
+                  "endLine": 254
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleRelativePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 266,
+                  "endLine": 287
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseAuthority",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 289,
+                  "endLine": 301
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeRegularPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 308,
+                  "endLine": 316
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 318,
+                  "endLine": 335
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "splitUrlAndQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 104,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeFragment",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "urlWithoutQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 154,
+                  "endLine": 161
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeUserInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 336
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UriParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "start",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "end",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "trimLeft",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "trimRight",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isFragmentOnly",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValidProtocolChars",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeInitialScheme",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "overrideWithContext",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 111,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "inheritContextQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 137
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "currentPositionStartsWith4Slashes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 139,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "currentPositionStartsWith2Slashes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeAuthority",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 190
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeIPV6",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 210,
+                  "endLine": 224
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeEmbedded2Dots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 226,
+                  "endLine": 234
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeTailing2Dots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 236,
+                  "endLine": 239
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeStartingDot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 241,
+                  "endLine": 244
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeTrailingDot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 246,
+                  "endLine": 254
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleRelativePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 266,
+                  "endLine": 287
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseAuthority",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 289,
+                  "endLine": 301
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeRegularPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 308,
+                  "endLine": 316
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 318,
+                  "endLine": 335
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "splitUrlAndQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 104,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeFragment",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/asynchttpclient/uri/UriParser.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "urlWithoutQuery",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

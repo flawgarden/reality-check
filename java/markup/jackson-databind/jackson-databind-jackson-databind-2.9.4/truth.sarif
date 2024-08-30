@@ -1,0 +1,213 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.9.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-7489"
+          },
+          "ruleId": "CWE-184",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 157
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IllegalTypesCheckTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 72,
+                  "endLine": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validateSubType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PREFIX_STRING",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-12023"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-11307"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-17485"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 138
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createBeanDeserializer",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-12022"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

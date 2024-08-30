@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-undertow-2.0.4.Final"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-1114"
+          },
+          "ruleId": "CWE-400",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/src/main/java/io/undertow/server/handlers/resource/URLResource.java"
+                },
+                "region": {
+                  "startLine": 79,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "openConnection",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

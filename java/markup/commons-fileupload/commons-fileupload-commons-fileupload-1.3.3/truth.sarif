@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-commons-fileupload-commons-fileupload-1.3.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-1000031"
+          },
+          "ruleId": "CWE-284",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/FileItem.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 206
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FileItem",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 296
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DiskFileItemSerializeTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testInMemoryObject",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/fileupload/DiskFileItemSerializeTest.java"
+                },
+                "region": {
+                  "startLine": 162,
+                  "endLine": 174
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testInvalidRepositoryWithNullChar",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java"
+                },
+                "region": {
+                  "startLine": 195,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DiskFileItem",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java"
+                },
+                "region": {
+                  "startLine": 661,
+                  "endLine": 702
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readObject",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java"
+                },
+                "region": {
+                  "startLine": 195,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DiskFileItem",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java"
+                },
+                "region": {
+                  "startLine": 661,
+                  "endLine": 702
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readObject",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/disk/DiskFileItem.java"
+                },
+                "region": {
+                  "startLine": 640,
+                  "endLine": 651
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writeObject",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

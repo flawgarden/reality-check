@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-fusionauth-jwt-1.2.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-1000125"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/primeframework/jwt/JWTTest.java"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 408
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "JWTTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/primeframework/jwt/JWTDecoder.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 182
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "JWTDecoder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/primeframework/jwt/JWTDecoder.java"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "decode",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

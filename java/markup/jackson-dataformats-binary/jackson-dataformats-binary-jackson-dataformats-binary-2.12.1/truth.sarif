@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-dataformats-binary-jackson-dataformats-binary-2.12.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-28491"
+          },
+          "ruleId": "CWE-770",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cbor/src/main/java/com/fasterxml/jackson/dataformat/cbor/CBORGenerator.java"
+                },
+                "region": {
+                  "startLine": 247,
+                  "endLine": 270
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CBORGenerator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cbor/src/main/java/com/fasterxml/jackson/dataformat/cbor/CBORParser.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 3479
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CBORParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cbor/src/main/java/com/fasterxml/jackson/dataformat/cbor/CBORParser.java"
+                },
+                "region": {
+                  "startLine": 1715,
+                  "endLine": 1733
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_readAndWriteBytes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cbor/src/main/java/com/fasterxml/jackson/dataformat/cbor/CBORParser.java"
+                },
+                "region": {
+                  "startLine": 2447,
+                  "endLine": 2485
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_finishBytes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cbor/src/main/java/com/fasterxml/jackson/dataformat/cbor/CBORParser.java"
+                },
+                "region": {
+                  "startLine": 2693,
+                  "endLine": 2716
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_decodeNonStringName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cbor/src/main/java/com/fasterxml/jackson/dataformat/cbor/CBORParser.java"
+                },
+                "region": {
+                  "startLine": 3308,
+                  "endLine": 3327
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "loadMore",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cbor/src/main/java/com/fasterxml/jackson/dataformat/cbor/CBORParser.java"
+                },
+                "region": {
+                  "startLine": 3329,
+                  "endLine": 3331
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "loadMoreGuaranteed",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-spring-data-commons-2.0.0.M4"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-1273"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/springframework/data/web/MapDataBinder.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MapDataBinder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/springframework/data/web/MapDataBinder.java"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 125
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MapPropertyAccessor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/springframework/data/web/MapDataBinder.java"
+                },
+                "region": {
+                  "startLine": 173,
+                  "endLine": 203
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setPropertyValue",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-1274"
+          },
+          "ruleId": "CWE-770",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/springframework/data/mapping/PropertyPathUnitTests.java"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 382
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PropertyPathUnitTests",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/springframework/data/mapping/PropertyPath.java"
+                },
+                "region": {
+                  "startLine": 264,
+                  "endLine": 271
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

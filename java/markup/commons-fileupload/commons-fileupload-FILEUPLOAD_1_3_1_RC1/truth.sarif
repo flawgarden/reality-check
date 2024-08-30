@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-commons-fileupload-FILEUPLOAD_1_3_1_RC1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2014-0050"
+          },
+          "ruleId": "CWE-264",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/fileupload/MultipartStreamTest.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MultipartStreamTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/commons/fileupload/MultipartStreamTest.java"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testThreeParamConstructor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/FileUploadBase.java"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 1491
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FileUploadBase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/FileUploadBase.java"
+                },
+                "region": {
+                  "startLine": 709,
+                  "endLine": 1132
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FileItemIteratorImpl",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/FileUploadBase.java"
+                },
+                "region": {
+                  "startLine": 1178,
+                  "endLine": 1216
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "InvalidContentTypeException",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/commons/fileupload/MultipartStream.java"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 1032
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MultipartStream",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

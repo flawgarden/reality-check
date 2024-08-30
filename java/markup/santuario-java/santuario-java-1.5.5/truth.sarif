@@ -1,0 +1,670 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-santuario-java-1.5.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2013-4517"
+          },
+          "ruleId": "CWE-399",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMCanonicalXMLC14NMethod.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DOMCanonicalXMLC14NMethod",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMCanonicalXMLC14NMethod.java"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "transform",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/keys/keyresolver/implementations/RetrievalMethodResolver.java"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 148
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "engineLookupAndResolvePublicKey",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/keys/keyresolver/implementations/RetrievalMethodResolver.java"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 218
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "engineLookupResolveX509Certificate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/c14n/Canonicalizer.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 391
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Canonicalizer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/c14n/Canonicalizer.java"
+                },
+                "region": {
+                  "startLine": 243,
+                  "endLine": 283
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "canonicalize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/c14n/Canonicalizer.java"
+                },
+                "region": {
+                  "startLine": 293,
+                  "endLine": 295
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "canonicalizeSubtree",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/c14n/Canonicalizer.java"
+                },
+                "region": {
+                  "startLine": 318,
+                  "endLine": 321
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "canonicalizeXPathNodeSet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMCanonicalXMLC14N11Method.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DOMCanonicalXMLC14N11Method",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMCanonicalXMLC14N11Method.java"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "transform",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMExcC14NMethod.java"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 158
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DOMExcC14NMethod",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMExcC14NMethod.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 157
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "transform",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMURIDereferencer.java"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DOMURIDereferencer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMURIDereferencer.java"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "dereference",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/c14n/CanonicalizerSpi.java"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 165
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CanonicalizerSpi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/c14n/CanonicalizerSpi.java"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "engineCanonicalize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMReference.java"
+                },
+                "region": {
+                  "startLine": 122,
+                  "endLine": 127
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DOMReference",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMReference.java"
+                },
+                "region": {
+                  "startLine": 427,
+                  "endLine": 566
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "transform",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/DocumentSerializer.java"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DocumentSerializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/DocumentSerializer.java"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "deserialize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMRetrievalMethod.java"
+                },
+                "region": {
+                  "startLine": 83,
+                  "endLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DOMRetrievalMethod",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMRetrievalMethod.java"
+                },
+                "region": {
+                  "startLine": 239,
+                  "endLine": 259
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "dereferenceAsXMLStructure",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheCanonicalizer.java"
+                },
+                "region": {
+                  "startLine": 47,
+                  "endLine": 268
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ApacheCanonicalizer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheCanonicalizer.java"
+                },
+                "region": {
+                  "startLine": 97,
+                  "endLine": 101
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "canonicalize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheCanonicalizer.java"
+                },
+                "region": {
+                  "startLine": 186,
+                  "endLine": 259
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "transform",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/signature/Manifest.java"
+                },
+                "region": {
+                  "startLine": 83,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Manifest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/keys/keyresolver/implementations/KeyInfoReferenceResolver.java"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 286
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "KeyInfoReferenceResolver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/keys/keyresolver/implementations/KeyInfoReferenceResolver.java"
+                },
+                "region": {
+                  "startLine": 269,
+                  "endLine": 284
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getDocFromBytes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheTransform.java"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 213
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ApacheTransform",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/ApacheTransform.java"
+                },
+                "region": {
+                  "startLine": 119,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "transformIt",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/XMLCipher.java"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 3535
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XMLCipher",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/XMLCipher.java"
+                },
+                "region": {
+                  "startLine": 1012,
+                  "endLine": 1015
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "encryptData",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/XMLCipher.java"
+                },
+                "region": {
+                  "startLine": 1603,
+                  "endLine": 1631
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "decryptElement",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/AbstractSerializer.java"
+                },
+                "region": {
+                  "startLine": 134,
+                  "endLine": 142
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "canonSerialize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/AbstractSerializer.java"
+                },
+                "region": {
+                  "startLine": 150,
+                  "endLine": 156
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "canonSerializeToByteArray",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/AbstractSerializer.java"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 245
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AbstractSerializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/AbstractSerializer.java"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "serialize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/xml/security/encryption/AbstractSerializer.java"
+                },
+                "region": {
+                  "startLine": 71,
+                  "endLine": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "serializeToByteArray",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

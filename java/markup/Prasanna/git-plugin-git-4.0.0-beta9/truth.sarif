@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-git-plugin-git-4.0.0-beta9"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2019-1003010"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/hudson/plugins/git/GitTagAction.java"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "GitTagAction",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

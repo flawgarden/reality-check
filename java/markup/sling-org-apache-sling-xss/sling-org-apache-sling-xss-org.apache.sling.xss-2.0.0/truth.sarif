@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-sling-org-apache-sling-xss-org.apache.sling.xss-2.0.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-15717"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java"
+                },
+                "region": {
+                  "startLine": 224,
+                  "endLine": 248
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getValidHref",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 691
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XSSAPIImplTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java"
+                },
+                "region": {
+                  "startLine": 216,
+                  "endLine": 281
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testGetValidHref",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

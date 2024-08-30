@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-zt-zip-zt-zip-1.12"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-1002201"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/zeroturnaround/zip/ZipUtil.java"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 3307
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipUtil",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/zeroturnaround/zip/ZipUtil.java"
+                },
+                "region": {
+                  "startLine": 296,
+                  "endLine": 298
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "process",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/zeroturnaround/zip/ZipUtil.java"
+                },
+                "region": {
+                  "startLine": 1139,
+                  "endLine": 1172
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Unpacker",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/zeroturnaround/zip/ZipUtil.java"
+                },
+                "region": {
+                  "startLine": 1181,
+                  "endLine": 1230
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BackslashUnpacker",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/zeroturnaround/zip/ZipUtil.java"
+                },
+                "region": {
+                  "startLine": 1238,
+                  "endLine": 1288
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Unwraper",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

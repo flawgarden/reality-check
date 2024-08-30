@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-WxJava-3.2.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-20318"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "weixin-java-common/src/test/java/me/chanjar/weixin/common/util/crypto/WxCryptUtilTest.java"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "WxCryptUtilTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "weixin-java-common/src/test/java/me/chanjar/weixin/common/util/crypto/WxCryptUtilTest.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testNormal",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "weixin-java-common/src/test/java/me/chanjar/weixin/common/util/crypto/WxCryptUtilTest.java"
+                },
+                "region": {
+                  "startLine": 78,
+                  "endLine": 100
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testValidateSignatureError",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "weixin-java-common/src/main/java/me/chanjar/weixin/common/util/crypto/WxCryptUtil.java"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 282
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "WxCryptUtil",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "weixin-java-common/src/main/java/me/chanjar/weixin/common/util/crypto/WxCryptUtil.java"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BUILDER_LOCAL",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "weixin-java-pay/src/main/java/com/github/binarywang/wxpay/bean/result/BaseWxPayResult.java"
+                },
+                "region": {
+                  "startLine": 186,
+                  "endLine": 201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getXmlDoc",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

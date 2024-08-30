@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.9.10.6"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-24616"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 269
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-20190"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 269
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-24750"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 269
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

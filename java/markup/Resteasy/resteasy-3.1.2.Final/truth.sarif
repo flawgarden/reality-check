@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-resteasy-3.1.2.Final"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-9606"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "testsuite/integration-tests/src/test/java/org/jboss/resteasy/test/providers/yaml/YamlProviderTest.java"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 135
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "YamlProviderTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "testsuite/integration-tests/src/test/java/org/jboss/resteasy/test/providers/yaml/YamlProviderTest.java"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "deploy",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "testsuite/integration-tests/src/test/java/org/jboss/resteasy/test/providers/yaml/YamlPojoBindingTest.java"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 127
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "YamlPojoBindingTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "testsuite/integration-tests/src/test/java/org/jboss/resteasy/test/providers/yaml/YamlPojoBindingTest.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createTestArchive",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

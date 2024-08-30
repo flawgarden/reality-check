@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.9.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-17485"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 97
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 132,
+                  "endLine": 180
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createBeanDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_cfgIllegalClassNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DEFAULT_NO_DESER_CLASS_NAMES",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 954,
+                  "endLine": 966
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "checkIllegalTypes",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

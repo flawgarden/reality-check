@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-picketlink-bindings-2.6.0.CR5"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2015-6254"
+          },
+          "ruleId": "CWE-17",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "picketlink-tomcat-common/src/main/java/org/picketlink/identity/federation/bindings/tomcat/idp/AbstractIDPValve.java"
+                },
+                "region": {
+                  "startLine": 149,
+                  "endLine": 1693
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AbstractIDPValve",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "picketlink-tomcat-common/src/main/java/org/picketlink/identity/federation/bindings/tomcat/idp/AbstractIDPValve.java"
+                },
+                "region": {
+                  "startLine": 732,
+                  "endLine": 755
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleSAML2UnsolicitedResponse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "picketlink-tomcat-common/src/main/java/org/picketlink/identity/federation/bindings/tomcat/sp/AbstractAccountChooserValve.java"
+                },
+                "region": {
+                  "startLine": 242,
+                  "endLine": 273
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "cookieValue",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "picketlink-tomcat-common/src/main/java/org/picketlink/identity/federation/bindings/tomcat/sp/BaseFormAuthenticator.java"
+                },
+                "region": {
+                  "startLine": 163,
+                  "endLine": 165
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BaseFormAuthenticator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "picketlink-tomcat-common/src/main/java/org/picketlink/identity/federation/bindings/tomcat/sp/BaseFormAuthenticator.java"
+                },
+                "region": {
+                  "startLine": 102,
+                  "endLine": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DESIRED_IDP",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "picketlink-tomcat-common/src/main/java/org/picketlink/identity/federation/bindings/tomcat/sp/AbstractSPFormAuthenticator.java"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AbstractSPFormAuthenticator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "picketlink-tomcat-common/src/main/java/org/picketlink/identity/federation/bindings/tomcat/sp/AbstractSPFormAuthenticator.java"
+                },
+                "region": {
+                  "startLine": 641,
+                  "endLine": 707
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "generalUserRequest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

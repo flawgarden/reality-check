@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-cxf-cxf-3.1.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2015-5253"
+          },
+          "ruleId": "CWE-264",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rt/rs/security/sso/saml/src/main/java/org/apache/cxf/rs/security/saml/sso/SAMLSSOResponseValidator.java"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 344
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SAMLSSOResponseValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rt/rs/security/sso/saml/src/main/java/org/apache/cxf/rs/security/saml/sso/SAMLSSOResponseValidator.java"
+                },
+                "region": {
+                  "startLine": 72,
+                  "endLine": 149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validateSamlResponse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rt/rs/security/sso/saml/src/test/java/org/apache/cxf/rs/security/saml/sso/AbstractSAMLCallbackHandler.java"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 227
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AbstractSAMLCallbackHandler",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

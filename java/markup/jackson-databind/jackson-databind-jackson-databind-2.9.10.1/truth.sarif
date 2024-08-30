@@ -1,0 +1,262 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.9.10.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2019-16942"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedCreatorCollector.java"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AnnotatedCreatorCollector",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedCreatorCollector.java"
+                },
+                "region": {
+                  "startLine": 249,
+                  "endLine": 304
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "constructNonDefaultConstructor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/EnumSetDeserializer.java"
+                },
+                "region": {
+                  "startLine": 47,
+                  "endLine": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "EnumSetDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 184
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SubTypeValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java"
+                },
+                "region": {
+                  "startLine": 147,
+                  "endLine": 151
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanSerializerBase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java"
+                },
+                "region": {
+                  "startLine": 409,
+                  "endLine": 557
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createContextual",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_idFrom",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/JavaType.java"
+                },
+                "region": {
+                  "startLine": 291,
+                  "endLine": 291
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isEnumType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 516
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreatorCollector",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java"
+                },
+                "region": {
+                  "startLine": 346,
+                  "endLine": 349
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_isEnumValueOf",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StdKeyDeserializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "deserializeKey",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 128
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BasicDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 1299,
+                  "endLine": 1401
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createMapDeserializer",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.10.0.pr1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-25649"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/ext/DOMDeserializer.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DOMDeserializer",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

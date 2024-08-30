@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import os
 import shutil
 import subprocess
@@ -14,6 +15,14 @@ def build(scrips_path, project_path):
 
 def main():
     parent = Path(__file__).resolve().parents[1].as_posix()
+
+    ap = argparse.ArgumentParser()
+
+    ap.add_argument("-l", "--language", required=True,
+                    help="language of cve database")
+    args = ap.parse_args()
+
+    parent = parent + '/' + args.language
     scripts = parent + '/scripts'
     benchmark = parent + '/benchmark'
     error_exit = False

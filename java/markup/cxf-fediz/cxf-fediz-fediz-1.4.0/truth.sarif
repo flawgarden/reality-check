@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-cxf-fediz-fediz-1.4.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-7662"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/oidc/src/main/java/org/apache/cxf/fediz/service/oidc/clients/ClientRegistrationService.java"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 561
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ClientRegistrationService",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/oidc/src/main/java/org/apache/cxf/fediz/service/oidc/clients/ClientRegistrationService.java"
+                },
+                "region": {
+                  "startLine": 130,
+                  "endLine": 150
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "removeClient",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/oidc/src/main/java/org/apache/cxf/fediz/service/oidc/clients/ClientRegistrationService.java"
+                },
+                "region": {
+                  "startLine": 155,
+                  "endLine": 167
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "resetClient",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/oidc/src/main/java/org/apache/cxf/fediz/service/oidc/clients/ClientRegistrationService.java"
+                },
+                "region": {
+                  "startLine": 193,
+                  "endLine": 198
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "revokeClientAccessToken",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/oidc/src/main/java/org/apache/cxf/fediz/service/oidc/clients/ClientRegistrationService.java"
+                },
+                "region": {
+                  "startLine": 204,
+                  "endLine": 208
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "revokeClientRefreshToken",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/oidc/src/main/java/org/apache/cxf/fediz/service/oidc/clients/ClientRegistrationService.java"
+                },
+                "region": {
+                  "startLine": 243,
+                  "endLine": 255
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "revokeClientCodeGrant",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/oidc/src/main/java/org/apache/cxf/fediz/service/oidc/clients/ClientRegistrationService.java"
+                },
+                "region": {
+                  "startLine": 261,
+                  "endLine": 361
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "registerForm",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "services/oidc/src/main/java/org/apache/cxf/fediz/service/oidc/clients/ClientRegistrationService.java"
+                },
+                "region": {
+                  "startLine": 386,
+                  "endLine": 414
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValidURI",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "systests/oidc/src/test/java/org/apache/cxf/fediz/systests/oidc/OIDCTest.java"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 967
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "OIDCTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

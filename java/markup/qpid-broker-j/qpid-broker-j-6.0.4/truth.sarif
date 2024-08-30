@@ -1,0 +1,262 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-qpid-broker-j-6.0.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-4974"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/jms/ConnectionURL.java"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 138
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ConnectionURL",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/util/ClassLoadingAwareObjectInputStream.java"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 177
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ClassLoadingAwareObjectInputStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/util/ClassLoadingAwareObjectInputStream.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "resolveClass",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/util/ClassLoadingAwareObjectInputStream.java"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "resolveProxyClass",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/AMQSession.java"
+                },
+                "region": {
+                  "startLine": 337,
+                  "endLine": 453
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AMQSession",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/AMQSession.java"
+                },
+                "region": {
+                  "startLine": 1252,
+                  "endLine": 1258
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createObjectMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/AMQConnection.java"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 1999
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AMQConnection",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/message/JMSObjectMessage.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 207
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "JMSObjectMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/test/java/org/apache/qpid/client/message/TestMessageHelper.java"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestMessageHelper",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/test/java/org/apache/qpid/client/message/TestMessageHelper.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newJMSObjectMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/message/MessageFactoryRegistry.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 177
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MessageFactoryRegistry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/message/MessageFactoryRegistry.java"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newDefaultRegistry",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/message/JMSObjectMessageFactory.java"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "JMSObjectMessageFactory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "client/src/main/java/org/apache/qpid/client/message/JMSObjectMessageFactory.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createMessage",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackson-databind-jackson-databind-2.9.10.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-14718"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-14720"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-15095"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-14721"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-14719"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BeanDeserializerFactory",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

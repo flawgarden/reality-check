@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jsoup-jsoup-1.8.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2015-6748"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/jsoup/parser/TokeniserState.java"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 1743
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TokeniserState",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

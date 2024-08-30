@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-spark-2.9.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-9159"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ClassPathResource.java"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ClassPathResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ClassPathResource.java"
+                },
+                "region": {
+                  "startLine": 248,
+                  "endLine": 263
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "equals",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 104
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "EmbeddedJettyFactoryTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create_withThreadPool",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create_withNullThreadPool",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java"
+                },
+                "region": {
+                  "startLine": 99,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "tearDown",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/examples/staticresources/StaticResources.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StaticResources",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/examples/staticresources/StaticResources.java"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

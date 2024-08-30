@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-vertx-web-4.0.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-35217"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vertx-web/src/main/java/io/vertx/ext/web/handler/CSRFHandler.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CSRFHandler",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
