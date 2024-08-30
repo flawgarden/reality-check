@@ -1,0 +1,330 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Flask-AppBuilder-4.3.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-34110"
+          },
+          "ruleId": "CWE-209",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 104,
+                  "endLine": 120
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_get_values",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 265,
+                  "endLine": 269
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "add",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 277,
+                  "endLine": 281
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "delete",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 271,
+                  "endLine": 275
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "edit",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 309,
+                  "endLine": 314
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 335,
+                  "endLine": 339
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_columns_list",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 286,
+                  "endLine": 294
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_keys",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 353,
+                  "endLine": 357
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_order_columns_list",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 296,
+                  "endLine": 300
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_pk_name",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 319,
+                  "endLine": 327
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_related_interface",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 347,
+                  "endLine": 351
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_search_columns_list",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 341,
+                  "endLine": 345
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_user_columns_list",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 122,
+                  "endLine": 136
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_values",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/base.py"
+                },
+                "region": {
+                  "startLine": 138,
+                  "endLine": 153
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_values_json",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/sqla/interface.py"
+                },
+                "region": {
+                  "startLine": 725,
+                  "endLine": 747
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "add",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/sqla/interface.py"
+                },
+                "region": {
+                  "startLine": 773,
+                  "endLine": 796
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "delete",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/sqla/interface.py"
+                },
+                "region": {
+                  "startLine": 798,
+                  "endLine": 818
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "delete_all",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flask_appbuilder/models/sqla/interface.py"
+                },
+                "region": {
+                  "startLine": 749,
+                  "endLine": 771
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "edit",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

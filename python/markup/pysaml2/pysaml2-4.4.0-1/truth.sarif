@@ -1,0 +1,441 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-pysaml2-4.4.0-1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-10127"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/__init__.py"
+                },
+                "region": {
+                  "startLine": 75,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create_class_from_xml_string",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/__init__.py"
+                },
+                "region": {
+                  "startLine": 272,
+                  "endLine": 274
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "extension_element_from_string",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/pack.py"
+                },
+                "region": {
+                  "startLine": 233,
+                  "endLine": 267
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse_soap_enveloped_saml",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/soap.py"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 203
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "class_instances_from_soap_enveloped_saml_thingies",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/soap.py"
+                },
+                "region": {
+                  "startLine": 206,
+                  "endLine": 230
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "open_soap_envelope",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/soap.py"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 158
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse_soap_enveloped_saml_thingy",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_03_saml2.py"
+                },
+                "region": {
+                  "startLine": 170,
+                  "endLine": 180
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_create_class_from_xml_string_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_03_saml2.py"
+                },
+                "region": {
+                  "startLine": 471,
+                  "endLine": 481
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_ee_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_43_soap.py"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 98
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_class_instances_from_soap_enveloped_saml_thingies_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_43_soap.py"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_open_soap_envelope_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_43_soap.py"
+                },
+                "region": {
+                  "startLine": 75,
+                  "endLine": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_parse_soap_enveloped_saml_thingy_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_51_client.py"
+                },
+                "region": {
+                  "startLine": 1559,
+                  "endLine": 1569
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_parse_soap_enveloped_saml_xxe",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-10149"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/__init__.py"
+                },
+                "region": {
+                  "startLine": 75,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create_class_from_xml_string",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/__init__.py"
+                },
+                "region": {
+                  "startLine": 272,
+                  "endLine": 274
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "extension_element_from_string",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/pack.py"
+                },
+                "region": {
+                  "startLine": 233,
+                  "endLine": 267
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse_soap_enveloped_saml",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/soap.py"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 203
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "class_instances_from_soap_enveloped_saml_thingies",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/soap.py"
+                },
+                "region": {
+                  "startLine": 206,
+                  "endLine": 230
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "open_soap_envelope",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/saml2/soap.py"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 158
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse_soap_enveloped_saml_thingy",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_03_saml2.py"
+                },
+                "region": {
+                  "startLine": 170,
+                  "endLine": 180
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_create_class_from_xml_string_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_03_saml2.py"
+                },
+                "region": {
+                  "startLine": 471,
+                  "endLine": 481
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_ee_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_43_soap.py"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 98
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_class_instances_from_soap_enveloped_saml_thingies_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_43_soap.py"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_open_soap_envelope_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_43_soap.py"
+                },
+                "region": {
+                  "startLine": 75,
+                  "endLine": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_parse_soap_enveloped_saml_thingy_xxe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_51_client.py"
+                },
+                "region": {
+                  "startLine": 1559,
+                  "endLine": 1569
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_parse_soap_enveloped_saml_xxe",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-bottle-0.12.10"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2016-9964"
+          },
+          "ruleId": "CWE-93",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 2191,
+                  "endLine": 2193
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__setitem__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 1576,
+                  "endLine": 1577
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_hkey",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 2195,
+                  "endLine": 2197
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "append",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 2209,
+                  "endLine": 2212
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "filter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 2199,
+                  "endLine": 2201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "replace",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

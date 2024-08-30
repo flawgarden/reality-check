@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Zope-5.1.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-32633"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Products/PageTemplates/expression.py"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "traverse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Products/PageTemplates/tests/testExpressions.py"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_evaluate_dict_key_as_underscore",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
