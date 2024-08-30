@@ -1,0 +1,228 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Snappier-release-1.1.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-28638"
+          },
+          "ruleId": "CWE-119",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier.Benchmarks/FindMatchLength.cs"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Benchmarks_FindMatchLength_Regular",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyCompressor.cs"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 360
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyCompressor_CompressFragment",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyCompressor.cs"
+                },
+                "region": {
+                  "startLine": 511,
+                  "endLine": 553
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyCompressor_FindMatchLength",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyCompressor.cs"
+                },
+                "region": {
+                  "startLine": 556,
+                  "endLine": 637
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyCompressor_FindMatchLengthX64",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyDecompressor.cs"
+                },
+                "region": {
+                  "startLine": 598,
+                  "endLine": 606
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyDecompressor_Append",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyDecompressor.cs"
+                },
+                "region": {
+                  "startLine": 622,
+                  "endLine": 637
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyDecompressor_AppendFromSelf",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyDecompressor.cs"
+                },
+                "region": {
+                  "startLine": 179,
+                  "endLine": 383
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyDecompressor_DecompressAllTags",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyDecompressor.cs"
+                },
+                "region": {
+                  "startLine": 388,
+                  "endLine": 462
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyDecompressor_DecompressTagFromScratch",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyDecompressor.cs"
+                },
+                "region": {
+                  "startLine": 503,
+                  "endLine": 534
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyDecompressor_RefillTag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyDecompressor.cs"
+                },
+                "region": {
+                  "startLine": 467,
+                  "endLine": 492
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyDecompressor_RefillTagFromScratch",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyDecompressor.cs"
+                },
+                "region": {
+                  "startLine": 609,
+                  "endLine": 619
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyDecompressor_TryFastAppend",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snappier/Internal/SnappyDecompressor.cs"
+                },
+                "region": {
+                  "startLine": 551,
+                  "endLine": 563
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snappier.Internal_SnappyDecompressor_if",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

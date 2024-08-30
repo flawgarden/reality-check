@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-OrchardCore-1.4.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-32173"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OrchardCore/OrchardCore.Infrastructure/Html/OrchardCoreBuilderExtensions.cs"
+                },
+                "region": {
+                  "startLine": 11,
+                  "endLine": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Microsoft.Extensions.DependencyInjection_OrchardCoreBuilderExtensions_AddHtmlSanitizer",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
