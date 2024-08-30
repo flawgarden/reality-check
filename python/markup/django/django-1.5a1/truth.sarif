@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-django-1.5a1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2012-4520"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "django/contrib/auth/tests/views.py"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_admin_reset",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "django/contrib/auth/tests/views.py"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 132
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_poisoned_http_host",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "django/contrib/auth/tests/views.py"
+                },
+                "region": {
+                  "startLine": 134,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_poisoned_http_host_admin_site",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "django/contrib/auth/views.py"
+                },
+                "region": {
+                  "startLine": 142,
+                  "endLine": 177
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "password_reset",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "django/http/__init__.py"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 188
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_host",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

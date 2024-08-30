@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-bottle-0.12.11"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-9964"
+          },
+          "ruleId": "CWE-93",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 2197,
+                  "endLine": 2198
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__setitem__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 1576,
+                  "endLine": 1579
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_hkey",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 1581,
+                  "endLine": 1585
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_hval",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 2200,
+                  "endLine": 2201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "append",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 2212,
+                  "endLine": 2215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "filter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 2203,
+                  "endLine": 2204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "replace",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/test_environ.py"
+                },
+                "region": {
+                  "startLine": 701,
+                  "endLine": 710
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_prevent_control_characters_in_headers",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
