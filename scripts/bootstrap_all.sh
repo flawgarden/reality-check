@@ -30,3 +30,4 @@ fi
 
 cd "$SCRIPT_DIR" || exit
 ./bootstrap.sh "java" "$BOOTSTRAP_OPTIONS"
+./bootstrap.sh "csharp" "$BOOTSTRAP_OPTIONS"

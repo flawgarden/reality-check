@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-antisamy-dotnet-1.2.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-51652"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "OWASP.AntiSamyTests/Html/AntiSamyTest.cs"
+                },
+                "region": {
+                  "startLine": 898,
+                  "endLine": 910
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AntiSamyTests_AntiSamyTest_TestSmuggledTagsInStyleContent",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

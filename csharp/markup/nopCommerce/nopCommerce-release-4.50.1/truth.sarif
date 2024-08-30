@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-nopCommerce-release-4.50.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2022-28451"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Presentation/Nop.Web/Areas/Admin/Controllers/CommonController.cs"
+                },
+                "region": {
+                  "startLine": 257,
+                  "endLine": 294
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Nop.Web.Areas.Admin.Controllers_CommonController_BackupAction",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

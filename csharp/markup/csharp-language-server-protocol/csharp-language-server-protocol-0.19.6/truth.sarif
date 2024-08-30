@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-csharp-language-server-protocol-0.19.6"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2022-4952"
+          },
+          "ruleId": "CWE-400",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/JsonRpc/Serialization/SerializerBase.cs"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "OmniSharp.Extensions.JsonRpc.Serialization_SerializerBase_CreateSerializerSettings",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

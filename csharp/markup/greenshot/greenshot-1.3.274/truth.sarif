@@ -1,0 +1,313 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-greenshot-1.3.274"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-34634"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 307,
+                  "endLine": 321
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_ClickableAt",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 97
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_Dispose",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 194,
+                  "endLine": 232
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_Draw",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 240,
+                  "endLine": 255
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_DrawSelectionBorder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 286,
+                  "endLine": 300
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_Equals",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_FreehandContainer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 302,
+                  "endLine": 305
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_GetHashCode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 103,
+                  "endLine": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_HandleMouseDown",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 114,
+                  "endLine": 136
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_HandleMouseMove",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 141,
+                  "endLine": 150
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_HandleMouseUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_InitializeFields",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 79,
+                  "endLine": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_OnDeserialized",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 155,
+                  "endLine": 187
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_RecalculatePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_Transform",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 264,
+                  "endLine": 270
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_if",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
+                },
+                "region": {
+                  "startLine": 272,
+                  "endLine": 275
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_if",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Greenshot.Editor/Drawing/SpeechbubbleContainer.cs"
+                },
+                "region": {
+                  "startLine": 113,
+                  "endLine": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Greenshot.Editor.Drawing_SpeechbubbleContainer_HandleMouseMove",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
