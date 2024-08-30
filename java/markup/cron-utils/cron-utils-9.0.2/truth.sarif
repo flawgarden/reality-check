@@ -1,0 +1,160 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-cron-utils-9.0.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-41269"
+          },
+          "ruleId": "CWE-94",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/cronutils/parser/CronParser.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 135
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CronParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/cronutils/parser/CronParser.java"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 134
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/validation/CronValidatorTest.java"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CronValidatorTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/validation/CronValidatorTest.java"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "expressions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/validation/CronValidatorTest.java"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validateExamples",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/parser/CronParserQuartzIntegrationTest.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 341
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CronParserQuartzIntegrationTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/parser/CronParserQuartzIntegrationTest.java"
+                },
+                "region": {
+                  "startLine": 251,
+                  "endLine": 258
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testMissingExpressionAndInvalidCharsInErrorMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/cronutils/validation/CronValidator.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValid",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

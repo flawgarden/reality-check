@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-active-directory-plugin-active-directory-2.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-2649"
+          },
+          "ruleId": "CWE-295",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/hudson/plugins/active_directory/ActiveDirectorySecurityRealm.java"
+                },
+                "region": {
+                  "startLine": 208,
+                  "endLine": 210
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ActiveDirectorySecurityRealm",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/hudson/plugins/active_directory/ActiveDirectorySecurityRealm.java"
+                },
+                "region": {
+                  "startLine": 487,
+                  "endLine": 535
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "bind",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/hudson/plugins/active_directory/ActiveDirectoryUnixAuthenticationProvider.java"
+                },
+                "region": {
+                  "startLine": 161,
+                  "endLine": 195
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ActiveDirectoryUnixAuthenticationProvider",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/hudson/plugins/active_directory/ActiveDirectoryUnixAuthenticationProvider.java"
+                },
+                "region": {
+                  "startLine": 295,
+                  "endLine": 443
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "retrieveUser",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

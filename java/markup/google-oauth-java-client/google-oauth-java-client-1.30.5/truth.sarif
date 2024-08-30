@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-google-oauth-java-client-1.30.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2020-7692"
+          },
+          "ruleId": "CWE-863",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "google-oauth-client/src/main/java/com/google/api/client/auth/oauth2/AuthorizationCodeFlow.java"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 873
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AuthorizationCodeFlow",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "google-oauth-client/src/main/java/com/google/api/client/auth/oauth2/AuthorizationCodeFlow.java"
+                },
+                "region": {
+                  "startLine": 184,
+                  "endLine": 187
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newAuthorizationUrl",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "google-oauth-client/src/main/java/com/google/api/client/auth/oauth2/AuthorizationCodeFlow.java"
+                },
+                "region": {
+                  "startLine": 208,
+                  "endLine": 212
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newTokenRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "google-oauth-client/src/main/java/com/google/api/client/auth/oauth2/AuthorizationCodeFlow.java"
+                },
+                "region": {
+                  "startLine": 422,
+                  "endLine": 872
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Builder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "google-oauth-client/src/test/java/com/google/api/client/auth/oauth2/AuthorizationCodeFlowTest.java"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 126
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AuthorizationCodeFlowTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "google-oauth-client/src/main/java/com/google/api/client/auth/oauth2/AuthorizationCodeRequestUrl.java"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AuthorizationCodeRequestUrl",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

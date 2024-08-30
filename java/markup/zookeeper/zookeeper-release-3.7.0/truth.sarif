@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-zookeeper-release-3.7.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2019-0201"
+          },
+          "ruleId": "CWE-862",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "zookeeper-server/src/main/java/org/apache/zookeeper/server/FinalRequestProcessor.java"
+                },
+                "region": {
+                  "startLine": 147,
+                  "endLine": 643
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "processRequest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

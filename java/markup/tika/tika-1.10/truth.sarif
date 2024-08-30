@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-tika-1.10"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2015-3271"
+          },
+          "ruleId": "CWE-200",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tika-server/src/main/java/org/apache/tika/server/resource/TikaResource.java"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 430
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TikaResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tika-server/src/main/java/org/apache/tika/server/resource/TikaResource.java"
+                },
+                "region": {
+                  "startLine": 337,
+                  "endLine": 339
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getText",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tika-server/src/main/java/org/apache/tika/server/resource/RecursiveMetadataResource.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "RecursiveMetadataResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tika-server/src/main/java/org/apache/tika/server/resource/RecursiveMetadataResource.java"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getMetadata",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tika-server/src/main/java/org/apache/tika/server/resource/MetadataResource.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 134
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MetadataResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tika-server/src/main/java/org/apache/tika/server/resource/MetadataResource.java"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getMetadata",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tika-server/src/main/java/org/apache/tika/server/resource/MetadataResource.java"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getMetadataField",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tika-server/src/main/java/org/apache/tika/server/resource/UnpackerResource.java"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 262
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UnpackerResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tika-server/src/main/java/org/apache/tika/server/resource/UnpackerResource.java"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 155
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "process",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

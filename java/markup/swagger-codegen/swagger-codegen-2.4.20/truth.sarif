@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-swagger-codegen-2.4.20"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-21363"
+          },
+          "ruleId": "CWE-378",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-generator/src/main/java/io/swagger/generator/online/Generator.java"
+                },
+                "region": {
+                  "startLine": 175,
+                  "endLine": 184
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getTmpFolder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "modules/swagger-generator/src/main/java/io/swagger/generator/online/Generator.java"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 185
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Generator",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-esapi-java-legacy-esapi-2.0_rc10"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2013-5679"
+          },
+          "ruleId": "CWE-310",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/crypto/CipherText.java"
+                },
+                "region": {
+                  "startLine": 432,
+                  "endLine": 449
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validateMAC",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/Encryptor.java"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 450
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Encryptor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/Encryptor.java"
+                },
+                "region": {
+                  "startLine": 163,
+                  "endLine": 163
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "encrypt",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/Encryptor.java"
+                },
+                "region": {
+                  "startLine": 283,
+                  "endLine": 283
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "decrypt",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/reference/crypto/JavaEncryptor.java"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 1048
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "JavaEncryptor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/reference/crypto/JavaEncryptor.java"
+                },
+                "region": {
+                  "startLine": 340,
+                  "endLine": 346
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "encrypt",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/reference/crypto/JavaEncryptor.java"
+                },
+                "region": {
+                  "startLine": 578,
+                  "endLine": 608
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "decrypt",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/crypto/CipherTextSerializer.java"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 291
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CipherTextSerializer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/crypto/CipherTextSerializer.java"
+                },
+                "region": {
+                  "startLine": 209,
+                  "endLine": 284
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "convertToCipherText",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

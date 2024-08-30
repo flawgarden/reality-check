@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-esapi-java-legacy-esapi-2.3.0.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-23457"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/reference/DefaultValidator.java"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DefaultValidator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/reference/DefaultValidator.java"
+                },
+                "region": {
+                  "startLine": 447,
+                  "endLine": 483
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getValidDirectoryPath",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-xstream-XSTREAM_1_4_13"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2020-26217"
+          },
+          "ruleId": "CWE-78",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/java/com/thoughtworks/xstream/XStream.java"
+                },
+                "region": {
+                  "startLine": 295,
+                  "endLine": 2414
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/java/com/thoughtworks/xstream/XStream.java"
+                },
+                "region": {
+                  "startLine": 639,
+                  "endLine": 649
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setupSecurity",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/test/com/thoughtworks/acceptance/SecurityVulnerabilityTest.java"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testCannotInjectEventHandler",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/test/com/thoughtworks/acceptance/SecurityVulnerabilityTest.java"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testCannotInjectEventHandlerWithUnconfiguredSecurityFramework",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/test/com/thoughtworks/acceptance/SecurityVulnerabilityTest.java"
+                },
+                "region": {
+                  "startLine": 83,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testExplicitlyConvertEventHandler",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/test/com/thoughtworks/acceptance/SecurityVulnerabilityTest.java"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 130
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testDeniedInstanceOfVoid",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/test/com/thoughtworks/acceptance/SecurityVulnerabilityTest.java"
+                },
+                "region": {
+                  "startLine": 132,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testAllowedInstanceOfVoid",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

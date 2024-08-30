@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-plexus-archiver-plexus-archiver-3.6.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-1002200"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AbstractUnArchiver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.java"
+                },
+                "region": {
+                  "startLine": 303,
+                  "endLine": 370
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "extractFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/org/codehaus/plexus/archiver/zip/ZipUnArchiverTest.java"
+                },
+                "region": {
+                  "startLine": 15,
+                  "endLine": 236
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ZipUnArchiverTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-spark-2.5.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-9177"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ClassPathResourceHandler.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ClassPathResourceHandler",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ClassPathResourceHandler.java"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 247
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StaticFilesConfiguration",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "consume",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 101
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "consumeWithFileResourceHandlers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 150,
+                  "endLine": 178
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "configure",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 180,
+                  "endLine": 200
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "configureJarCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 207,
+                  "endLine": 229
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "configureExternal",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ExternalResourceHandler.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ExternalResourceHandler",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ExternalResourceHandler.java"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/StaticFilesTest.java"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 104
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testMimeTypes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/StaticFilesTest.java"
+                },
+                "region": {
+                  "startLine": 140,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testExternalStaticFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/StaticFilesTest.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 170
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StaticFilesTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/StaticFilesTest.java"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setup",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/utils/StringUtils.java"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 393
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StringUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/StaticFilesTest.java"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 104
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testMimeTypes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/StaticFilesTest.java"
+                },
+                "region": {
+                  "startLine": 140,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testExternalStaticFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/spark/StaticFilesTest.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 170
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StaticFilesTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ClassPathResourceHandler.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ClassPathResourceHandler",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ClassPathResourceHandler.java"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 247
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "StaticFilesConfiguration",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "consume",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 101
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "consumeWithFileResourceHandlers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 150,
+                  "endLine": 178
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "configure",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 180,
+                  "endLine": 200
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "configureJarCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/staticfiles/StaticFilesConfiguration.java"
+                },
+                "region": {
+                  "startLine": 207,
+                  "endLine": 229
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "configureExternal",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ExternalResourceHandler.java"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ExternalResourceHandler",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/spark/resource/ExternalResourceHandler.java"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getResource",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-brooklyn-server-rel-apache-brooklyn-1.0.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-8744"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/internal/BrooklynSystemProperties.java"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BrooklynSystemProperties",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/test/java/org/apache/brooklyn/util/yaml/YamlsTest.java"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 213
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "YamlsTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/yaml/Yamls.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 563
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Yamls",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/yaml/Yamls.java"
+                },
+                "region": {
+                  "startLine": 105,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getAt",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/yaml/Yamls.java"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 167
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseAll",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/yaml/Yamls.java"
+                },
+                "region": {
+                  "startLine": 543,
+                  "endLine": 562
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getTextOfYamlAtPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/internal/BrooklynSystemProperties.java"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BrooklynSystemProperties",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/yaml/Yamls.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 563
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Yamls",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/yaml/Yamls.java"
+                },
+                "region": {
+                  "startLine": 105,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getAt",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/yaml/Yamls.java"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 167
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parseAll",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/main/java/org/apache/brooklyn/util/yaml/Yamls.java"
+                },
+                "region": {
+                  "startLine": 543,
+                  "endLine": 562
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getTextOfYamlAtPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/common/src/test/java/org/apache/brooklyn/util/yaml/YamlsTest.java"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 213
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "YamlsTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

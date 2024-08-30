@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-santuario-java-1.5.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2013-2172"
+          },
+          "ruleId": "CWE-310",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/apache/jcp/xml/dsig/internal/dom/DOMCanonicalizationMethod.java"
+                },
+                "region": {
+                  "startLine": 41,
+                  "endLine": 114
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DOMCanonicalizationMethod",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

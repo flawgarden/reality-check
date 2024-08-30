@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-esapi-java-legacy-esapi-2.1.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2013-5960"
+          },
+          "ruleId": "CWE-310",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/codecs/PercentCodec.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 154
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PercentCodec",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/esapi/codecs/PercentCodec.java"
+                },
+                "region": {
+                  "startLine": 96,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "encodeCharacter",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-jackrabbit-jackrabbit-2.9.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2016-6801"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/util/CSRFUtil.java"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValidRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/util/CSRFUtil.java"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CSRFUtil",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/util/CSRFUtil.java"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValidRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/util/CSRFUtil.java"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CSRFUtil",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/test/java/org/apache/jackrabbit/webdav/util/CSRFUtilTest.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/test/java/org/apache/jackrabbit/webdav/util/CSRFUtilTest.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 138
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DummyRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/test/java/org/apache/jackrabbit/webdav/util/CSRFUtilTest.java"
+                },
+                "region": {
+                  "startLine": 173,
+                  "endLine": 175
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getMethod",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/test/java/org/apache/jackrabbit/webdav/util/CSRFUtilTest.java"
+                },
+                "region": {
+                  "startLine": 242,
+                  "endLine": 244
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getContentType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/DavResource.java"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 333
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DavResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/DavResource.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "METHODS",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-spi2dav/src/main/java/org/apache/jackrabbit/spi2davex/PostMethod.java"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PostMethod",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/server/AbstractWebdavServlet.java"
+                },
+                "region": {
+                  "startLine": 97,
+                  "endLine": 1393
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AbstractWebdavServlet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/server/AbstractWebdavServlet.java"
+                },
+                "region": {
+                  "startLine": 597,
+                  "endLine": 600
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "doPost",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/server/AbstractWebdavServlet.java"
+                },
+                "region": {
+                  "startLine": 97,
+                  "endLine": 1393
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AbstractWebdavServlet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/server/AbstractWebdavServlet.java"
+                },
+                "region": {
+                  "startLine": 597,
+                  "endLine": 600
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "doPost",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/util/CSRFUtil.java"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValidRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/main/java/org/apache/jackrabbit/webdav/util/CSRFUtil.java"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CSRFUtil",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/test/java/org/apache/jackrabbit/webdav/util/CSRFUtilTest.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/test/java/org/apache/jackrabbit/webdav/util/CSRFUtilTest.java"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 138
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DummyRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/test/java/org/apache/jackrabbit/webdav/util/CSRFUtilTest.java"
+                },
+                "region": {
+                  "startLine": 242,
+                  "endLine": 244
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getContentType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/test/java/org/apache/jackrabbit/webdav/util/CSRFUtilTest.java"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 166
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jackrabbit-webdav/src/test/java/org/apache/jackrabbit/webdav/server/WebdavServerTests.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "suite",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

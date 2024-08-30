@@ -1,0 +1,228 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-snakeyaml-snakeyaml-e91772b1bc0b"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-18640"
+          },
+          "ruleId": "CWE-776",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/LoaderOptions.java"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "LoaderOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/constructor/BaseConstructor.java"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 619
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BaseConstructor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/constructor/BaseConstructor.java"
+                },
+                "region": {
+                  "startLine": 464,
+                  "endLine": 490
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "constructMapping2ndStep",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/Yaml.java"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 697
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Yaml",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/Yaml.java"
+                },
+                "region": {
+                  "startLine": 469,
+                  "endLine": 473
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "loadFromReader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/Yaml.java"
+                },
+                "region": {
+                  "startLine": 483,
+                  "endLine": 503
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "loadAll",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/Yaml.java"
+                },
+                "region": {
+                  "startLine": 552,
+                  "endLine": 555
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "compose",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/Yaml.java"
+                },
+                "region": {
+                  "startLine": 565,
+                  "endLine": 589
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "composeAll",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/composer/Composer.java"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 259
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Composer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/composer/Composer.java"
+                },
+                "region": {
+                  "startLine": 133,
+                  "endLine": 167
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "composeNode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/constructor/Constructor.java"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Constructor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/yaml/snakeyaml/constructor/SafeConstructor.java"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SafeConstructor",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

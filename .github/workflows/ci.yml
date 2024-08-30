@@ -1,36 +1,14 @@
-name: Bootstrap and build
+name: Bootstrap and markup
 
 on: workflow_dispatch
 
 jobs:
-  bootstrap_and_build:
+  bootstrap_and_markup:
 
     runs-on: ubuntu-20.04
 
     steps:
-    - name: Debug
-      run: |
-        printenv
-
     - uses: actions/checkout@v4
 
-    - name: Set up JDK 1.8
-      run: |
-        wget -q -O - https://download.bell-sw.com/pki/GPG-KEY-bellsoft | sudo apt-key add -
-        echo "deb [arch=amd64] https://apt.bell-sw.com/ stable main" | sudo tee /etc/apt/sources.list.d/bellsoft.list
-        sudo apt-get update
-        sudo apt-get install -y \
-          bellsoft-java8-full \
-          maven
-
     - name: Bootstrap
-      run: ./scripts/collect_benchmark.py -db=cves_build_succeed_db.csv
-
-    - name: Build
-      run: |
-        export JAVA_HOME=/usr/lib/jvm/bellsoft-java8-full-amd64
-        sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/bellsoft-java8-full-amd64/bin/java 1
-        sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/bellsoft-java8-full-amd64/bin/javac 1
-        sudo update-alternatives --set java $(update-alternatives --list java | grep java8)
-        sudo update-alternatives --set javac $(update-alternatives --list javac | grep java8)
-        ./scripts/build_and_clean_benchmark.py
+      run: ./scripts/bootstrap.sh --exit-on-error

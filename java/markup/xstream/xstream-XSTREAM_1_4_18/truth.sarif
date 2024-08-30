@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-xstream-XSTREAM_1_4_18"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-43859"
+          },
+          "ruleId": "CWE-400",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/java/com/thoughtworks/xstream/XStream.java"
+                },
+                "region": {
+                  "startLine": 294,
+                  "endLine": 2394
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "XStream",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/java/com/thoughtworks/xstream/XStream.java"
+                },
+                "region": {
+                  "startLine": 1364,
+                  "endLine": 1366
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "unmarshal",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "xstream/src/java/com/thoughtworks/xstream/XStream.java"
+                },
+                "region": {
+                  "startLine": 2013,
+                  "endLine": 2015
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createObjectInputStream",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

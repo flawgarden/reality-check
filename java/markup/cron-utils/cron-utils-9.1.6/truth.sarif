@@ -1,0 +1,211 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-cron-utils-9.1.6"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-41269"
+          },
+          "ruleId": "CWE-94",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/Issue418Test.java"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Issue418Test",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/Issue418Test.java"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testInvalidWeekDayStart",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/Issue418Test.java"
+                },
+                "region": {
+                  "startLine": 68,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testInvalidWeekDayEnd",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/cronutils/parser/CronParser.java"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 135
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CronParser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/cronutils/parser/CronParser.java"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 134
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/validation/CronValidatorTest.java"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validateExamples",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/validation/CronValidatorTest.java"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CronValidatorTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/validation/CronValidatorTest.java"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "expressions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/parser/CronParserQuartzIntegrationTest.java"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 339
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CronParserQuartzIntegrationTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/com/cronutils/parser/CronParserQuartzIntegrationTest.java"
+                },
+                "region": {
+                  "startLine": 251,
+                  "endLine": 256
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testMissingExpressionAndInvalidCharsInErrorMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/com/cronutils/validation/CronValidator.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValid",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

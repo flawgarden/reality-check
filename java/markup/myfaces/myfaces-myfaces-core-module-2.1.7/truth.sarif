@@ -1,0 +1,262 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-myfaces-myfaces-core-module-2.1.7"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2011-4367"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 199
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ResourceValidationUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 199
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ResourceValidationUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isValidResourceName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 199
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ResourceValidationUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 118
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 199
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ResourceValidationUtils",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "shared/src/main/java/org/apache/myfaces/shared/resource/ResourceValidationUtils.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 118
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "shared/src/test/java/org/apache/myfaces/shared/resource/ResourceValidationUtilsTest.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 98
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ResourceValidationUtilsTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "shared/src/test/java/org/apache/myfaces/shared/resource/ResourceValidationUtilsTest.java"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testLibraryNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 478,
+                  "endLine": 530
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getLocalePrefixForLocateResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 560,
+                  "endLine": 598
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "libraryExists",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createResource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "impl/src/main/java/org/apache/myfaces/application/ResourceHandlerImpl.java"
+                },
+                "region": {
+                  "startLine": 560,
+                  "endLine": 598
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "libraryExists",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

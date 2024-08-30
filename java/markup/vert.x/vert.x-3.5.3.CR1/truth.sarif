@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-vert.x-3.5.3.CR1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2018-12541"
+          },
+          "ruleId": "CWE-119",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/test/java/io/vertx/test/core/WebsocketTest.java"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 2321
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "WebsocketTest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/HttpServerImpl.java"
+                },
+                "region": {
+                  "startLine": 130,
+                  "endLine": 142
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpServerImpl",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/HttpServerImpl.java"
+                },
+                "region": {
+                  "startLine": 626,
+                  "endLine": 628
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ServerHandlerWithWebSockets",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/io/vertx/core/http/impl/HttpServerImpl.java"
+                },
+                "region": {
+                  "startLine": 631,
+                  "endLine": 716
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleMessage",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

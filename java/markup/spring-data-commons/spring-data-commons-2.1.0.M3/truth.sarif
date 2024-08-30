@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-spring-data-commons-2.1.0.M3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-1273"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/springframework/data/web/MapDataBinder.java"
+                },
+                "region": {
+                  "startLine": 114,
+                  "endLine": 319
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MapPropertyAccessor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/springframework/data/web/MapDataBinder.java"
+                },
+                "region": {
+                  "startLine": 71,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MapDataBinder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/springframework/data/web/MapDataBinder.java"
+                },
+                "region": {
+                  "startLine": 171,
+                  "endLine": 217
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setPropertyValue",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

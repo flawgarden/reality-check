@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-libpam4j-libpam4j-1.9"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-12197"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/jvnet/libpam/PAM.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 183
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PAM",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/jvnet/libpam/PAM.java"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "authenticate",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

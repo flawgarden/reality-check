@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-portals-pluto-pluto-3.0.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-1306"
+          },
+          "ruleId": "CWE-200",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PortletV3AnnotatedDemo/src/main/java/org/apache/portals/samples/MultipartPortlet.java"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 284
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MultipartPortlet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PortletV3AnnotatedDemo/src/main/java/org/apache/portals/samples/MultipartPortlet.java"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TMP",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PortletV3AnnotatedDemo/src/main/java/org/apache/portals/samples/MultipartPortlet.java"
+                },
+                "region": {
+                  "startLine": 71,
+                  "endLine": 150
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleDialog",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PortletV3AnnotatedDemo/src/main/java/org/apache/portals/samples/MultipartPortlet.java"
+                },
+                "region": {
+                  "startLine": 153,
+                  "endLine": 237
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "render",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PortletV3AnnotatedDemo/src/main/java/org/apache/portals/samples/MultipartPortlet.java"
+                },
+                "region": {
+                  "startLine": 240,
+                  "endLine": 261
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "serveImage",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
