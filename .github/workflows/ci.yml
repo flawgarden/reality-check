@@ -1,6 +1,10 @@
 name: Bootstrap and markup
 
-on: workflow_dispatch
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   bootstrap_and_markup:
