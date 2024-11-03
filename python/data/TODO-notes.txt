@@ -1,0 +1,56 @@
+CVE-2023-26047,https://github.com/dwisiswant0/cwa-filter-rules,d818d1645832d1a02cd210c7680e692d2bf4313b,CWE-692,,
+CVE-2023-26047,https://github.com/dwisiswant0/cwa-filter-rules,d818d1645832d1a02cd210c7680e692d2bf4313b,CWE-79,,
+CVE-2023-26047,https://github.com/dwisiswant0/cwa-filter-rules,d818d1645832d1a02cd210c7680e692d2bf4313b,CWE-80,,1
+
+NIST references a different Go project in its page as well, unclear where the current one belongs since it doesn't seem as a standalone repo
+
+https://github.com/teler-sh/teler-waf/security/advisories/GHSA-9f95-hhg4-pg4f
+https://github.com/teler-sh/teler-waf/security/advisories/GHSA-p2pf-g8cq-3gq5
+
+^^^ maybe should include these instead, to the Go vul list (as of now, these issues are not present there)
+_____________________________________________________________
+
+https://github.com/zopefoundation/Zope/security/advisories/GHSA-wm8q-9975-xh5v <- two major releases have two fixes for one vul; for now, noted the most recent version (5.x.x)
+
+same applies to:
+- CVE-2022-21699,https://github.com/ipython/ipython
+
+_____________________________________________________________
+
+NIST presents two different commits as patch/fix (not specifying which is which)
+https://github.com/openstack/nova/commit/2427d4a99bed35baefd8f17ba422cb7aae8dcca7 <- presented from a (very old?) version, unknown what preceded it, to the modern ones
+https://github.com/openstack/nova/commit/b0feaffdb2b1c51182b8dce41b367f3449af5dd9 <- gives more concrete data, which patched and vul versions were deduced from; however, GitHub states these commits do not belong to the linked repo
+
+Keep it or Change it?
+
+CVE-2012-3360,https://github.com/openstack/nova,2427d4a99bed35baefd8f17ba422cb7aae8dcca7,CWE-22,feaeadab934e3d31fd3562014ffd2e44ae6dce34,6227bc9a1b2534874aa19024ad7d660c2b75197d
+CVE-2012-3361,https://github.com/openstack/nova,2427d4a99bed35baefd8f17ba422cb7aae8dcca7,CWE-264,feaeadab934e3d31fd3562014ffd2e44ae6dce34,6227bc9a1b2534874aa19024ad7d660c2b75197d
+
+_____________________________________________________________
+
+https://github.com/wichert/pyrad gets automatically redirected to https://github.com/pyradius/pyrad
+
+Change the former link appearances to the latter?
+
+_____________________________________________________________
+
+https://github.com/numpy/numpy	<- initially linked commit_hash was present in great number of versions; unclear which are vul and patch 
+
+However, a different (possibly rebased) commit was found (961c43da78bf97ce63183b27c338db7ea77bed85) that lead to noted patched and vul versions. These versions do correspond with NIST information
+
+_____________________________________________________________
+
+CVE-2021-43818,https://github.com/lxml/lxml <- two CWEs, one CVE, three commits
+one commit was omitted and used as patched version hash
+
+two other commits appear for both CWEs. Change to one commit - one CWE policy?
+
+_____________________________________________________________
+_____________________________________________________________
+_____________________________________________________________
+
+SKIPPED VULNERABILITIES:
+CVE-2017-5591,https://github.com/poezio/slixmpp,22664ee7b86c8e010f312b66d12590fb47160ad8,CWE-20,,
+CVE-2017-5591,https://github.com/poezio/slixmpp,22664ee7b86c8e010f312b66d12590fb47160ad8,CWE-346,,
+CVE-2015-8309,https://github.com/devsnd/cherrymusic,62dec34a1ea0741400dd6b6c660d303dcd651e86,CWE-22,,
+CVE-2015-8310,https://github.com/devsnd/cherrymusic,62dec34a1ea0741400dd6b6c660d303dcd651e86,CWE-79,,
