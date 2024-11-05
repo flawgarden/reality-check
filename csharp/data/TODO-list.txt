@@ -1,0 +1,17 @@
+CVE-2020-5261&CVE-2020-5268,https://github.com/Sustainsys/Saml2
+CVEs have different CWEs and different patching versions
+however, commit hash for them is the same
+Need to fix?
+
+___________________________________________________________
+
+commit message for supposed fix to CVE-2022-41417,https://github.com/BlogEngine/BlogEngine.NET says the problem still exists? Not sure how to interpret that line
+
+___________________________________________________________
+___________________________________________________________
+___________________________________________________________
+
+SKIPPED VULNERABILITIES:
+
+CVE-2017-15279,https://github.com/umbraco/Umbraco-CMS,fe2b86b681455ac975b294652064b2718d4e2ba2,CWE-79,, <- common CWE, project's versions are a mess
+CVE-2016-15028,https://github.com/ICEPAY/REST-API-NET,61f6b8758e5c971abff5f901cfa9f231052b775f,CWE-354,, <- too little info?
