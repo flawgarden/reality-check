@@ -1,0 +1,21 @@
+
+CVE-2023-39533,https://github.com/golang/go,2350afd2e8ab054390e284c95d5b089c142db017,CWE-770,,
+
+references to multiple repos; could use all, though one of them is marked as "Non Applicable" on NIST website
+
+___________________________________________________________
+
+CVE-2020-15234,https://github.com/ory/fosite
+
+several more CWEs are listed on the website, GitHub being the source
+worth adding?
+
+___________________________________________________________
+___________________________________________________________
+___________________________________________________________
+
+SKIPPED VULNERABILITIES:
+
+CVE-2022-31022,https://github.com/blevesearch/bleve,1c7509d6a17d36f265c90b4e8f4e3a3182fe79ff,CWE-288,, <-
+CVE-2022-31022,https://github.com/blevesearch/bleve,1c7509d6a17d36f265c90b4e8f4e3a3182fe79ff,CWE-306,,  ^ no patch exists, only a warning
+CVE-2015-10024,https://github.com/hoffie/larasync,776bad422f4bd4930d09491711246bbeb1be9ba5,CWE-22,, <- no versioning / no updates on github
