@@ -1,11 +1,6 @@
-CVE-2020-5261&CVE-2020-5268,https://github.com/Sustainsys/Saml2
-CVEs have different CWEs and different patching versions
-however, commit hash for them is the same
-Need to fix?
-
-___________________________________________________________
-
-commit message for supposed fix to CVE-2022-41417,https://github.com/BlogEngine/BlogEngine.NET says the problem still exists? Not sure how to interpret that line
+.NET SDK    ->
+ASP.NET SDK ->
+NHibernate  ->
 
 ___________________________________________________________
 ___________________________________________________________

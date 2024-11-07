@@ -1,14 +1,6 @@
-
-CVE-2023-39533,https://github.com/golang/go,2350afd2e8ab054390e284c95d5b089c142db017,CWE-770,,
-
-references to multiple repos; could use all, though one of them is marked as "Non Applicable" on NIST website
-
-___________________________________________________________
-
-CVE-2020-15234,https://github.com/ory/fosite
-
-several more CWEs are listed on the website, GitHub being the source
-worth adding?
+Gin   ->
+Fiber ->
+BeeGo ->
 
 ___________________________________________________________
 ___________________________________________________________
