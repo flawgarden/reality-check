@@ -1,6 +1,6 @@
-.NET SDK    ->
-ASP.NET SDK ->
-NHibernate  ->
+.NET SDK    -> https://github.com/sshnet/SSH.NET
+ASP.NET SDK -> https://github.com/open-telemetry/opentelemetry-dotnet
+NHibernate  -> https://github.com/nhibernate/nhibernate-core
 
 ___________________________________________________________
 ___________________________________________________________
@@ -10,3 +10,5 @@ SKIPPED VULNERABILITIES:
 
 CVE-2017-15279,https://github.com/umbraco/Umbraco-CMS,fe2b86b681455ac975b294652064b2718d4e2ba2,CWE-79,, <- common CWE, project's versions are a mess
 CVE-2016-15028,https://github.com/ICEPAY/REST-API-NET,61f6b8758e5c971abff5f901cfa9f231052b775f,CWE-354,, <- too little info?
+CVE-2021-37705,https://github.com/microsoft/onefuzz,2fcb4998887959b4fa11894a068d689189742cb1,CWE-863,, <- moved to python
+CVE-2023-43662,https://github.com/ShokoAnime/ShokoServer,6c57ba0f073d6be5a4f508c46c2ce36727cbce80,CWE-22,, <- no patch
