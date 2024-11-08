@@ -129,18 +129,32 @@ def get_all_infos_row(
     cwe = cve_to_cwe_map[cve]
     vul_tag, patch_tag = get_tags(
         repo_url, vul_version_hash, patch_version_hash)
+    vul_version = ""
+    vul_url = ""
+    vul_zip = ""
+    patch_version = ""
+    patch_url = ""
+    patch_zip = ""
     if vul_tag == "":
         vul_tag = f"{vul_version_hash}"
+        vul_version = project + "-" + vul_tag
+        vul_url = repo_url + "/tree/" + vul_tag
+        vul_zip = repo_url + "/archive/" + vul_tag + ".zip"
+    else:
+        vul_version = get_version(project, vul_tag)
+        vul_url = get_url(repo_url, vul_tag)
+        vul_zip = get_zip_url(repo_url, vul_tag)
     if patch_tag == "":
         patch_tag = f"{patch_version_hash}"
+        patch_version = project + "-" + patch_tag
+        patch_url = repo_url + "/tree/" + patch_tag
+        patch_zip = repo_url + "/archive/" + patch_tag + ".zip"
+    else:
+        patch_version = get_version(project, patch_tag)
+        patch_url = get_url(repo_url, patch_tag)
+        patch_zip = get_zip_url(repo_url, patch_tag)
 
-    vul_version = get_version(project, vul_tag)
-    vul_url = get_url(repo_url, vul_tag)
-    vul_zip = get_zip_url(repo_url, vul_tag)
     vul_markup_file = get_markup_file(project, cve, vul_version)
-    patch_version = get_version(project, patch_tag)
-    patch_url = get_url(repo_url, patch_tag)
-    patch_zip = get_zip_url(repo_url, patch_tag)
     patch_markup_file = get_markup_file(project, cve, patch_version)
     return [
         project,
