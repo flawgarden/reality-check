@@ -2,10 +2,14 @@
 import csv
 import sys
 import os
+import re
+from collect_cve_benchmark import cve_to_markup, fix_language
+
 
 COMMIT_FIELD = "commit_hash"
 CWE_FIELD = "cwe"
-USED_FIELDS = [COMMIT_FIELD, CWE_FIELD]
+CVE_FIELD = "cve"
+USED_FIELDS = [COMMIT_FIELD, CWE_FIELD, CVE_FIELD]
 MISSING_CWES = ["NVD-CWE-noinfo", "NVD-CWE-Other"]
 
 
@@ -22,7 +26,7 @@ def count_cwe_per_hash(csv_entries):
 
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print("Incorrect amount of arguments! Expected: path to a csv file.")
         return 1
 
@@ -31,6 +35,16 @@ def main():
     if not os.path.exists(filepath):
         print("Could not find the given file: " + filepath + "!")
         return 2
+
+    db_path = sys.argv[2]
+
+    if not os.path.exists(db_path):
+        print("Could not find the given file: " + db_path + "!")
+        return 2
+
+    language = fix_language(re.split(r"\\|/", filepath)[-3])
+
+    cve_to_markup_map = cve_to_markup(db_path, language)
 
     with open(filepath) as csv_raw:
         csv_file = csv.DictReader(csv_raw)
@@ -46,6 +60,8 @@ def main():
 
     def entry_key(e):
         if e[CWE_FIELD] in MISSING_CWES:
+            return -2
+        if e[CVE_FIELD] not in cve_to_markup_map:
             return -1
         return len(hash_counts[e[COMMIT_FIELD]])
 
@@ -55,7 +71,13 @@ def main():
         writer = csv.DictWriter(csv_raw, csv_fieldnames)
         writer.writeheader()
         for row in csv_entries:
-            writer.writerow(row)
+            try:
+                writer.writerow(row)
+            except ValueError:
+                print("Error while writing the row: ", row)
+                return -5
+
+    return 0
 
 
 if __name__ == "__main__":
