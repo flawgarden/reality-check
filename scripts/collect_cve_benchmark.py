@@ -35,7 +35,7 @@ def try_get_tag_from_commit(repo_url, hash_commit):
 
 
 def get_version_id_from_tag(tag):
-    return tag.split("/")[2]
+    return "/".join(tag.split("/")[2:])
 
 
 def get_version(project, tag):
