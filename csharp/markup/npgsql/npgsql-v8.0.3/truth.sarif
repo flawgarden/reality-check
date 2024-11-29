@@ -1,0 +1,551 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-npgsql-v8.0.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-32655"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 159,
+                  "endLine": 268
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteBind",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 354,
+                  "endLine": 371
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteCancelRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 270,
+                  "endLine": 300
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteClose",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 324,
+                  "endLine": 335
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteCopyDone",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 337,
+                  "endLine": 352
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteCopyFail",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteDescribe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 74,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteExecute",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 157
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteParse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 434,
+                  "endLine": 452
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WritePassword",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 484,
+                  "endLine": 499
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WritePregenerated",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 302,
+                  "endLine": 322
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 454,
+                  "endLine": 478
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteSASLInitialResponse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 386,
+                  "endLine": 397
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteSslRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 399,
+                  "endLine": 428
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteStartup",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteSync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlConnector.FrontendMessages.cs"
+                },
+                "region": {
+                  "startLine": 373,
+                  "endLine": 384
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlConnector_WriteTerminate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
+                },
+                "region": {
+                  "startLine": 570,
+                  "endLine": 591
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlWriteBuffer_AdvanceMessageBytesFlushed",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
+                },
+                "region": {
+                  "startLine": 593,
+                  "endLine": 597
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlWriteBuffer_Clear",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
+                },
+                "region": {
+                  "startLine": 196,
+                  "endLine": 229
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlWriteBuffer_DirectWrite",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
+                },
+                "region": {
+                  "startLine": 231,
+                  "endLine": 267
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlWriteBuffer_DirectWrite",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
+                },
+                "region": {
+                  "startLine": 124,
+                  "endLine": 188
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlWriteBuffer_Flush",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
+                },
+                "region": {
+                  "startLine": 552,
+                  "endLine": 568
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NpgsqlWriteBuffer_StartMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/Npgsql.Tests/CommandTests.cs"
+                },
+                "region": {
+                  "startLine": 921,
+                  "endLine": 943
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CommandTests_Array_overflow_message_length_throws",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/Npgsql.Tests/CommandTests.cs"
+                },
+                "region": {
+                  "startLine": 876,
+                  "endLine": 906
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CommandTests_Composite_overflow_message_length_throws",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/Npgsql.Tests/CommandTests.cs"
+                },
+                "region": {
+                  "startLine": 984,
+                  "endLine": 1023
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CommandTests_Multirange_overflow_message_length_throws",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/Npgsql.Tests/CommandTests.cs"
+                },
+                "region": {
+                  "startLine": 856,
+                  "endLine": 873
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CommandTests_Parameter_overflow_message_length_throws",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/Npgsql.Tests/CommandTests.cs"
+                },
+                "region": {
+                  "startLine": 946,
+                  "endLine": 981
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CommandTests_Range_overflow_message_length_throws",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/Npgsql.Tests/CommandTests.cs"
+                },
+                "region": {
+                  "startLine": 1183,
+                  "endLine": 1215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CommandTests_Too_many_parameters_throws",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/Npgsql.Tests/Support/PgPostmasterMock.cs"
+                },
+                "region": {
+                  "startLine": 133,
+                  "endLine": 175
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PgPostmasterMock_Accept",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/Npgsql.Tests/Support/PgServerMock.cs"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PgServerMock_PgServerMock",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/Npgsql.Tests/WriteBufferTests.cs"
+                },
+                "region": {
+                  "startLine": 111,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "WriteBufferTests_SetUp",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

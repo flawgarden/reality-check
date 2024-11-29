@@ -1,0 +1,517 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-truelayer-dotnet-1.6.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-23838"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/ApiClient.cs"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_ApiClient_GetAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/ApiClient.cs"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_ApiClient_PostAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/ApiClient.cs"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_ApiClient_PostAsync_2",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/ApiClient.cs"
+                },
+                "region": {
+                  "startLine": 97,
+                  "endLine": 112
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_ApiClient_PostAsync_3",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/ApiClient.cs"
+                },
+                "region": {
+                  "startLine": 114,
+                  "endLine": 129
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_ApiClient_PostAsync_4",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Auth/AuthApi.cs"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.Auth_AuthApi_AuthApi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Auth/AuthApi.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.Auth_AuthApi_GetAuthToken",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Common/TrueLayerBaseUris.cs"
+                },
+                "region": {
+                  "startLine": 5,
+                  "endLine": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayerBaseUris",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Extensions/UriExtensions.cs"
+                },
+                "region": {
+                  "startLine": 11,
+                  "endLine": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.Extensions_UriExtensions_Append",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Guard.cs"
+                },
+                "region": {
+                  "startLine": 105,
+                  "endLine": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_Guard_NotAUrl",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Guard.cs"
+                },
+                "region": {
+                  "startLine": 128,
+                  "endLine": 154
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_Guard_HasValidBaseUri",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Mandates/MandatesApi.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_MandatesApi_MandatesApi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Mandates/MandatesApi.cs"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_MandatesApi_GetMandate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Mandates/MandatesApi.cs"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_MandatesApi_ListMandates",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Mandates/MandatesApi.cs"
+                },
+                "region": {
+                  "startLine": 113,
+                  "endLine": 134
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_MandatesApi_StartAuthorizationFlow",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Mandates/MandatesApi.cs"
+                },
+                "region": {
+                  "startLine": 137,
+                  "endLine": 158
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_MandatesApi_SubmitProviderSelection",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Mandates/MandatesApi.cs"
+                },
+                "region": {
+                  "startLine": 160,
+                  "endLine": 180
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_MandatesApi_SubmitConsent",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Mandates/MandatesApi.cs"
+                },
+                "region": {
+                  "startLine": 183,
+                  "endLine": 200
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_MandatesApi_GetConfirmationOfFunds",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Mandates/MandatesApi.cs"
+                },
+                "region": {
+                  "startLine": 203,
+                  "endLine": 220
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_MandatesApi_GetMandateConstraints",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Mandates/MandatesApi.cs"
+                },
+                "region": {
+                  "startLine": 223,
+                  "endLine": 243
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer_MandatesApi_RevokeMandate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/MerchantAccounts/MerchantAccountsApi.cs"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.MerchantAccounts_MerchantAccountsApi_MerchantAccountsApi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/MerchantAccounts/MerchantAccountsApi.cs"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.MerchantAccounts_MerchantAccountsApi_GetMerchantAccount",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/MerchantAccounts/MerchantAccountsApi.cs"
+                },
+                "region": {
+                  "startLine": 71,
+                  "endLine": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.MerchantAccounts_MerchantAccountsApi_GetPaymentSources",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Payments/PaymentsApi.cs"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.Payments_PaymentsApi_PaymentsApi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Payments/PaymentsApi.cs"
+                },
+                "region": {
+                  "startLine": 77,
+                  "endLine": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.Payments_PaymentsApi_GetPayment",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/PaymentsProviders/PaymentsApi.cs"
+                },
+                "region": {
+                  "startLine": 15,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.PaymentsProviders_PaymentsProvidersApi_PaymentsProvidersApi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/PaymentsProviders/PaymentsApi.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.PaymentsProviders_PaymentsProvidersApi_GetPaymentsProvider",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Payouts/PayoutsApi.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.Payouts_PayoutsApi_PayoutsApi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/TrueLayer/Payouts/PayoutsApi.cs"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TrueLayer.Payouts_PayoutsApi_GetPayout",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

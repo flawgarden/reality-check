@@ -1,0 +1,823 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-nhibernate-core-5.5.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-39677"
+          },
+          "ruleId": "CWE-89",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_GetMappings",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 99,
+                  "endLine": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_OnSetUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_OnTearDown",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 246,
+                  "endLine": 253
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_SqlInjectionInCharAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 303,
+                  "endLine": 343
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_SqlInjectionInNumericalTypeAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 221,
+                  "endLine": 238
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_SqlInjectionInStringDiscriminatorAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 147,
+                  "endLine": 155
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_SqlInjectionInStringsAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 261,
+                  "endLine": 269
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_SqlInjectionWithCharEnumAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 354,
+                  "endLine": 377
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_SqlInjectionWithDatetimeAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 385,
+                  "endLine": 397
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_SqlInjectionWithGuidAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 277,
+                  "endLine": 285
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_SqlInjectionWithUriAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/Async/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 170,
+                  "endLine": 218
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCodeAsync_StringsWithSpecialCharactersAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_GetMappings",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_OnSetUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 128
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_OnTearDown",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 235,
+                  "endLine": 242
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_SqlInjectionInChar",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 292,
+                  "endLine": 332
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_SqlInjectionInNumericalType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 210,
+                  "endLine": 227
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_SqlInjectionInStringDiscriminator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 136,
+                  "endLine": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_SqlInjectionInStrings",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 250,
+                  "endLine": 258
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_SqlInjectionWithCharEnum",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 343,
+                  "endLine": 366
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_SqlInjectionWithDatetime",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 374,
+                  "endLine": 386
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_SqlInjectionWithGuid",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 266,
+                  "endLine": 274
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_SqlInjectionWithUri",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/NHSpecificTest/GH3516/FixtureByCode.cs"
+                },
+                "region": {
+                  "startLine": 159,
+                  "endLine": 207
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.NHSpecificTest.GH3516_FixtureByCode_StringsWithSpecialCharacters",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/SqlCommandTest/SqlInsertBuilderFixture.cs"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.SqlCommandTest_SqlInsertBuilderFixture_Commented",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/TestDialect.cs"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test_TestDialect_SupportsSqlType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/TestDialects/Oracle10gTestDialect.cs"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.TestDialects_Oracle10gTestDialect_SupportsSqlType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate.Test/TestDialects/SapSQLAnywhere17TestDialect.cs"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Test.TestDialects_SapSQLAnywhere17TestDialect_SupportsSqlType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Dialect/DB2Dialect.cs"
+                },
+                "region": {
+                  "startLine": 301,
+                  "endLine": 322
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Dialect_DB2Dialect_ToStringLiteral",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Dialect/Dialect.cs"
+                },
+                "region": {
+                  "startLine": 206,
+                  "endLine": 212
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Dialect_Dialect_Configure",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Dialect/Dialect.cs"
+                },
+                "region": {
+                  "startLine": 2098,
+                  "endLine": 2117
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Dialect_Dialect_ToStringLiteral",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Dialect/Oracle8iDialect.cs"
+                },
+                "region": {
+                  "startLine": 99,
+                  "endLine": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Dialect_Oracle8iDialect_Configure",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/ByteType.cs"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_ByteType_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/DecimalType.cs"
+                },
+                "region": {
+                  "startLine": 68,
+                  "endLine": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_DecimalType_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/DoubleType.cs"
+                },
+                "region": {
+                  "startLine": 68,
+                  "endLine": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_DoubleType_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/GuidType.cs"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_GuidType_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/Int16Type.cs"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_Int16Type_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/Int32Type.cs"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_Int32Type_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/Int64Type.cs"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_Int64Type_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/SByteType.cs"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_SByteType_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/SingleType.cs"
+                },
+                "region": {
+                  "startLine": 93,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_SingleType_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/TicksType.cs"
+                },
+                "region": {
+                  "startLine": 102,
+                  "endLine": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_TicksType_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/TimeAsTimeSpanType.cs"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 146
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_TimeAsTimeSpanType_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/TimeSpanType.cs"
+                },
+                "region": {
+                  "startLine": 130,
+                  "endLine": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_TimeSpanType_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/UInt16Type.cs"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_UInt16Type_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/UInt32Type.cs"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_UInt32Type_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NHibernate/Type/UInt64Type.cs"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 118
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NHibernate.Type_UInt64Type_ObjectToSQLString",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

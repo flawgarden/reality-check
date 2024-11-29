@@ -1,0 +1,415 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-kavita-v0.5.4.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-2756"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/AccountController.cs"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 218
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_AccountController_Login",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/AccountController.cs"
+                },
+                "region": {
+                  "startLine": 75,
+                  "endLine": 98
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_AccountController_UpdatePassword",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/FallbackController.cs"
+                },
+                "region": {
+                  "startLine": 15,
+                  "endLine": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FallbackController_FallbackController",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/FallbackController.cs"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FallbackController_Index",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ImageController.cs"
+                },
+                "region": {
+                  "startLine": 138,
+                  "endLine": 148
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ImageController_GetCoverUploadImage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReaderController.cs"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReaderController_GetPdf",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 231,
+                  "endLine": 250
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_CreateList",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 205,
+                  "endLine": 223
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_DeleteList",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 157
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_DeleteListItem",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 165,
+                  "endLine": 197
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_DeleteReadFromList",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 74,
+                  "endLine": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_GetListForUser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 258,
+                  "endLine": 301
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_UpdateList",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 469,
+                  "endLine": 499
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_UpdateListByChapter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 351,
+                  "endLine": 387
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_UpdateListByMultiple",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 395,
+                  "endLine": 430
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_UpdateListByMultipleSeries",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 309,
+                  "endLine": 342
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_UpdateListBySeries",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 433,
+                  "endLine": 466
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_UpdateListByVolume",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 99,
+                  "endLine": 123
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_UpdateListItemPosition",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/ReadingListController.cs"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 91
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_ReadingListController_UserHasReadingListAccess",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/UploadController.cs"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Controllers_UploadController_GetImageFromFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Data/Repositories/ReadingListRepository.cs"
+                },
+                "region": {
+                  "startLine": 214,
+                  "endLine": 220
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ReadingListRepository_GetReadingListDtoByTitleAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Extensions/IdentityServiceExtensions.cs"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "API.Extensions_IdentityServiceExtensions_AddIdentityServices",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Services/ImageService.cs"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 135
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ImageService_IsImage",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Saml2-v2.7.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-5268"
+          },
+          "ruleId": "CWE-287",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_SPOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 297,
+                  "endLine": 319
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_foreach",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 140,
+                  "endLine": 143
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 396,
+                  "endLine": 400
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 415,
+                  "endLine": 418
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/SAML2P/Saml2PSecurityTokenHandler.cs"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Saml2P_Saml2PSecurityTokenHandler_ValidateToken",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/SAML2P/Saml2Response.cs"
+                },
+                "region": {
+                  "startLine": 584,
+                  "endLine": 623
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Saml2P_Saml2Response_CreateClaims",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

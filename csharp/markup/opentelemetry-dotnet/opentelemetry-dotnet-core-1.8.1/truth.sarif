@@ -1,0 +1,296 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-opentelemetry-dotnet-core-1.8.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-32028"
+          },
+          "ruleId": "CWE-212",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.AspNetCore/AspNetCoreTraceInstrumentationOptions.cs"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AspNetCoreTraceInstrumentationOptions_AspNetCoreTraceInstrumentationOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.AspNetCore/Implementation/HttpInListener.cs"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 230
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpInListener_OnStartActivity",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.Http/HttpClientInstrumentationTracerProviderBuilderExtensions.cs"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpClientInstrumentationTracerProviderBuilderExtensions_AddHttpClientInstrumentation",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.Http/HttpClientTraceInstrumentationOptions.cs"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpClientTraceInstrumentationOptions_HttpClientTraceInstrumentationOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.Http/HttpClientTraceInstrumentationOptions.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpClientTraceInstrumentationOptions_HttpClientTraceInstrumentationOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.Http/Implementation/HttpHandlerDiagnosticListener.cs"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 178
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpHandlerDiagnosticListener_OnStartActivity",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.Http/Implementation/HttpInstrumentationEventSource.cs"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpInstrumentationEventSource_InvalidConfigurationValue",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.Http/Implementation/HttpInstrumentationEventSource.cs"
+                },
+                "region": {
+                  "startLine": 111,
+                  "endLine": 114
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpInstrumentationEventSource_LogInvalidConfigurationValue",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.Http/Implementation/HttpTagHelper.cs"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpTagHelper_GetUriTagValueFromRequestUri",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OpenTelemetry.Instrumentation.Http/Implementation/HttpWebRequestActivitySource.netfx.cs"
+                },
+                "region": {
+                  "startLine": 96,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpWebRequestActivitySource_AddRequestTagsAndInstrumentRequest",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Shared/RedactionHelper.cs"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "RedactionHelper_GetRedactedQueryString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/OpenTelemetry.Instrumentation.AspNetCore.Tests/BasicTests.cs"
+                },
+                "region": {
+                  "startLine": 1086,
+                  "endLine": 1126
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BasicTests_ValidateUrlQueryRedaction",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/OpenTelemetry.Instrumentation.AspNetCore.Tests/IncomingRequestsCollectionsIsAccordingToTheSpecTests.cs"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 132
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IncomingRequestsCollectionsIsAccordingToTheSpecTests_SuccessfulTemplateControllerCallGeneratesASpan_New",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/OpenTelemetry.Instrumentation.Http.Tests/HttpClientTests.Basic.cs"
+                },
+                "region": {
+                  "startLine": 702,
+                  "endLine": 731
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpClientTests_ValidateUrlQueryRedaction",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/OpenTelemetry.Instrumentation.Http.Tests/HttpWebRequestActivitySourceTests.netfx.cs"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "HttpWebRequestActivitySourceTests_HttpWebRequestActivitySourceTests",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/OpenTelemetry.Tests/Internal/RedactionHelperTest.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "RedactionHelperTest_QueryStringIsRedacted",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

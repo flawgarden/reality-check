@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-IpMatcher-b697b9c4d3be48384bf7ca5882035a4cce9f2051"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-33318"
+          },
+          "ruleId": "CWE-704",
+          "locations": []
+        }
+      ]
+    }
+  ]
+}

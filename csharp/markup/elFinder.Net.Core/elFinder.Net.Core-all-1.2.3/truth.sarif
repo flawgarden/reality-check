@@ -1,0 +1,415 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-elFinder.Net.Core-all-1.2.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-23407"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/Demos/elFinder.Net.AdvancedDemo/Startup.cs"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.AdvancedDemo_Startup_MapPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/Demos/elFinder.Net.Demo31/Startup.cs"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Demo31_Startup_MapPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/Extensions/IDirectoryExtensions.cs"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem.Extensions_IDirectoryExtensions_GetCopyNameAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/Extensions/IFileExtensions.cs"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem.Extensions_IFileExtensions_GetCopyNameAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDirectory.cs"
+                },
+                "region": {
+                  "startLine": 248,
+                  "endLine": 257
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDirectory_RenameAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 905,
+                  "endLine": 963
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_ArchiveAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 1477,
+                  "endLine": 1521
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_CopyToAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 836,
+                  "endLine": 870
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_DuplicateAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 965,
+                  "endLine": 1061
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_ExtractAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 1523,
+                  "endLine": 1565
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_MergeAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 167
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_MkdirAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 189
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_MkfileAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 714,
+                  "endLine": 834
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_PasteAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "endLine": 1432
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_SafeCopyToAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 1434,
+                  "endLine": 1475
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_SafeMoveToAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 465,
+                  "endLine": 582
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_UploadAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemDriver.cs"
+                },
+                "region": {
+                  "startLine": 1267,
+                  "endLine": 1289
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemDriver_ZipdlRawAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/FileSystemFile.cs"
+                },
+                "region": {
+                  "startLine": 206,
+                  "endLine": 215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_FileSystemFile_RenameAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/Helpers/PathHelper.cs"
+                },
+                "region": {
+                  "startLine": 7,
+                  "endLine": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem.Helpers_PathHelper_GetFullPath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/Helpers/PathHelper.cs"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem.Helpers_PathHelper_GetFullPathNormalized",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/Helpers/PathHelper.cs"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem.Helpers_PathHelper_NormalizePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/IZipDownloadPathProvider.cs"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_TempZipDownloadPathProvider_GetFileForArchivingAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "elFinder.Net.Core/elFinder.Net.Drivers.FileSystem/IZipDownloadPathProvider.cs"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "elFinder.Net.Drivers.FileSystem_TempZipDownloadPathProvider_ParseArchiveFileKeyAsync",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

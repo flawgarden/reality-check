@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-BearFTP-0.2.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-8416"
+          },
+          "ruleId": "CWE-770",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "BearFTP/Active.cs"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BearFTP_Active_Active",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "BearFTP/Active.cs"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BearFTP_Active_CheckExists",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "BearFTP/Active.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BearFTP_Active_GetConnections",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "BearFTP/Active.cs"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BearFTP_Active_SetConnections",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "BearFTP/Program.cs"
+                },
+                "region": {
+                  "startLine": 249,
+                  "endLine": 931
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BearFTP_Program_Main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

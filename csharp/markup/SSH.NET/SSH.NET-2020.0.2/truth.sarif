@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-SSH.NET-2020.0.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-29245"
+          },
+          "ruleId": "CWE-338",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Renci.SshNet/Security/KeyExchangeECCurve25519.cs"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Renci.SshNet.Security_KeyExchangeECCurve25519_Start",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

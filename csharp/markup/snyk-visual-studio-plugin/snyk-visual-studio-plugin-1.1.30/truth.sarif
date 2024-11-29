@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-snyk-visual-studio-plugin-1.1.30"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2022-24441"
+          },
+          "ruleId": "CWE-78",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Shared/Service/SnykTasksService.cs"
+                },
+                "region": {
+                  "startLine": 198,
+                  "endLine": 226
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Shared.Service_SnykTasksService_ScanAsync",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

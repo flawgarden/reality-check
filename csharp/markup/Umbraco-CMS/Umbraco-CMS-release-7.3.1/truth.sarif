@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Umbraco-CMS-release-7.3.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2015-8814"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Umbraco.Web/WebApi/Filters/AngularAntiForgeryHelper.cs"
+                },
+                "region": {
+                  "startLine": 73,
+                  "endLine": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Umbraco.Web.WebApi.Filters_AngularAntiForgeryHelper_ValidateHeaders",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

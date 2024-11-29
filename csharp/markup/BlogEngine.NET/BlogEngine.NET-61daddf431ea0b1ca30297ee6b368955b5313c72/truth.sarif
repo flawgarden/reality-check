@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-BlogEngine.NET-61daddf431ea0b1ca30297ee6b368955b5313c72"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-41418"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "BlogEngine/BlogEngine.Core/Data/UsersRepository.cs"
+                },
+                "region": {
+                  "startLine": 87,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BlogEngine.Core.Data_UsersRepository_Add",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "BlogEngine/BlogEngine.NET/AppCode/Api/UploadController.cs"
+                },
+                "region": {
+                  "startLine": 16,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UploadController_Post",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

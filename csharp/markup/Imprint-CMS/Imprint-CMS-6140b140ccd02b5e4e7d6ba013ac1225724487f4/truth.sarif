@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Imprint-CMS-6140b140ccd02b5e4e7d6ba013ac1225724487f4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-4270"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ImprintCMS/Models/ViewHelpers.cs"
+                },
+                "region": {
+                  "startLine": 155,
+                  "endLine": 542
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ImprintCMS.Models_ViewHelpers_EditionPurchaseOptionsSection",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ImprintCMS/Models/ViewHelpers.cs"
+                },
+                "region": {
+                  "startLine": 466,
+                  "endLine": 476
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ImprintCMS.Models_ViewHelpers_ImprintCMS.Models_ViewHelpers_EditionPurchaseOptionsSection.SearchForm",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-squidex-7.3.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-0642"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Controllers/Account/AccountController.cs"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 321
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountController",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Controllers/Profile/ProfileController.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 271
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ProfileController",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Controllers/Setup/SetupController.cs"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 135
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SetupController",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Account/Consent.cshtml"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountConsent",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Account/Login.cshtml"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountExternal",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Account/Login.cshtml"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountLogin",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Setup/Setup.cshtml"
+                },
+                "region": {
+                  "startLine": 162,
+                  "endLine": 190
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Setup",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Profile/Profile.cshtml"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ProfileUploadPicture",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Profile/Profile.cshtml"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ProfileUpdateProfile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Profile/Profile.cshtml"
+                },
+                "region": {
+                  "startLine": 103,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ProfileRemoveLogin",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Profile/Profile.cshtml"
+                },
+                "region": {
+                  "startLine": 117,
+                  "endLine": 126
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ProfileAddLogin",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Profile/Profile.cshtml"
+                },
+                "region": {
+                  "startLine": 171,
+                  "endLine": 191
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ProfileSetPassword",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Profile/Profile.cshtml"
+                },
+                "region": {
+                  "startLine": 219,
+                  "endLine": 221
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ProfileGenerateClientSecret",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "backend/src/Squidex/Areas/IdentityServer/Views/Profile/Profile.cshtml"
+                },
+                "region": {
+                  "startLine": 233,
+                  "endLine": 266
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ProfileUpdateProperties",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

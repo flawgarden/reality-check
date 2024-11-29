@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-OpenUtau-build-0.0.991"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4880"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "OpenUtau.Core/Classic/VoicebankInstaller.cs"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "OpenUtau.Classic_VoicebankInstaller_LoadArchive",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

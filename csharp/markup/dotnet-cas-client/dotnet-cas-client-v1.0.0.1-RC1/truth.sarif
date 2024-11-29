@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-dotnet-cas-client-v1.0.0.1-RC1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2014-4172"
+          },
+          "ruleId": "CWE-74",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DotNetCasClient/Utils/UrlUtil.cs"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 160
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetCasClient.Utils_UrlUtil_ConstructValidateUrl",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

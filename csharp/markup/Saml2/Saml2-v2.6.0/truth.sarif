@@ -1,0 +1,194 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Saml2-v2.6.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2020-5268"
+          },
+          "ruleId": "CWE-287",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_SPOptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 295,
+                  "endLine": 317
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_foreach",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 105,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 138,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
+                },
+                "region": {
+                  "startLine": 394,
+                  "endLine": 398
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/SAML2P/Saml2PSecurityTokenHandler.cs"
+                },
+                "region": {
+                  "startLine": 87,
+                  "endLine": 91
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Saml2P_Saml2PSecurityTokenHandler_ValidateSignature",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Sustainsys.Saml2/SAML2P/Saml2PSecurityTokenHandler.cs"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Saml2P_Saml2PSecurityTokenHandler_ValidateTokenReplay",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Tests/Tests.Shared/Saml2P/Saml2ResponseTests.cs"
+                },
+                "region": {
+                  "startLine": 1919,
+                  "endLine": 1953
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Tests.Saml2P_Saml2ResponseTests_Saml2Response_GetClaims_ThrowsOnReplayAssertionId",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Tests/Tests.Shared/Saml2P/Saml2ResponseTests.cs"
+                },
+                "region": {
+                  "startLine": 1956,
+                  "endLine": 1991
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Tests.Saml2P_Saml2ResponseTests_Saml2Response_GetClaims_ThrowsOnReplayAssertionIdSameConfig",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Tests/Tests.Shared/WebSSO/Saml2ArtifactBindingTests.cs"
+                },
+                "region": {
+                  "startLine": 124,
+                  "endLine": 153
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Sustainsys.Saml2.Tests.WebSso_Saml2ArtifactBindingTests_Saml2ArtifactBinding_Unbind_FromGet_ArtifactIsntHashOfEntityId",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

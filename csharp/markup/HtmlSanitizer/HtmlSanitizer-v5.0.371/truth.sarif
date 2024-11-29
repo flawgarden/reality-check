@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-HtmlSanitizer-v5.0.371"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2020-26293"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/HtmlSanitizer/HtmlSanitizer.cs"
+                },
+                "region": {
+                  "startLine": 732,
+                  "endLine": 748
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Ganss.XSS_HtmlSanitizer_SanitizeStyleSheets",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
