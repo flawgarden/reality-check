@@ -8,13 +8,20 @@ from pathlib import Path
 from zipfile import ZipFile
 
 
+def find_actual_root(zipfile):
+    for name in zipfile.namelist():
+        if name.endswith("/") and name.count("/") == 1:
+            return name[:-1]
+
+
 def download_or_skip(save_path, version, zip_url):
     file = os.path.split(zip_url)[1]
-    if os.path.exists(save_path + '/' + version):
-        print(save_path + '/' + version)
-        print("The file has been download! Skip it")
+    versioned_repo = save_path + '/' + version
+    if os.path.exists(versioned_repo):
+        print(versioned_repo)
+        print("The file has been downloaded! Skip it")
     else:
-        print(save_path + '/' + version)
+        print(versioned_repo)
         filename = save_path + '/' + file
         print(filename)
         command = 'wget -P %s' % save_path + '/ ' + zip_url
@@ -25,6 +32,10 @@ def download_or_skip(save_path, version, zip_url):
             dir = Path(filename).parent.resolve().absolute().as_posix()
             print(dir)
             file.extractall(dir)
+            root = save_path + '/' + find_actual_root(file)
+            if file != versioned_repo:
+                print(f"Renaming '{root}' to '{versioned_repo}' to conform with database!")
+                os.rename(root, versioned_repo)
         os.remove(filename)
 
 
