@@ -12,14 +12,6 @@
         {
           "kind": "fail",
           "message": {
-            "text": "CVE-2021-32840"
-          },
-          "ruleId": "CWE-22",
-          "locations": []
-        },
-        {
-          "kind": "fail",
-          "message": {
             "text": "CVE-2021-32841"
           },
           "ruleId": "CWE-22",

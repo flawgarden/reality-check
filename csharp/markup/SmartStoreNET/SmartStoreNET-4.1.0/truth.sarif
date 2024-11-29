@@ -22,8 +22,8 @@
                   "uri": "src/Presentation/SmartStore.Web/Administration/Controllers/ImportController.cs"
                 },
                 "region": {
-                  "startLine": 385,
-                  "endLine": 413
+                  "startLine": 386,
+                  "endLine": 414
                 }
               },
               "logicalLocations": [

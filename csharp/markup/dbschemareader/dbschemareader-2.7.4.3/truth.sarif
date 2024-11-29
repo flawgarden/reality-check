@@ -396,13 +396,13 @@
                   "uri": "DatabaseSchemaReader/SqlWriter.cs"
                 },
                 "region": {
-                  "startLine": 89,
-                  "endLine": 92
+                  "startLine": 86,
+                  "endLine": 97
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "DatabaseSchemaReader_SqlWriter_if",
+                  "name": "DatabaseSchemaReader_SqlWriter_EscapeNames_set",
                   "kind": "function"
                 }
               ]
@@ -549,8 +549,8 @@
                   "uri": "DatabaseSchemaViewer/Form1.cs"
                 },
                 "region": {
-                  "startLine": 420,
-                  "endLine": 423
+                  "startLine": 421,
+                  "endLine": 424
                 }
               },
               "logicalLocations": [
@@ -566,8 +566,8 @@
                   "uri": "DatabaseSchemaViewer/Form1.cs"
                 },
                 "region": {
-                  "startLine": 446,
-                  "endLine": 486
+                  "startLine": 447,
+                  "endLine": 487
                 }
               },
               "logicalLocations": [
@@ -583,8 +583,8 @@
                   "uri": "DatabaseSchemaViewer/Form1.cs"
                 },
                 "region": {
-                  "startLine": 425,
-                  "endLine": 444
+                  "startLine": 426,
+                  "endLine": 445
                 }
               },
               "logicalLocations": [
@@ -600,8 +600,8 @@
                   "uri": "DatabaseSchemaViewer/Form1.cs"
                 },
                 "region": {
-                  "startLine": 295,
-                  "endLine": 418
+                  "startLine": 296,
+                  "endLine": 419
                 }
               },
               "logicalLocations": [
@@ -617,8 +617,8 @@
                   "uri": "DatabaseSchemaViewer/Form1.cs"
                 },
                 "region": {
-                  "startLine": 553,
-                  "endLine": 556
+                  "startLine": 555,
+                  "endLine": 558
                 }
               },
               "logicalLocations": [

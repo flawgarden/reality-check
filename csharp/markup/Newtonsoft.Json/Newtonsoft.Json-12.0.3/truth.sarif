@@ -15,7 +15,25 @@
             "text": "CVE-2024-21907"
           },
           "ruleId": "CWE-755",
-          "locations": []
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Src/Newtonsoft.Json/JsonReader.cs"
+                },
+                "region": {
+                  "startLine": 324,
+                  "endLine": 332
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Newtonsoft.Json_JsonReader_JsonReader",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

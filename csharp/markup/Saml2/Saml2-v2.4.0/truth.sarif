@@ -39,13 +39,13 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 295,
-                  "endLine": 317
+                  "startLine": 277,
+                  "endLine": 320
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Sustainsys.Saml2.Configuration_SPOptions_foreach",
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_MetadataCertificates_get",
                   "kind": "function"
                 }
               ]
@@ -56,13 +56,13 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 105,
-                  "endLine": 109
+                  "startLine": 100,
+                  "endLine": 112
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_Saml2PSecurityTokenHandler_get",
                   "kind": "function"
                 }
               ]
@@ -73,13 +73,13 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 138,
-                  "endLine": 141
+                  "startLine": 136,
+                  "endLine": 143
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_EntityId_set",
                   "kind": "function"
                 }
               ]
@@ -90,13 +90,13 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 394,
-                  "endLine": 398
+                  "startLine": 392,
+                  "endLine": 400
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_MinIncomingSigningAlgorithm_set",
                   "kind": "function"
                 }
               ]
@@ -141,8 +141,8 @@
                   "uri": "Tests/Tests.Shared/Saml2P/Saml2ResponseTests.cs"
                 },
                 "region": {
-                  "startLine": 1919,
-                  "endLine": 1953
+                  "startLine": 1851,
+                  "endLine": 1885
                 }
               },
               "logicalLocations": [
@@ -158,8 +158,8 @@
                   "uri": "Tests/Tests.Shared/Saml2P/Saml2ResponseTests.cs"
                 },
                 "region": {
-                  "startLine": 1956,
-                  "endLine": 1991
+                  "startLine": 1888,
+                  "endLine": 1923
                 }
               },
               "logicalLocations": [
@@ -175,8 +175,8 @@
                   "uri": "Tests/Tests.Shared/WebSSO/Saml2ArtifactBindingTests.cs"
                 },
                 "region": {
-                  "startLine": 124,
-                  "endLine": 153
+                  "startLine": 123,
+                  "endLine": 154
                 }
               },
               "logicalLocations": [

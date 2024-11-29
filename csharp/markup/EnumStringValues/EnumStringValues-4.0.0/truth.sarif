@@ -22,13 +22,13 @@
                   "uri": "EnumStringValues/EnumExtensions.cs"
                 },
                 "region": {
-                  "startLine": 280,
-                  "endLine": 284
+                  "startLine": 260,
+                  "endLine": 282
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "EnumStringValues_EnumExtensions_if",
+                  "name": "EnumStringValues_EnumExtensions_TryParseStringValueToEnum_ViaCache",
                   "kind": "function"
                 }
               ]

@@ -73,8 +73,8 @@
                   "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
                 },
                 "region": {
-                  "startLine": 189,
-                  "endLine": 218
+                  "startLine": 192,
+                  "endLine": 221
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
                 },
                 "region": {
-                  "startLine": 220,
-                  "endLine": 252
+                  "startLine": 223,
+                  "endLine": 255
                 }
               },
               "logicalLocations": [

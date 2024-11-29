@@ -15,7 +15,25 @@
             "text": "CVE-2024-37304"
           },
           "ruleId": "CWE-79",
-          "locations": []
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NuGetGallery/Services/MarkdownService.cs"
+                },
+                "region": {
+                  "startLine": 191,
+                  "endLine": 295
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NuGetGallery_MarkdownService_GetHtmlFromMarkdownMarkdig",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

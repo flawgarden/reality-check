@@ -56,8 +56,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/DisplayPacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 69,
-                  "endLine": 83
+                  "startLine": 74,
+                  "endLine": 88
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/DisplayPacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 55,
-                  "endLine": 67
+                  "startLine": 60,
+                  "endLine": 72
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/DisplayPacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 44,
-                  "endLine": 53
+                  "startLine": 49,
+                  "endLine": 58
                 }
               },
               "logicalLocations": [
@@ -107,8 +107,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/GpuPacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 54,
-                  "endLine": 60
+                  "startLine": 55,
+                  "endLine": 61
                 }
               },
               "logicalLocations": [
@@ -141,8 +141,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 152,
-                  "endLine": 184
+                  "startLine": 166,
+                  "endLine": 216
                 }
               },
               "logicalLocations": [
@@ -158,8 +158,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 343,
-                  "endLine": 381
+                  "startLine": 359,
+                  "endLine": 397
                 }
               },
               "logicalLocations": [
@@ -175,8 +175,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 459,
-                  "endLine": 481
+                  "startLine": 475,
+                  "endLine": 497
                 }
               },
               "logicalLocations": [
@@ -192,8 +192,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 428,
-                  "endLine": 451
+                  "startLine": 444,
+                  "endLine": 467
                 }
               },
               "logicalLocations": [
@@ -209,8 +209,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 570,
-                  "endLine": 584
+                  "startLine": 574,
+                  "endLine": 587
                 }
               },
               "logicalLocations": [
@@ -226,8 +226,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 555,
-                  "endLine": 568
+                  "startLine": 559,
+                  "endLine": 572
                 }
               },
               "logicalLocations": [
@@ -243,8 +243,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 511,
-                  "endLine": 538
+                  "startLine": 520,
+                  "endLine": 542
                 }
               },
               "logicalLocations": [
@@ -260,8 +260,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 244,
-                  "endLine": 310
+                  "startLine": 260,
+                  "endLine": 326
                 }
               },
               "logicalLocations": [
@@ -277,8 +277,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 540,
-                  "endLine": 553
+                  "startLine": 544,
+                  "endLine": 557
                 }
               },
               "logicalLocations": [
@@ -294,8 +294,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 483,
-                  "endLine": 498
+                  "startLine": 499,
+                  "endLine": 514
                 }
               },
               "logicalLocations": [
@@ -311,8 +311,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 330,
-                  "endLine": 341
+                  "startLine": 346,
+                  "endLine": 357
                 }
               },
               "logicalLocations": [
@@ -328,8 +328,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 317,
-                  "endLine": 328
+                  "startLine": 333,
+                  "endLine": 344
                 }
               },
               "logicalLocations": [
@@ -345,8 +345,8 @@
                   "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
                 },
                 "region": {
-                  "startLine": 113,
-                  "endLine": 149
+                  "startLine": 127,
+                  "endLine": 163
                 }
               },
               "logicalLocations": [
@@ -362,8 +362,8 @@
                   "uri": "RemoteTaskServer/Api/Services/LocalSystem/SystemService.cs"
                 },
                 "region": {
-                  "startLine": 209,
-                  "endLine": 214
+                  "startLine": 211,
+                  "endLine": 216
                 }
               },
               "logicalLocations": [
@@ -379,8 +379,8 @@
                   "uri": "RemoteTaskServer/Api/Services/LocalSystem/SystemService.cs"
                 },
                 "region": {
-                  "startLine": 200,
-                  "endLine": 206
+                  "startLine": 202,
+                  "endLine": 208
                 }
               },
               "logicalLocations": [
@@ -396,8 +396,8 @@
                   "uri": "RemoteTaskServer/Api/Services/LocalSystem/SystemService.cs"
                 },
                 "region": {
-                  "startLine": 217,
-                  "endLine": 235
+                  "startLine": 219,
+                  "endLine": 237
                 }
               },
               "logicalLocations": [
@@ -413,8 +413,8 @@
                   "uri": "RemoteTaskServer/Api/Services/LocalSystem/SystemService.cs"
                 },
                 "region": {
-                  "startLine": 238,
-                  "endLine": 260
+                  "startLine": 240,
+                  "endLine": 262
                 }
               },
               "logicalLocations": [
@@ -430,8 +430,8 @@
                   "uri": "RemoteTaskServer/Api/Services/Update/UpdateService.cs"
                 },
                 "region": {
-                  "startLine": 53,
-                  "endLine": 59
+                  "startLine": 56,
+                  "endLine": 62
                 }
               },
               "logicalLocations": [
@@ -481,8 +481,8 @@
                   "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
                 },
                 "region": {
-                  "startLine": 156,
-                  "endLine": 199
+                  "startLine": 158,
+                  "endLine": 201
                 }
               },
               "logicalLocations": [
@@ -498,8 +498,8 @@
                   "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
                 },
                 "region": {
-                  "startLine": 139,
-                  "endLine": 150
+                  "startLine": 141,
+                  "endLine": 152
                 }
               },
               "logicalLocations": [
@@ -515,8 +515,8 @@
                   "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
                 },
                 "region": {
-                  "startLine": 100,
-                  "endLine": 110
+                  "startLine": 102,
+                  "endLine": 112
                 }
               },
               "logicalLocations": [
@@ -532,8 +532,8 @@
                   "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
                 },
                 "region": {
-                  "startLine": 112,
-                  "endLine": 115
+                  "startLine": 114,
+                  "endLine": 117
                 }
               },
               "logicalLocations": [
@@ -549,8 +549,8 @@
                   "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
                 },
                 "region": {
-                  "startLine": 122,
-                  "endLine": 132
+                  "startLine": 124,
+                  "endLine": 134
                 }
               },
               "logicalLocations": [
@@ -566,8 +566,8 @@
                   "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
                 },
                 "region": {
-                  "startLine": 233,
-                  "endLine": 236
+                  "startLine": 235,
+                  "endLine": 238
                 }
               },
               "logicalLocations": [
@@ -583,8 +583,8 @@
                   "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
                 },
                 "region": {
-                  "startLine": 206,
-                  "endLine": 231
+                  "startLine": 208,
+                  "endLine": 233
                 }
               },
               "logicalLocations": [
@@ -600,8 +600,8 @@
                   "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
                 },
                 "region": {
-                  "startLine": 41,
-                  "endLine": 90
+                  "startLine": 43,
+                  "endLine": 92
                 }
               },
               "logicalLocations": [
@@ -614,164 +614,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
-                },
-                "region": {
-                  "startLine": 49,
-                  "endLine": 103
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare.DesktopDuplication_DesktopDuplicator_DesktopDuplicator",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
-                },
-                "region": {
-                  "startLine": 278,
-                  "endLine": 311
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare.DesktopDuplication_DesktopDuplicator_ExtractRect",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
-                },
-                "region": {
-                  "startLine": 128,
-                  "endLine": 164
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare.DesktopDuplication_DesktopDuplicator_GetBestAdapter",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
-                },
-                "region": {
-                  "startLine": 169,
-                  "endLine": 197
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare.DesktopDuplication_DesktopDuplicator_GetLatestFrame",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
-                },
-                "region": {
-                  "startLine": 313,
-                  "endLine": 339
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare.DesktopDuplication_DesktopDuplicator_ProcessFrame",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
-                },
-                "region": {
-                  "startLine": 341,
-                  "endLine": 352
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare.DesktopDuplication_DesktopDuplicator_ReleaseFrame",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
-                },
-                "region": {
-                  "startLine": 199,
-                  "endLine": 226
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare.DesktopDuplication_DesktopDuplicator_RetrieveFrame",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
-                },
-                "region": {
-                  "startLine": 228,
-                  "endLine": 275
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare.DesktopDuplication_DesktopDuplicator_RetrieveFrameMetadata",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
-                },
-                "region": {
-                  "startLine": 110,
-                  "endLine": 114
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare.DesktopDuplication_DesktopDuplicator_if",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "AgentInterface/Api/ScreenShare/ScreenData.cs"
                 },
                 "region": {
-                  "startLine": 251,
-                  "endLine": 263
+                  "startLine": 255,
+                  "endLine": 262
                 }
               },
               "logicalLocations": [
@@ -784,28 +631,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "AgentInterface/Api/ScreenShare/ScreenData.cs"
-                },
-                "region": {
-                  "startLine": 364,
-                  "endLine": 388
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "AgentInterface.Api.ScreenShare_ScreenData_SetupDuplication",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "RemoteTaskServer/Program.cs"
                 },
                 "region": {
-                  "startLine": 32,
-                  "endLine": 86
+                  "startLine": 46,
+                  "endLine": 103
                 }
               },
               "logicalLocations": [
@@ -821,8 +651,8 @@
                   "uri": "RemoteTaskServer/TerminalServer/Messaging/WebSocketHandler.cs"
                 },
                 "region": {
-                  "startLine": 36,
-                  "endLine": 104
+                  "startLine": 37,
+                  "endLine": 105
                 }
               },
               "logicalLocations": [
@@ -906,8 +736,8 @@
                   "uri": "RemoteTaskServer/Ulterius.cs"
                 },
                 "region": {
-                  "startLine": 52,
-                  "endLine": 107
+                  "startLine": 55,
+                  "endLine": 109
                 }
               },
               "logicalLocations": [
@@ -923,8 +753,8 @@
                   "uri": "RemoteTaskServer/Ulterius.cs"
                 },
                 "region": {
-                  "startLine": 24,
-                  "endLine": 47
+                  "startLine": 27,
+                  "endLine": 50
                 }
               },
               "logicalLocations": [
@@ -1178,8 +1008,8 @@
                   "uri": "RemoteTaskServer/Utilities/Tools.cs"
                 },
                 "region": {
-                  "startLine": 340,
-                  "endLine": 390
+                  "startLine": 339,
+                  "endLine": 387
                 }
               },
               "logicalLocations": [
@@ -1195,8 +1025,8 @@
                   "uri": "RemoteTaskServer/Utilities/Tools.cs"
                 },
                 "region": {
-                  "startLine": 395,
-                  "endLine": 408
+                  "startLine": 392,
+                  "endLine": 405
                 }
               },
               "logicalLocations": [
@@ -1212,8 +1042,8 @@
                   "uri": "RemoteTaskServer/Utilities/Tools.cs"
                 },
                 "region": {
-                  "startLine": 99,
-                  "endLine": 133
+                  "startLine": 97,
+                  "endLine": 132
                 }
               },
               "logicalLocations": [
@@ -1229,8 +1059,8 @@
                   "uri": "RemoteTaskServer/Utilities/Tools.cs"
                 },
                 "region": {
-                  "startLine": 79,
-                  "endLine": 97
+                  "startLine": 77,
+                  "endLine": 96
                 }
               },
               "logicalLocations": [
@@ -1246,8 +1076,8 @@
                   "uri": "RemoteTaskServer/Utilities/Tools.cs"
                 },
                 "region": {
-                  "startLine": 410,
-                  "endLine": 413
+                  "startLine": 407,
+                  "endLine": 410
                 }
               },
               "logicalLocations": [
@@ -1263,8 +1093,8 @@
                   "uri": "RemoteTaskServer/WebServer/HttpServer.cs"
                 },
                 "region": {
-                  "startLine": 259,
-                  "endLine": 335
+                  "startLine": 263,
+                  "endLine": 339
                 }
               },
               "logicalLocations": [
@@ -1280,8 +1110,8 @@
                   "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
                 },
                 "region": {
-                  "startLine": 47,
-                  "endLine": 53
+                  "startLine": 50,
+                  "endLine": 56
                 }
               },
               "logicalLocations": [
@@ -1297,8 +1127,8 @@
                   "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
                 },
                 "region": {
-                  "startLine": 96,
-                  "endLine": 102
+                  "startLine": 99,
+                  "endLine": 105
                 }
               },
               "logicalLocations": [
@@ -1314,8 +1144,8 @@
                   "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
                 },
                 "region": {
-                  "startLine": 61,
-                  "endLine": 68
+                  "startLine": 64,
+                  "endLine": 71
                 }
               },
               "logicalLocations": [
@@ -1331,8 +1161,8 @@
                   "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
                 },
                 "region": {
-                  "startLine": 70,
-                  "endLine": 76
+                  "startLine": 73,
+                  "endLine": 79
                 }
               },
               "logicalLocations": [
@@ -1348,8 +1178,8 @@
                   "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
                 },
                 "region": {
-                  "startLine": 31,
-                  "endLine": 34
+                  "startLine": 34,
+                  "endLine": 37
                 }
               },
               "logicalLocations": [
@@ -1365,8 +1195,8 @@
                   "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
                 },
                 "region": {
-                  "startLine": 36,
-                  "endLine": 45
+                  "startLine": 39,
+                  "endLine": 48
                 }
               },
               "logicalLocations": [
@@ -1382,30 +1212,13 @@
                   "uri": "UlteriusAgent/Program.cs"
                 },
                 "region": {
-                  "startLine": 36,
-                  "endLine": 94
+                  "startLine": 31,
+                  "endLine": 68
                 }
               },
               "logicalLocations": [
                 {
                   "name": "UlteriusAgent_Program_Main",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "UlteriusAgent/Program.cs"
-                },
-                "region": {
-                  "startLine": 96,
-                  "endLine": 99
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "UlteriusAgent_Program_host_faulted",
                   "kind": "function"
                 }
               ]

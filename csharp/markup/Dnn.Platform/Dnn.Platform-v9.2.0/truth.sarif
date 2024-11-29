@@ -23,7 +23,7 @@
                 },
                 "region": {
                   "startLine": 118,
-                  "endLine": 578
+                  "endLine": 445
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "DNN Platform/Library/Services/GeneratedImage/ImageHandlerInternal.cs"
                 },
                 "region": {
-                  "startLine": 410,
-                  "endLine": 436
+                  "startLine": 411,
+                  "endLine": 437
                 }
               },
               "logicalLocations": [

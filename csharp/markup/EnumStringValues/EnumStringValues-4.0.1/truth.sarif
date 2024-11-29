@@ -22,13 +22,13 @@
                   "uri": "EnumStringValues/EnumExtensions.cs"
                 },
                 "region": {
-                  "startLine": 297,
-                  "endLine": 305
+                  "startLine": 293,
+                  "endLine": 308
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "EnumStringValues_EnumExtensions_foreach",
+                  "name": "EnumStringValues_EnumExtensions_BuildCacheDictionaryForParseStringValue",
                   "kind": "function"
                 }
               ]
@@ -39,13 +39,13 @@
                   "uri": "EnumStringValues/EnumExtensions.cs"
                 },
                 "region": {
-                  "startLine": 277,
-                  "endLine": 281
+                  "startLine": 268,
+                  "endLine": 287
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "EnumStringValues_EnumExtensions_if",
+                  "name": "EnumStringValues_EnumExtensions_TryParseStringValueToEnum_ViaCache",
                   "kind": "function"
                 }
               ]

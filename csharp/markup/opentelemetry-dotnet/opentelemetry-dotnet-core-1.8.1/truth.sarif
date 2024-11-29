@@ -23,7 +23,7 @@
                 },
                 "region": {
                   "startLine": 24,
-                  "endLine": 43
+                  "endLine": 35
                 }
               },
               "logicalLocations": [
@@ -40,7 +40,7 @@
                 },
                 "region": {
                   "startLine": 90,
-                  "endLine": 230
+                  "endLine": 224
                 }
               },
               "logicalLocations": [
@@ -57,46 +57,12 @@
                 },
                 "region": {
                   "startLine": 43,
-                  "endLine": 89
+                  "endLine": 87
                 }
               },
               "logicalLocations": [
                 {
                   "name": "HttpClientInstrumentationTracerProviderBuilderExtensions_AddHttpClientInstrumentation",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/OpenTelemetry.Instrumentation.Http/HttpClientTraceInstrumentationOptions.cs"
-                },
-                "region": {
-                  "startLine": 23,
-                  "endLine": 26
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "HttpClientTraceInstrumentationOptions_HttpClientTraceInstrumentationOptions",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/OpenTelemetry.Instrumentation.Http/HttpClientTraceInstrumentationOptions.cs"
-                },
-                "region": {
-                  "startLine": 28,
-                  "endLine": 39
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "HttpClientTraceInstrumentationOptions_HttpClientTraceInstrumentationOptions",
                   "kind": "function"
                 }
               ]
@@ -121,45 +87,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "src/OpenTelemetry.Instrumentation.Http/Implementation/HttpInstrumentationEventSource.cs"
-                },
-                "region": {
-                  "startLine": 106,
-                  "endLine": 109
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "HttpInstrumentationEventSource_InvalidConfigurationValue",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/OpenTelemetry.Instrumentation.Http/Implementation/HttpInstrumentationEventSource.cs"
-                },
-                "region": {
-                  "startLine": 111,
-                  "endLine": 114
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "HttpInstrumentationEventSource_LogInvalidConfigurationValue",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "src/OpenTelemetry.Instrumentation.Http/Implementation/HttpTagHelper.cs"
                 },
                 "region": {
-                  "startLine": 19,
-                  "endLine": 29
+                  "startLine": 16,
+                  "endLine": 24
                 }
               },
               "logicalLocations": [
@@ -189,45 +121,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "src/Shared/RedactionHelper.cs"
-                },
-                "region": {
-                  "startLine": 14,
-                  "endLine": 58
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "RedactionHelper_GetRedactedQueryString",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/OpenTelemetry.Instrumentation.AspNetCore.Tests/BasicTests.cs"
-                },
-                "region": {
-                  "startLine": 1086,
-                  "endLine": 1126
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "BasicTests_ValidateUrlQueryRedaction",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "test/OpenTelemetry.Instrumentation.AspNetCore.Tests/IncomingRequestsCollectionsIsAccordingToTheSpecTests.cs"
                 },
                 "region": {
                   "startLine": 33,
-                  "endLine": 132
+                  "endLine": 129
                 }
               },
               "logicalLocations": [
@@ -240,50 +138,16 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/OpenTelemetry.Instrumentation.Http.Tests/HttpClientTests.Basic.cs"
-                },
-                "region": {
-                  "startLine": 702,
-                  "endLine": 731
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "HttpClientTests_ValidateUrlQueryRedaction",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "test/OpenTelemetry.Instrumentation.Http.Tests/HttpWebRequestActivitySourceTests.netfx.cs"
                 },
                 "region": {
                   "startLine": 25,
-                  "endLine": 45
+                  "endLine": 43
                 }
               },
               "logicalLocations": [
                 {
                   "name": "HttpWebRequestActivitySourceTests_HttpWebRequestActivitySourceTests",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/OpenTelemetry.Tests/Internal/RedactionHelperTest.cs"
-                },
-                "region": {
-                  "startLine": 28,
-                  "endLine": 31
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "RedactionHelperTest_QueryStringIsRedacted",
                   "kind": "function"
                 }
               ]

@@ -294,8 +294,8 @@
                   "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
                 },
                 "region": {
-                  "startLine": 570,
-                  "endLine": 591
+                  "startLine": 573,
+                  "endLine": 594
                 }
               },
               "logicalLocations": [
@@ -311,8 +311,8 @@
                   "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
                 },
                 "region": {
-                  "startLine": 593,
-                  "endLine": 597
+                  "startLine": 596,
+                  "endLine": 600
                 }
               },
               "logicalLocations": [
@@ -328,8 +328,8 @@
                   "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
                 },
                 "region": {
-                  "startLine": 196,
-                  "endLine": 229
+                  "startLine": 199,
+                  "endLine": 232
                 }
               },
               "logicalLocations": [
@@ -345,8 +345,8 @@
                   "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
                 },
                 "region": {
-                  "startLine": 231,
-                  "endLine": 267
+                  "startLine": 234,
+                  "endLine": 270
                 }
               },
               "logicalLocations": [
@@ -362,8 +362,8 @@
                   "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
                 },
                 "region": {
-                  "startLine": 124,
-                  "endLine": 188
+                  "startLine": 125,
+                  "endLine": 191
                 }
               },
               "logicalLocations": [
@@ -379,8 +379,8 @@
                   "uri": "src/Npgsql/Internal/NpgsqlWriteBuffer.cs"
                 },
                 "region": {
-                  "startLine": 552,
-                  "endLine": 568
+                  "startLine": 555,
+                  "endLine": 571
                 }
               },
               "logicalLocations": [
@@ -431,7 +431,7 @@
                 },
                 "region": {
                   "startLine": 984,
-                  "endLine": 1023
+                  "endLine": 1024
                 }
               },
               "logicalLocations": [
@@ -481,8 +481,8 @@
                   "uri": "test/Npgsql.Tests/CommandTests.cs"
                 },
                 "region": {
-                  "startLine": 1183,
-                  "endLine": 1215
+                  "startLine": 1184,
+                  "endLine": 1216
                 }
               },
               "logicalLocations": [
@@ -532,8 +532,8 @@
                   "uri": "test/Npgsql.Tests/WriteBufferTests.cs"
                 },
                 "region": {
-                  "startLine": 111,
-                  "endLine": 116
+                  "startLine": 112,
+                  "endLine": 117
                 }
               },
               "logicalLocations": [

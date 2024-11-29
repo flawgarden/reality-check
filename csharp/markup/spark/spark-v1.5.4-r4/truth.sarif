@@ -22,8 +22,8 @@
                   "uri": "src/Spark.Engine/Extensions/HttpRequestFhirExtensions.cs"
                 },
                 "region": {
-                  "startLine": 157,
-                  "endLine": 175
+                  "startLine": 150,
+                  "endLine": 168
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "src/Spark.Engine/Handlers/NetCore/FormatTypeHandler.cs"
                 },
                 "region": {
-                  "startLine": 20,
-                  "endLine": 47
+                  "startLine": 22,
+                  "endLine": 66
                 }
               },
               "logicalLocations": [

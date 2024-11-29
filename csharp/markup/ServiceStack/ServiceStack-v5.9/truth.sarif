@@ -15,7 +15,25 @@
             "text": "CVE-2020-28042"
           },
           "ruleId": "CWE-347",
-          "locations": []
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/ServiceStack.Common/EnumerableExtensions.cs"
+                },
+                "region": {
+                  "startLine": 235,
+                  "endLine": 242
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ServiceStack_EnumerableExtensions_EquivalentTo",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

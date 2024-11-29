@@ -39,8 +39,8 @@
                   "uri": "src/Core/Extensions/StringExtensions.cs"
                 },
                 "region": {
-                  "startLine": 223,
-                  "endLine": 229
+                  "startLine": 225,
+                  "endLine": 232
                 }
               },
               "logicalLocations": [
@@ -57,7 +57,7 @@
                 },
                 "region": {
                   "startLine": 215,
-                  "endLine": 221
+                  "endLine": 223
                 }
               },
               "logicalLocations": [
@@ -74,7 +74,7 @@
                 },
                 "region": {
                   "startLine": 297,
-                  "endLine": 542
+                  "endLine": 304
                 }
               },
               "logicalLocations": [
@@ -97,6 +97,40 @@
               "logicalLocations": [
                 {
                   "name": "Core.Services_StorageService_Find",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 314,
+                  "endLine": 339
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_Reset",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 428,
+                  "endLine": 459
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_TitleFromUri",
                   "kind": "function"
                 }
               ]

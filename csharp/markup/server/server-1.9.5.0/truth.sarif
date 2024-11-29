@@ -1042,13 +1042,13 @@
                   "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
                 },
                 "region": {
-                  "startLine": 111,
-                  "endLine": 115
+                  "startLine": 109,
+                  "endLine": 122
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_if",
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_FinalImage_set",
                   "kind": "function"
                 }
               ]

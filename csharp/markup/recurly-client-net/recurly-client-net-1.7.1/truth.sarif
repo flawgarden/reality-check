@@ -192,8 +192,8 @@
                   "uri": "Library/Account.cs"
                 },
                 "region": {
-                  "startLine": 574,
-                  "endLine": 579
+                  "startLine": 563,
+                  "endLine": 568
                 }
               },
               "logicalLocations": [
@@ -209,8 +209,8 @@
                   "uri": "Library/Account.cs"
                 },
                 "region": {
-                  "startLine": 558,
-                  "endLine": 567
+                  "startLine": 547,
+                  "endLine": 556
                 }
               },
               "logicalLocations": [
@@ -260,8 +260,8 @@
                   "uri": "Library/AddOn.cs"
                 },
                 "region": {
-                  "startLine": 64,
-                  "endLine": 70
+                  "startLine": 63,
+                  "endLine": 69
                 }
               },
               "logicalLocations": [
@@ -277,8 +277,8 @@
                   "uri": "Library/AddOn.cs"
                 },
                 "region": {
-                  "startLine": 86,
-                  "endLine": 90
+                  "startLine": 85,
+                  "endLine": 89
                 }
               },
               "logicalLocations": [
@@ -294,8 +294,8 @@
                   "uri": "Library/AddOn.cs"
                 },
                 "region": {
-                  "startLine": 75,
-                  "endLine": 81
+                  "startLine": 74,
+                  "endLine": 80
                 }
               },
               "logicalLocations": [
@@ -311,8 +311,8 @@
                   "uri": "Library/Adjustment.cs"
                 },
                 "region": {
-                  "startLine": 114,
-                  "endLine": 121
+                  "startLine": 105,
+                  "endLine": 112
                 }
               },
               "logicalLocations": [
@@ -328,8 +328,8 @@
                   "uri": "Library/Adjustment.cs"
                 },
                 "region": {
-                  "startLine": 128,
-                  "endLine": 133
+                  "startLine": 119,
+                  "endLine": 124
                 }
               },
               "logicalLocations": [
@@ -345,8 +345,8 @@
                   "uri": "Library/Adjustment.cs"
                 },
                 "region": {
-                  "startLine": 283,
-                  "endLine": 290
+                  "startLine": 269,
+                  "endLine": 276
                 }
               },
               "logicalLocations": [
@@ -498,8 +498,8 @@
                   "uri": "Library/GiftCard.cs"
                 },
                 "region": {
-                  "startLine": 322,
-                  "endLine": 331
+                  "startLine": 310,
+                  "endLine": 319
                 }
               },
               "logicalLocations": [
@@ -617,8 +617,8 @@
                   "uri": "Library/Plan.cs"
                 },
                 "region": {
-                  "startLine": 130,
-                  "endLine": 133
+                  "startLine": 127,
+                  "endLine": 130
                 }
               },
               "logicalLocations": [
@@ -634,8 +634,8 @@
                   "uri": "Library/Plan.cs"
                 },
                 "region": {
-                  "startLine": 147,
-                  "endLine": 163
+                  "startLine": 144,
+                  "endLine": 160
                 }
               },
               "logicalLocations": [
@@ -651,8 +651,8 @@
                   "uri": "Library/Plan.cs"
                 },
                 "region": {
-                  "startLine": 120,
-                  "endLine": 125
+                  "startLine": 117,
+                  "endLine": 122
                 }
               },
               "logicalLocations": [
@@ -668,13 +668,13 @@
                   "uri": "Library/Plan.cs"
                 },
                 "region": {
-                  "startLine": 59,
-                  "endLine": 63
+                  "startLine": 54,
+                  "endLine": 62
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Recurly_Plan_if",
+                  "name": "Recurly_Plan_AddOns_get",
                   "kind": "function"
                 }
               ]
@@ -685,8 +685,8 @@
                   "uri": "Library/Plan.cs"
                 },
                 "region": {
-                  "startLine": 443,
-                  "endLine": 452
+                  "startLine": 425,
+                  "endLine": 434
                 }
               },
               "logicalLocations": [
@@ -702,8 +702,8 @@
                   "uri": "Library/Subscription.cs"
                 },
                 "region": {
-                  "startLine": 389,
-                  "endLine": 394
+                  "startLine": 387,
+                  "endLine": 392
                 }
               },
               "logicalLocations": [
@@ -719,8 +719,8 @@
                   "uri": "Library/Subscription.cs"
                 },
                 "region": {
-                  "startLine": 365,
-                  "endLine": 378
+                  "startLine": 363,
+                  "endLine": 376
                 }
               },
               "logicalLocations": [
@@ -736,8 +736,8 @@
                   "uri": "Library/Subscription.cs"
                 },
                 "region": {
-                  "startLine": 501,
-                  "endLine": 509
+                  "startLine": 499,
+                  "endLine": 507
                 }
               },
               "logicalLocations": [
@@ -753,8 +753,8 @@
                   "uri": "Library/Subscription.cs"
                 },
                 "region": {
-                  "startLine": 480,
-                  "endLine": 485
+                  "startLine": 478,
+                  "endLine": 483
                 }
               },
               "logicalLocations": [
@@ -770,8 +770,8 @@
                   "uri": "Library/Subscription.cs"
                 },
                 "region": {
-                  "startLine": 446,
-                  "endLine": 468
+                  "startLine": 444,
+                  "endLine": 466
                 }
               },
               "logicalLocations": [
@@ -787,8 +787,8 @@
                   "uri": "Library/Subscription.cs"
                 },
                 "region": {
-                  "startLine": 399,
-                  "endLine": 404
+                  "startLine": 397,
+                  "endLine": 402
                 }
               },
               "logicalLocations": [
@@ -804,8 +804,8 @@
                   "uri": "Library/Subscription.cs"
                 },
                 "region": {
-                  "startLine": 410,
-                  "endLine": 415
+                  "startLine": 408,
+                  "endLine": 413
                 }
               },
               "logicalLocations": [
@@ -821,8 +821,8 @@
                   "uri": "Library/Subscription.cs"
                 },
                 "region": {
-                  "startLine": 487,
-                  "endLine": 499
+                  "startLine": 485,
+                  "endLine": 497
                 }
               },
               "logicalLocations": [
@@ -838,8 +838,8 @@
                   "uri": "Library/Subscription.cs"
                 },
                 "region": {
-                  "startLine": 967,
-                  "endLine": 975
+                  "startLine": 958,
+                  "endLine": 966
                 }
               },
               "logicalLocations": [

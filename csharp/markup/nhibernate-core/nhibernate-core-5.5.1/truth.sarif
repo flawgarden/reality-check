@@ -22,8 +22,8 @@
                   "uri": "src/NHibernate.Test/SqlCommandTest/SqlInsertBuilderFixture.cs"
                 },
                 "region": {
-                  "startLine": 48,
-                  "endLine": 65
+                  "startLine": 46,
+                  "endLine": 61
                 }
               },
               "logicalLocations": [
@@ -107,7 +107,7 @@
                   "uri": "src/NHibernate/Type/ByteType.cs"
                 },
                 "region": {
-                  "startLine": 55,
+                  "startLine": 54,
                   "endLine": 58
                 }
               },
@@ -124,8 +124,8 @@
                   "uri": "src/NHibernate/Type/CharBooleanType.cs"
                 },
                 "region": {
-                  "startLine": 59,
-                  "endLine": 62
+                  "startLine": 58,
+                  "endLine": 61
                 }
               },
               "logicalLocations": [
@@ -175,8 +175,8 @@
                   "uri": "src/NHibernate/Type/DoubleType.cs"
                 },
                 "region": {
-                  "startLine": 67,
-                  "endLine": 70
+                  "startLine": 66,
+                  "endLine": 69
                 }
               },
               "logicalLocations": [
@@ -226,8 +226,8 @@
                   "uri": "src/NHibernate/Type/Int16Type.cs"
                 },
                 "region": {
-                  "startLine": 115,
-                  "endLine": 118
+                  "startLine": 114,
+                  "endLine": 117
                 }
               },
               "logicalLocations": [
@@ -260,8 +260,8 @@
                   "uri": "src/NHibernate/Type/Int64Type.cs"
                 },
                 "region": {
-                  "startLine": 115,
-                  "endLine": 118
+                  "startLine": 114,
+                  "endLine": 117
                 }
               },
               "logicalLocations": [
@@ -277,8 +277,8 @@
                   "uri": "src/NHibernate/Type/SByteType.cs"
                 },
                 "region": {
-                  "startLine": 117,
-                  "endLine": 120
+                  "startLine": 116,
+                  "endLine": 119
                 }
               },
               "logicalLocations": [
@@ -294,8 +294,8 @@
                   "uri": "src/NHibernate/Type/SingleType.cs"
                 },
                 "region": {
-                  "startLine": 92,
-                  "endLine": 95
+                  "startLine": 91,
+                  "endLine": 94
                 }
               },
               "logicalLocations": [
@@ -379,8 +379,8 @@
                   "uri": "src/NHibernate/Type/UInt16Type.cs"
                 },
                 "region": {
-                  "startLine": 115,
-                  "endLine": 118
+                  "startLine": 114,
+                  "endLine": 117
                 }
               },
               "logicalLocations": [
@@ -396,8 +396,8 @@
                   "uri": "src/NHibernate/Type/UInt32Type.cs"
                 },
                 "region": {
-                  "startLine": 115,
-                  "endLine": 118
+                  "startLine": 114,
+                  "endLine": 117
                 }
               },
               "logicalLocations": [
@@ -413,8 +413,8 @@
                   "uri": "src/NHibernate/Type/UInt64Type.cs"
                 },
                 "region": {
-                  "startLine": 114,
-                  "endLine": 117
+                  "startLine": 113,
+                  "endLine": 116
                 }
               },
               "logicalLocations": [

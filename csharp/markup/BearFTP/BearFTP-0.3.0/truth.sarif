@@ -32,23 +32,6 @@
                   "kind": "function"
                 }
               ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "BearFTP/Program.cs"
-                },
-                "region": {
-                  "startLine": 274,
-                  "endLine": 998
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "BearFTP_Program_Main",
-                  "kind": "function"
-                }
-              ]
             }
           ]
         }

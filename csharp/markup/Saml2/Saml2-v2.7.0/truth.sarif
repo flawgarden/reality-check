@@ -22,8 +22,8 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 25,
-                  "endLine": 31
+                  "startLine": 26,
+                  "endLine": 32
                 }
               },
               "logicalLocations": [
@@ -39,13 +39,13 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 297,
-                  "endLine": 319
+                  "startLine": 280,
+                  "endLine": 323
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Sustainsys.Saml2.Configuration_SPOptions_foreach",
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_MetadataCertificates_get",
                   "kind": "function"
                 }
               ]
@@ -56,13 +56,13 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 107,
-                  "endLine": 111
+                  "startLine": 103,
+                  "endLine": 115
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_Saml2PSecurityTokenHandler_get",
                   "kind": "function"
                 }
               ]
@@ -73,13 +73,13 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 140,
-                  "endLine": 143
+                  "startLine": 139,
+                  "endLine": 146
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_EntityId_set",
                   "kind": "function"
                 }
               ]
@@ -90,13 +90,13 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 396,
-                  "endLine": 400
+                  "startLine": 395,
+                  "endLine": 403
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_MinIncomingSigningAlgorithm_set",
                   "kind": "function"
                 }
               ]
@@ -107,13 +107,13 @@
                   "uri": "Sustainsys.Saml2/Configuration/SPOptions.cs"
                 },
                 "region": {
-                  "startLine": 415,
-                  "endLine": 418
+                  "startLine": 414,
+                  "endLine": 421
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Sustainsys.Saml2.Configuration_SPOptions_if",
+                  "name": "Sustainsys.Saml2.Configuration_SPOptions_TokenReplayCache_get",
                   "kind": "function"
                 }
               ]
@@ -124,8 +124,8 @@
                   "uri": "Sustainsys.Saml2/SAML2P/Saml2PSecurityTokenHandler.cs"
                 },
                 "region": {
-                  "startLine": 76,
-                  "endLine": 95
+                  "startLine": 77,
+                  "endLine": 101
                 }
               },
               "logicalLocations": [
@@ -141,8 +141,8 @@
                   "uri": "Sustainsys.Saml2/SAML2P/Saml2Response.cs"
                 },
                 "region": {
-                  "startLine": 584,
-                  "endLine": 623
+                  "startLine": 590,
+                  "endLine": 625
                 }
               },
               "logicalLocations": [
