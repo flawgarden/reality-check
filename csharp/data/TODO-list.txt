@@ -2,13 +2,6 @@
 ASP.NET SDK -> https://github.com/open-telemetry/opentelemetry-dotnet
 NHibernate  -> https://github.com/nhibernate/nhibernate-core
 
-
-___________________________________________________________
-
-CVE-2018-25070 <- method got completely removed..?
-CVE-2021-32840 <- file with tests marked in sarif got removed..?
-CVE-2018-7559 <- one of the files is nowhere to be found
-
 ___________________________________________________________
 ___________________________________________________________
 ___________________________________________________________
