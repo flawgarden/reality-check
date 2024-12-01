@@ -33,3 +33,29 @@ CVE-2015-1839,https://github.com/saltstack/salt,b49d0d4b5ca5c6f31f03e2caf97cef10
 CVE-2013-7459,https://github.com/pycrypto/pycrypto,8dbe0dc3eea5c689d4f76b37b93fe216cf1f00d4,CWE-119,, <- no version available for specified commit
 CVE-2012-5563,https://github.com/openstack/keystone,38c7e46a640a94da4da89a39a5a1ea9c081f1eb5,CWE-255,,
 CVE-2012-5571,https://github.com/openstack/keystone,9d68b40cb9ea818c48152e6c712ff41586ad9653,CWE-255,, <- low CVSS score
+CVE-2023-50264,https://github.com/morpheus65535/bazarr,17add7fbb3ae1919a40d505470d499d46df9ae6b,CWE-22,,
+CVE-2023-50265,https://github.com/morpheus65535/bazarr,17add7fbb3ae1919a40d505470d499d46df9ae6b,CWE-22,,
+CVE-2023-50266,https://github.com/morpheus65535/bazarr,17add7fbb3ae1919a40d505470d499d46df9ae6b,CWE-918,, <- popular CWE-22, CWE-918 fix is limited
+CVE-2024-2171,https://github.com/zenml-io/zenml,68bcb3ba60cba9729c9713a49c39502d40fb945e,CWE-79,,
+CVE-2024-2260,https://github.com/zenml-io/zenml,68bcb3ba60cba9729c9713a49c39502d40fb945e,CWE-384,,
+CVE-2021-41127,https://github.com/RasaHQ/rasa,1b6b502f52d73b4f8cd1959ce724b8ad0eb33989,CWE-22,,
+CVE-2021-41127,https://github.com/RasaHQ/rasa,1b6b502f52d73b4f8cd1959ce724b8ad0eb33989,CWE-23,, <- strange fixes..?
+CVE-2018-8097,https://github.com/pyeve/eve,f8f7019ffdf9b4e05faf95e1f04e204aa4c91f98,CWE-94,, <- wrong commit is linked to the issue
+CVE-2021-43777,https://github.com/getredash/redash,da696ff7f84787cbf85967460fac52886cbe063e,CWE-601,,
+CVE-2021-43780,https://github.com/getredash/redash,61bbb5aa7a23a93f2f93710005f71bc972826099,CWE-918,, <- no old versions available? (10.0)
+
+
+_____________________________________________________________
+_____________________________________________________________
+_____________________________________________________________
+
+UNMAPPED VULNERABILITIES:
+
+CVE-2021-40323,https://github.com/cobbler/cobbler,d8f60bbf14a838c8c8a1dba98086b223e35fe70a,CWE-94,108287a3060a52cbf9c9f11a4959b8c4563d2bca,d8f60bbf14a838c8c8a1dba98086b223e35fe70a
+CVE-2021-40324,https://github.com/cobbler/cobbler,d8f60bbf14a838c8c8a1dba98086b223e35fe70a,CWE-434,108287a3060a52cbf9c9f11a4959b8c4563d2bca,d8f60bbf14a838c8c8a1dba98086b223e35fe70a
+CVE-2022-21699,https://github.com/ipython/ipython,46a51ed69cdf41b4333943d9ceeb945c4ede5668,"CWE-250,CWE-279",b8d7dfa8d78108f3f01486d9fa67b6841acb8f74,325262d1dfdaf65a95a2a94a8b70a7b8a8e119ce
+CVE-2022-21668,https://github.com/pypa/pipenv,439782a8ae36c4762c88e43d5f0d8e563371b46f,"CWE-1284,CWE-190,CWE-78,CWE-77,CWE-791,CWE-20,CWE-427",1a5584e9a5d38a62e94c8bdc7bcb5da38613d718,d378b9f91c811c95069cda9369465aae11bf67a4
+CVE-2022-31015,https://github.com/Pylons/waitress,4f6789b035610e0552738cdc4b35ca809a592d48,"CWE-362,CWE-248",9e0b8c801e4d505c2ffc91b891af4ba48af715e0,0aa4879d08b1fa816505dbb4f42342ba1d531644
+CVE-2024-24811,https://github.com/zopefoundation/Products.SQLAlchemyDA,e682b99f8406f20bc3f0f2c77153ed7345fd215a,CWE-89,5510517308886a0c6368793b09bde69400a8f6ed,bdcd57b0793532272665ed95df6629510aa22594
+CVE-2021-32811,https://github.com/zopefoundation/Zope,f72a18dda8e9bf2aedb46168761668464a4be988,"CWE-915,CWE-1321",169b67f8702554e197ad090a4e5403c17fa482a7,4e17a29856f80c82fdee61eadfda1b42fac92ffe
+CVE-2021-43799,https://github.com/zulip/zulip,a5496f4098e3998c9b84e8dc564aa983d6cdf6e8,CWE-338,ae000bfdbaf428cb1f7164bab0668111e14d2304,0213b811ec6cd0edce84d1f39c0e2d6c2ffa6768

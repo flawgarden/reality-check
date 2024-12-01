@@ -17,7 +17,7 @@ CVE-2018-7559,https://github.com/OPCFoundation/UA-.NET-Legacy,e2a781b38efb8686d2
 CVE-2020-8815,https://github.com/kolya5544/BearFTP,66dc9d95e58bca133f265457d32007cdf38b66ad,CWE-20,, <- specified commit isn't directly related to the CVE
 CVE-2024-29187,https://github.com/wixtoolset/wix3,6d372e5169f1a334a395cdf496443bc0732098e9,CWE-732,cb776056bb82cc092f6412a6d79c80c1c7de005d,b40e9a32c24033e11b77baf2c91a704382f898ed
 CVE-2024-29188,https://github.com/wixtoolset/wix3,93eeb5f6835776694021f66d4226c262c67d487a,CWE-59,cb776056bb82cc092f6412a6d79c80c1c7de005d,b40e9a32c24033e11b77baf2c91a704382f898ed <- these two are C++, not C#!!!
-CVE-2023-0643,https://github.com/squidex/squidex,cf4efc52eab17098474d73ccff6c136fc2f737db,CWE-167,5c4408c8cc662deb5abf768e023229aa55807acf,2aca7621845ce18ed4065cba8e3d0fa68aaf02bf <- fix commit only has typescript changes
+CVE-2023-0643,https://github.com/squidex/squidex,cf4efc52eab17098474d73ccff6c136fc2f737db,CWE-167,5c4408c8cc662deb5abf768e023229aa55807acf,2aca7621845ce18ed4065cba8e3d0fa68aaf02bf <- fix commit has only typescript changes
 CVE-2024-32478,https://github.com/git-ecosystem/git-credential-manager,d9ac33c5b1478383672b4425f5ecf875a62efba9,CWE-732,38ad7454c13351693369f26e8b0e24c66454557e,d34930736e131ad80e5690e5634ced1808aff3e2 <- bash change file
 
 
