@@ -1,0 +1,407 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-vyper-v0.3.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-24788"
+          },
+          "ruleId": "CWE-119",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/parser/functions/test_interfaces.py"
+                },
+                "region": {
+                  "startLine": 370,
+                  "endLine": 408
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_external_interface_bytes_clampers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/parser/functions/test_interfaces.py"
+                },
+                "region": {
+                  "startLine": 313,
+                  "endLine": 366
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_external_interface_int_clampers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/parser/functions/test_interfaces.py"
+                },
+                "region": {
+                  "startLine": 412,
+                  "endLine": 472
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_json_abi_bytes_clampers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/core.py"
+                },
+                "region": {
+                  "startLine": 94,
+                  "endLine": 165
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_dynarray_make_setter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/core.py"
+                },
+                "region": {
+                  "startLine": 414,
+                  "endLine": 473
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_get_element_ptr_array",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/core.py"
+                },
+                "region": {
+                  "startLine": 352,
+                  "endLine": 406
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_get_element_ptr_tuplelike",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/core.py"
+                },
+                "region": {
+                  "startLine": 702,
+                  "endLine": 716
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "needs_clamp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/external_call.py"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 176
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_external_call_helper",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/external_call.py"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_unpack_returndata",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/function_definitions/external_function.py"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_register_function_args",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/types/convert.py"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "new_type_to_old_type",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-24845"
+          },
+          "ruleId": "CWE-190",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/parser/functions/test_interfaces.py"
+                },
+                "region": {
+                  "startLine": 370,
+                  "endLine": 408
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_external_interface_bytes_clampers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/parser/functions/test_interfaces.py"
+                },
+                "region": {
+                  "startLine": 313,
+                  "endLine": 366
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_external_interface_int_clampers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/parser/functions/test_interfaces.py"
+                },
+                "region": {
+                  "startLine": 412,
+                  "endLine": 472
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_json_abi_bytes_clampers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/core.py"
+                },
+                "region": {
+                  "startLine": 94,
+                  "endLine": 165
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_dynarray_make_setter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/core.py"
+                },
+                "region": {
+                  "startLine": 414,
+                  "endLine": 473
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_get_element_ptr_array",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/core.py"
+                },
+                "region": {
+                  "startLine": 352,
+                  "endLine": 406
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_get_element_ptr_tuplelike",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/core.py"
+                },
+                "region": {
+                  "startLine": 702,
+                  "endLine": 716
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "needs_clamp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/external_call.py"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 176
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_external_call_helper",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/external_call.py"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_unpack_returndata",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/function_definitions/external_function.py"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_register_function_args",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/codegen/types/convert.py"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "new_type_to_old_type",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

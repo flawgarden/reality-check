@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-mlflow-v2.4.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-3765"
+          },
+          "ruleId": "CWE-36",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mlflow/pyfunc/backend.py"
+                },
+                "region": {
+                  "startLine": 134,
+                  "endLine": 161
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "predict",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mlflow/pyfunc/scoring_server/__init__.py"
+                },
+                "region": {
+                  "startLine": 326,
+                  "endLine": 363
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_cmd",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/models/test_cli.py"
+                },
+                "region": {
+                  "startLine": 172,
+                  "endLine": 331
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_predict",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

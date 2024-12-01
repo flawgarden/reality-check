@@ -1,0 +1,169 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Pillow-2.3.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2014-1932"
+          },
+          "ruleId": "CWE-59",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PIL/EpsImagePlugin.py"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Ghostscript",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PIL/Image.py"
+                },
+                "region": {
+                  "startLine": 497,
+                  "endLine": 507
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_dump",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PIL/IptcImagePlugin.py"
+                },
+                "region": {
+                  "startLine": 163,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "load",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PIL/JpegImagePlugin.py"
+                },
+                "region": {
+                  "startLine": 342,
+                  "endLine": 359
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "load_djpeg",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2014-1933"
+          },
+          "ruleId": "CWE-264",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PIL/EpsImagePlugin.py"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Ghostscript",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PIL/Image.py"
+                },
+                "region": {
+                  "startLine": 497,
+                  "endLine": 507
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_dump",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PIL/IptcImagePlugin.py"
+                },
+                "region": {
+                  "startLine": 163,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "load",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "PIL/JpegImagePlugin.py"
+                },
+                "region": {
+                  "startLine": 342,
+                  "endLine": 359
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "load_djpeg",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

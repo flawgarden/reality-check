@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-django-1.7.10"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2015-8213"
+          },
+          "ruleId": "CWE-200",
+          "locations": []
+        }
+      ]
+    }
+  ]
+}

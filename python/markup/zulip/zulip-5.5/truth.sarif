@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-zulip-5.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-31168"
+          },
+          "ruleId": "CWE-863",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "zerver/tests/test_bots.py"
+                },
+                "region": {
+                  "startLine": 1172,
+                  "endLine": 1212
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_patch_bot_role",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "zerver/views/users.py"
+                },
+                "region": {
+                  "startLine": 305,
+                  "endLine": 407
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "patch_bot_backend",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "zerver/views/users.py"
+                },
+                "region": {
+                  "startLine": 173,
+                  "endLine": 232
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "update_user_backend",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

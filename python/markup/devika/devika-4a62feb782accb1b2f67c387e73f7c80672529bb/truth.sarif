@@ -1,0 +1,459 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-devika-4a62feb782accb1b2f67c387e73f7c80672529bb"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2024-5334"
+          },
+          "ruleId": "CWE-73",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "devika.py"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "project_files",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "delete_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "download_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "download_project_pdf",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/state.py"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_project_files",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2024-5548"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "devika.py"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "project_files",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "delete_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "download_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "download_project_pdf",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/state.py"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_project_files",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2024-5549"
+          },
+          "ruleId": "CWE-346",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "devika.py"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "project_files",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "delete_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "download_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "download_project_pdf",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/state.py"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_project_files",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2024-5711"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "devika.py"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "project_files",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "create_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "delete_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "download_project",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/apis/project.py"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "download_project_pdf",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/state.py"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_project_files",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-nova-2012.1.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2012-3360"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_check_safe_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 94,
+                  "endLine": 97
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_check_unsafe_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 99,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_inject_files_with_bad_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 387,
+                  "endLine": 418
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_admin_password_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 328,
+                  "endLine": 341
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_file_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 349,
+                  "endLine": 370
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_key_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 344,
+                  "endLine": 346
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_metadata_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 373,
+                  "endLine": 384
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_net_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 314,
+                  "endLine": 325
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_join_and_check_path_within_fs",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2012-3361"
+          },
+          "ruleId": "CWE-264",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_check_safe_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 94,
+                  "endLine": 97
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_check_unsafe_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 99,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_inject_files_with_bad_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 387,
+                  "endLine": 418
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_admin_password_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 328,
+                  "endLine": 341
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_file_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 349,
+                  "endLine": 370
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_key_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 344,
+                  "endLine": 346
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_metadata_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 373,
+                  "endLine": 384
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_net_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 314,
+                  "endLine": 325
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_join_and_check_path_within_fs",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2012-3447"
+          },
+          "ruleId": "CWE-264",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 155,
+                  "endLine": 164
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 160,
+                  "endLine": 162
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp.nonroot_execute",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 166,
+                  "endLine": 169
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_check_safe_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 171,
+                  "endLine": 174
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_check_unsafe_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_virt.py"
+                },
+                "region": {
+                  "startLine": 176,
+                  "endLine": 180
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_inject_files_with_bad_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_xenapi.py"
+                },
+                "region": {
+                  "startLine": 657,
+                  "endLine": 692
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_spawn_netinject_file",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/tests/test_xenapi.py"
+                },
+                "region": {
+                  "startLine": 680,
+                  "endLine": 681
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_spawn_netinject_file._readlink_handler",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 358,
+                  "endLine": 371
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_join_and_check_path_within_fs",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

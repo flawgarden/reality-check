@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Zope-5.8.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-42458"
+          },
+          "ruleId": "CWE-80",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OFS/Image.py"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_get_list_from_env",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OFS/Image.py"
+                },
+                "region": {
+                  "startLine": 474,
+                  "endLine": 485
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_should_force_download",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OFS/Image.py"
+                },
+                "region": {
+                  "startLine": 488,
+                  "endLine": 561
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "index_html",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OFS/tests/testFileAndImage.py"
+                },
+                "region": {
+                  "startLine": 371,
+                  "endLine": 376
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testViewImageOrFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OFS/tests/testFileAndImage.py"
+                },
+                "region": {
+                  "startLine": 404,
+                  "endLine": 423
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testViewImageOrFileNonAscii",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OFS/tests/testFileAndImage.py"
+                },
+                "region": {
+                  "startLine": 425,
+                  "endLine": 434
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testViewImageOrFile_with_denylist",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/OFS/tests/testFileAndImage.py"
+                },
+                "region": {
+                  "startLine": 436,
+                  "endLine": 443
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "testViewImageOrFile_with_empty_denylist",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

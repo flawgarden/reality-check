@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-tornado-v3.2.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2014-9720"
+          },
+          "ruleId": "CWE-203",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/test/web_test.py"
+                },
+                "region": {
+                  "startLine": 2005,
+                  "endLine": 2019
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_refresh_token",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/web.py"
+                },
+                "region": {
+                  "startLine": 1082,
+                  "endLine": 1109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "check_xsrf_cookie",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/web.py"
+                },
+                "region": {
+                  "startLine": 1063,
+                  "endLine": 1080
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "xsrf_token",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/websocket.py"
+                },
+                "region": {
+                  "startLine": 895,
+                  "endLine": 914
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_websocket_mask_python",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

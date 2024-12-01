@@ -1,0 +1,305 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-vyper-v0.3.8"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-30837"
+          },
+          "ruleId": "CWE-789",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/cli/outputs/test_storage_layout_overrides.py"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_overflow",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/functional/test_storage_slots.py"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_allocator_overflow",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 146,
+                  "endLine": 154
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "allocate_slot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 227,
+                  "endLine": 244
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_code_offsets",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 216
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_storage_slots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_storage_slots_with_overrides",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/types/subscriptable.py"
+                },
+                "region": {
+                  "startLine": 102,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-46247"
+          },
+          "ruleId": "CWE-193",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/cli/outputs/test_storage_layout_overrides.py"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_overflow",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/functional/test_storage_slots.py"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_allocator_overflow",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 146,
+                  "endLine": 154
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "allocate_slot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 227,
+                  "endLine": 244
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_code_offsets",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 216
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_storage_slots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_storage_slots_with_overrides",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/types/subscriptable.py"
+                },
+                "region": {
+                  "startLine": 102,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

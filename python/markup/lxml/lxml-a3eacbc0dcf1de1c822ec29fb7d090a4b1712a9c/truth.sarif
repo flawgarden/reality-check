@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-lxml-a3eacbc0dcf1de1c822ec29fb7d090a4b1712a9c"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-43818"
+          },
+          "ruleId": "CWE-74",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/lxml/html/clean.py"
+                },
+                "region": {
+                  "startLine": 525,
+                  "endLine": 552
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_has_sneaky_javascript",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/lxml/html/tests/test_clean.py"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_sneaky_import_in_style",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/lxml/html/clean.py"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_is_javascript_scheme",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/lxml/html/tests/test_clean.py"
+                },
+                "region": {
+                  "startLine": 168,
+                  "endLine": 189
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_image_data_links",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/lxml/html/tests/test_clean.py"
+                },
+                "region": {
+                  "startLine": 148,
+                  "endLine": 166
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_svg_data_links",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

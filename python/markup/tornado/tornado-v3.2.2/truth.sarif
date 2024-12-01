@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-tornado-v3.2.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2014-9720"
+          },
+          "ruleId": "CWE-203",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/test/web_test.py"
+                },
+                "region": {
+                  "startLine": 2005,
+                  "endLine": 2021
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_refresh_token",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/util.py"
+                },
+                "region": {
+                  "startLine": 276,
+                  "endLine": 295
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_websocket_mask_python",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/web.py"
+                },
+                "region": {
+                  "startLine": 1100,
+                  "endLine": 1121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_decode_xsrf_token",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/web.py"
+                },
+                "region": {
+                  "startLine": 1086,
+                  "endLine": 1098
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_get_raw_xsrf_token",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/web.py"
+                },
+                "region": {
+                  "startLine": 1123,
+                  "endLine": 1152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "check_xsrf_cookie",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tornado/web.py"
+                },
+                "region": {
+                  "startLine": 1062,
+                  "endLine": 1084
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "xsrf_token",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

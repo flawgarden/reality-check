@@ -1,0 +1,194 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-swift-1.7.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2012-4406"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "swift/common/memcached.py"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "swift/common/memcached.py"
+                },
+                "region": {
+                  "startLine": 166,
+                  "endLine": 197
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "swift/common/memcached.py"
+                },
+                "region": {
+                  "startLine": 309,
+                  "endLine": 348
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_multi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "swift/common/memcached.py"
+                },
+                "region": {
+                  "startLine": 136,
+                  "endLine": 164
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "swift/common/memcached.py"
+                },
+                "region": {
+                  "startLine": 274,
+                  "endLine": 307
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_multi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "swift/common/middleware/memcache.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/unit/common/middleware/test_memcache.py"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/unit/common/middleware/test_memcache.py"
+                },
+                "region": {
+                  "startLine": 85,
+                  "endLine": 97
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_conf_set_no_read",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/unit/common/test_memcached.py"
+                },
+                "region": {
+                  "startLine": 246,
+                  "endLine": 263
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_serialization",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/unit/common/test_memcached.py"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 171
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_set_get",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

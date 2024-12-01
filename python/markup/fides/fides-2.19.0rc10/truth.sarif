@@ -1,0 +1,602 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-fides-2.19.0rc10"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-41319"
+          },
+          "ruleId": "CWE-693",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
+                },
+                "region": {
+                  "startLine": 72,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_load_connector_templates",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
+                },
+                "region": {
+                  "startLine": 149,
+                  "endLine": 175
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_register_template",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
+                },
+                "region": {
+                  "startLine": 502,
+                  "endLine": 526
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "custom_guarded_import",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
+                },
+                "region": {
+                  "startLine": 452,
+                  "endLine": 489
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "register_custom_functions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
+                },
+                "region": {
+                  "startLine": 179,
+                  "endLine": 288
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "save_template",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
+                },
+                "region": {
+                  "startLine": 498,
+                  "endLine": 499
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "visit_AnnAssign",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 467,
+                  "endLine": 481
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "complete_connector_template",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 610,
+                  "endLine": 625
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_duplicate_configs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 628,
+                  "endLine": 643
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_duplicate_datasets",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 646,
+                  "endLine": 661
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_duplicate_functions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 664,
+                  "endLine": 679
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_duplicate_icons",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 515,
+                  "endLine": 529
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_invalid_config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 563,
+                  "endLine": 577
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_invalid_dataset",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 484,
+                  "endLine": 496
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_missing_config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 532,
+                  "endLine": 544
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_missing_dataset",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 580,
+                  "endLine": 592
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_no_functions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 595,
+                  "endLine": 607
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_no_icon",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 499,
+                  "endLine": 512
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_wrong_contents_config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 547,
+                  "endLine": 560
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "connector_template_wrong_contents_dataset",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 788,
+                  "endLine": 813
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_register_connector_template_allow_custom_connector_functions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 832,
+                  "endLine": 856
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_register_connector_template_disallow_custom_connector_functions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 681,
+                  "endLine": 701
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_register_connector_template_wrong_scope",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/models/test_custom_connector_template.py"
+                },
+                "region": {
+                  "startLine": 9,
+                  "endLine": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_create_custom_connector_template",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 126
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "replaceable_planet_express_zip",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 372,
+                  "endLine": 410
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_custom_connector_save_template",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 291,
+                  "endLine": 335
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_custom_connector_template_loader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 212,
+                  "endLine": 246
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_custom_connector_template_loader_custom_connector_functions_disabled",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 251,
+                  "endLine": 286
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_custom_connector_template_loader_custom_connector_functions_disabled_custom_functions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 412,
+                  "endLine": 434
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_custom_connector_template_loader_disallowed_modules",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 184,
+                  "endLine": 207
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_custom_connector_template_loader_invalid_functions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 146,
+                  "endLine": 179
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_custom_connector_template_loader_invalid_template",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 137,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_custom_connector_template_loader_no_templates",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 620,
+                  "endLine": 629
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_function_loader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 340,
+                  "endLine": 367
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_loaders_have_separate_instances",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-pydash-v6.0.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-26145"
+          },
+          "ruleId": "CWE-77",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pydash/helpers.py"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 187
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_base_get_object",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pydash/helpers.py"
+                },
+                "region": {
+                  "startLine": 190,
+                  "endLine": 194
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_raise_if_restricted_key",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pydash/helpers.py"
+                },
+                "region": {
+                  "startLine": 197,
+                  "endLine": 227
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "base_set",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_objects.py"
+                },
+                "region": {
+                  "startLine": 403,
+                  "endLine": 404
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_get__does_not_raise_for_dict_or_list_when_path_restricted",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_objects.py"
+                },
+                "region": {
+                  "startLine": 391,
+                  "endLine": 393
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_get__raises_for_objects_when_path_restricted",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

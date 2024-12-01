@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-bentoml-v1.2.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-2912"
+          },
+          "ruleId": "CWE-1188",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/_bentoml_impl/client/__init__.py"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/_bentoml_impl/loader.py"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 170
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "import_service",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/_bentoml_impl/server/app.py"
+                },
+                "region": {
+                  "startLine": 181,
+                  "endLine": 207
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__call__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/_bentoml_impl/server/app.py"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 127
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/_bentoml_impl/server/app.py"
+                },
+                "region": {
+                  "startLine": 399,
+                  "endLine": 476
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "api_endpoint",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/_bentoml_impl/worker/service.py"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 199
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

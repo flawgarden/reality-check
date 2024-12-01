@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-sentry-23.7.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-39349"
+          },
+          "ruleId": "CWE-284",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/sentry/api/authentication.py"
+                },
+                "region": {
+                  "startLine": 165,
+                  "endLine": 169
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "authenticate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/sentry/api/endpoints/test_api_tokens.py"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_deny_token_access",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

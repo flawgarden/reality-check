@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-fava-v1.21"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2022-2514"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fava/application.py"
+                },
+                "region": {
+                  "startLine": 375,
+                  "endLine": 393
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "help_page",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fava/core/file.py"
+                },
+                "region": {
+                  "startLine": 179,
+                  "endLine": 202
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "render_entries",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fava/template_filters.py"
+                },
+                "region": {
+                  "startLine": 148,
+                  "endLine": 159
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "format_errormsg",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

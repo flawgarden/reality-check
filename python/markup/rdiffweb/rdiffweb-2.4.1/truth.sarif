@@ -1,0 +1,475 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-rdiffweb-2.4.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2022-3175"
+          },
+          "ruleId": "CWE-755",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 146,
+                  "endLine": 172
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_edit_delete",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 174,
+                  "endLine": 195
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_edit_delete_user_with_encoding",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 205,
+                  "endLine": 215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_existing_username",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_invalid_role",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 217,
+                  "endLine": 227
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_invalid_root_directory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 117
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_role_admin",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 119,
+                  "endLine": 122
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_role_maintainer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 124,
+                  "endLine": 127
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_role_user",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 229,
+                  "endLine": 232
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_without_email",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 234,
+                  "endLine": 240
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_without_user_root",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 282,
+                  "endLine": 289
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_edit_user_with_invalid_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_prefs.py"
+                },
+                "region": {
+                  "startLine": 87,
+                  "endLine": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_change_password",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_prefs.py"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_change_password_with_wrong_password",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2022-3179"
+          },
+          "ruleId": "CWE-521",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 146,
+                  "endLine": 172
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_edit_delete",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 174,
+                  "endLine": 195
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_edit_delete_user_with_encoding",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 205,
+                  "endLine": 215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_existing_username",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_invalid_role",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 217,
+                  "endLine": 227
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_invalid_root_directory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 117
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_role_admin",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 119,
+                  "endLine": 122
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_role_maintainer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 124,
+                  "endLine": 127
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_role_user",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 229,
+                  "endLine": 232
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_without_email",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 234,
+                  "endLine": 240
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_without_user_root",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_admin.py"
+                },
+                "region": {
+                  "startLine": 282,
+                  "endLine": 289
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_edit_user_with_invalid_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_prefs.py"
+                },
+                "region": {
+                  "startLine": 87,
+                  "endLine": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_change_password",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/controller/tests/test_page_prefs.py"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_change_password_with_wrong_password",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

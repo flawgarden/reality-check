@@ -1,0 +1,169 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-pyrad-2.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2013-0294"
+          },
+          "ruleId": "CWE-330",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pyrad/packet.py"
+                },
+                "region": {
+                  "startLine": 199,
+                  "endLine": 215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreateAuthenticator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pyrad/packet.py"
+                },
+                "region": {
+                  "startLine": 217,
+                  "endLine": 226
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreateID",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pyrad/packet.py"
+                },
+                "region": {
+                  "startLine": 199,
+                  "endLine": 215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreateAuthenticator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pyrad/packet.py"
+                },
+                "region": {
+                  "startLine": 217,
+                  "endLine": 226
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreateID",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2013-0342"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pyrad/packet.py"
+                },
+                "region": {
+                  "startLine": 199,
+                  "endLine": 215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreateAuthenticator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pyrad/packet.py"
+                },
+                "region": {
+                  "startLine": 217,
+                  "endLine": 226
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreateID",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pyrad/packet.py"
+                },
+                "region": {
+                  "startLine": 199,
+                  "endLine": 215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreateAuthenticator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pyrad/packet.py"
+                },
+                "region": {
+                  "startLine": 217,
+                  "endLine": 226
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreateID",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
