@@ -22,8 +22,8 @@
                   "uri": "rdiffweb/core/notification.py"
                 },
                 "region": {
-                  "startLine": 66,
-                  "endLine": 78
+                  "startLine": 68,
+                  "endLine": 80
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "rdiffweb/core/notification.py"
                 },
                 "region": {
-                  "startLine": 111,
-                  "endLine": 123
+                  "startLine": 128,
+                  "endLine": 140
                 }
               },
               "logicalLocations": [
@@ -150,8 +150,8 @@
                   "uri": "rdiffweb/core/notification.py"
                 },
                 "region": {
-                  "startLine": 66,
-                  "endLine": 78
+                  "startLine": 68,
+                  "endLine": 80
                 }
               },
               "logicalLocations": [
@@ -167,8 +167,8 @@
                   "uri": "rdiffweb/core/notification.py"
                 },
                 "region": {
-                  "startLine": 111,
-                  "endLine": 123
+                  "startLine": 128,
+                  "endLine": 140
                 }
               },
               "logicalLocations": [

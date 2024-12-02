@@ -22,8 +22,8 @@
                   "uri": "src/lxml/html/clean.py"
                 },
                 "region": {
-                  "startLine": 525,
-                  "endLine": 552
+                  "startLine": 530,
+                  "endLine": 557
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "src/lxml/html/tests/test_clean.py"
                 },
                 "region": {
-                  "startLine": 126,
-                  "endLine": 144
+                  "startLine": 128,
+                  "endLine": 151
                 }
               },
               "logicalLocations": [
@@ -57,7 +57,7 @@
                 },
                 "region": {
                   "startLine": 86,
-                  "endLine": 94
+                  "endLine": 92
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "src/lxml/html/tests/test_clean.py"
                 },
                 "region": {
-                  "startLine": 168,
-                  "endLine": 189
+                  "startLine": 208,
+                  "endLine": 229
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "src/lxml/html/tests/test_clean.py"
                 },
                 "region": {
-                  "startLine": 148,
-                  "endLine": 166
+                  "startLine": 188,
+                  "endLine": 206
                 }
               },
               "logicalLocations": [

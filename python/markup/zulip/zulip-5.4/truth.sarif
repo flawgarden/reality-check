@@ -19,28 +19,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "zerver/tests/test_bots.py"
-                },
-                "region": {
-                  "startLine": 1171,
-                  "endLine": 1194
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_patch_bot_role",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "zerver/views/users.py"
                 },
                 "region": {
-                  "startLine": 172,
-                  "endLine": 231
+                  "startLine": 169,
+                  "endLine": 225
                 }
               },
               "logicalLocations": [

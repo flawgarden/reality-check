@@ -22,8 +22,8 @@
                   "uri": "mlflow/utils/uri.py"
                 },
                 "region": {
-                  "startLine": 422,
-                  "endLine": 449
+                  "startLine": 444,
+                  "endLine": 473
                 }
               },
               "logicalLocations": [
@@ -124,8 +124,8 @@
                   "uri": "tests/utils/test_uri.py"
                 },
                 "region": {
-                  "startLine": 778,
-                  "endLine": 780
+                  "startLine": 796,
+                  "endLine": 798
                 }
               },
               "logicalLocations": [
@@ -141,8 +141,8 @@
                   "uri": "tests/utils/test_uri.py"
                 },
                 "region": {
-                  "startLine": 738,
-                  "endLine": 739
+                  "startLine": 756,
+                  "endLine": 757
                 }
               },
               "logicalLocations": [
@@ -158,8 +158,8 @@
                   "uri": "tests/utils/test_uri.py"
                 },
                 "region": {
-                  "startLine": 874,
-                  "endLine": 876
+                  "startLine": 892,
+                  "endLine": 894
                 }
               },
               "logicalLocations": [
@@ -175,8 +175,8 @@
                   "uri": "tests/utils/test_uri.py"
                 },
                 "region": {
-                  "startLine": 750,
-                  "endLine": 751
+                  "startLine": 768,
+                  "endLine": 769
                 }
               },
               "logicalLocations": [

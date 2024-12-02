@@ -39,8 +39,8 @@
                   "uri": "openapi_python_client/__init__.py"
                 },
                 "region": {
-                  "startLine": 210,
-                  "endLine": 238
+                  "startLine": 212,
+                  "endLine": 240
                 }
               },
               "logicalLocations": [
@@ -151,7 +151,7 @@
                 },
                 "region": {
                   "startLine": 15,
-                  "endLine": 18
+                  "endLine": 50
                 }
               },
               "logicalLocations": [
@@ -168,41 +168,7 @@
                 },
                 "region": {
                   "startLine": 99,
-                  "endLine": 115
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_defaults_tests_test_defaults_post",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "end_to_end_tests/golden-master/my_test_api_client/async_api/tests.py"
-                },
-                "region": {
-                  "startLine": 15,
-                  "endLine": 18
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "get_user_list",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "end_to_end_tests/golden-master/my_test_api_client/async_api/tests.py"
-                },
-                "region": {
-                  "startLine": 102,
-                  "endLine": 118
+                  "endLine": 174
                 }
               },
               "logicalLocations": [
@@ -575,8 +541,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 13,
-                  "endLine": 22
+                  "startLine": 10,
+                  "endLine": 19
                 }
               },
               "logicalLocations": [
@@ -592,8 +558,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 259,
-                  "endLine": 271
+                  "startLine": 256,
+                  "endLine": 268
                 }
               },
               "logicalLocations": [
@@ -609,8 +575,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 60,
-                  "endLine": 70
+                  "startLine": 57,
+                  "endLine": 67
                 }
               },
               "logicalLocations": [
@@ -626,8 +592,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 273,
-                  "endLine": 281
+                  "startLine": 270,
+                  "endLine": 278
                 }
               },
               "logicalLocations": [
@@ -643,8 +609,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 91,
-                  "endLine": 107
+                  "startLine": 88,
+                  "endLine": 104
                 }
               },
               "logicalLocations": [
@@ -660,8 +626,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 672,
-                  "endLine": 688
+                  "startLine": 669,
+                  "endLine": 685
                 }
               },
               "logicalLocations": [
@@ -677,8 +643,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 701,
-                  "endLine": 711
+                  "startLine": 698,
+                  "endLine": 708
                 }
               },
               "logicalLocations": [
@@ -694,8 +660,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 583,
-                  "endLine": 608
+                  "startLine": 580,
+                  "endLine": 605
                 }
               },
               "logicalLocations": [
@@ -711,8 +677,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 610,
-                  "endLine": 624
+                  "startLine": 607,
+                  "endLine": 621
                 }
               },
               "logicalLocations": [
@@ -728,8 +694,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 649,
-                  "endLine": 670
+                  "startLine": 646,
+                  "endLine": 667
                 }
               },
               "logicalLocations": [
@@ -745,8 +711,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 626,
-                  "endLine": 638
+                  "startLine": 623,
+                  "endLine": 635
                 }
               },
               "logicalLocations": [
@@ -762,8 +728,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 713,
-                  "endLine": 734
+                  "startLine": 710,
+                  "endLine": 731
                 }
               },
               "logicalLocations": [
@@ -779,8 +745,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 736,
-                  "endLine": 746
+                  "startLine": 733,
+                  "endLine": 743
                 }
               },
               "logicalLocations": [
@@ -796,8 +762,8 @@
                   "uri": "tests/test_openapi_parser/test_properties.py"
                 },
                 "region": {
-                  "startLine": 769,
-                  "endLine": 778
+                  "startLine": 766,
+                  "endLine": 775
                 }
               },
               "logicalLocations": [

@@ -22,8 +22,8 @@
                   "uri": "mlflow/utils/uri.py"
                 },
                 "region": {
-                  "startLine": 422,
-                  "endLine": 446
+                  "startLine": 419,
+                  "endLine": 439
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "tests/tracking/test_rest_tracking.py"
                 },
                 "region": {
-                  "startLine": 663,
-                  "endLine": 692
+                  "startLine": 661,
+                  "endLine": 690
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "tests/tracking/test_rest_tracking.py"
                 },
                 "region": {
-                  "startLine": 669,
-                  "endLine": 674
+                  "startLine": 667,
+                  "endLine": 672
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "tests/tracking/test_rest_tracking.py"
                 },
                 "region": {
-                  "startLine": 562,
-                  "endLine": 564
+                  "startLine": 560,
+                  "endLine": 562
                 }
               },
               "logicalLocations": [
@@ -124,8 +124,8 @@
                   "uri": "tests/tracking/test_rest_tracking.py"
                 },
                 "region": {
-                  "startLine": 658,
-                  "endLine": 660
+                  "startLine": 656,
+                  "endLine": 658
                 }
               },
               "logicalLocations": [

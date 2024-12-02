@@ -22,8 +22,8 @@
                   "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
                 },
                 "region": {
-                  "startLine": 72,
-                  "endLine": 103
+                  "startLine": 66,
+                  "endLine": 96
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
                 },
                 "region": {
-                  "startLine": 149,
-                  "endLine": 175
+                  "startLine": 142,
+                  "endLine": 160
                 }
               },
               "logicalLocations": [
@@ -56,42 +56,8 @@
                   "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
                 },
                 "region": {
-                  "startLine": 502,
-                  "endLine": 526
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "custom_guarded_import",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
-                },
-                "region": {
-                  "startLine": 452,
-                  "endLine": 489
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "register_custom_functions",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
-                },
-                "region": {
-                  "startLine": 179,
-                  "endLine": 288
+                  "startLine": 164,
+                  "endLine": 265
                 }
               },
               "logicalLocations": [
@@ -104,28 +70,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
-                },
-                "region": {
-                  "startLine": 498,
-                  "endLine": 499
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "visit_AnnAssign",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
                   "startLine": 467,
-                  "endLine": 481
+                  "endLine": 479
                 }
               },
               "logicalLocations": [
@@ -158,8 +107,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 628,
-                  "endLine": 643
+                  "startLine": 595,
+                  "endLine": 608
                 }
               },
               "logicalLocations": [
@@ -175,25 +124,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 646,
-                  "endLine": 661
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "connector_template_duplicate_functions",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
-                },
-                "region": {
-                  "startLine": 664,
-                  "endLine": 679
+                  "startLine": 611,
+                  "endLine": 624
                 }
               },
               "logicalLocations": [
@@ -209,8 +141,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 515,
-                  "endLine": 529
+                  "startLine": 509,
+                  "endLine": 521
                 }
               },
               "logicalLocations": [
@@ -226,8 +158,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 563,
-                  "endLine": 577
+                  "startLine": 551,
+                  "endLine": 563
                 }
               },
               "logicalLocations": [
@@ -243,8 +175,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 484,
-                  "endLine": 496
+                  "startLine": 482,
+                  "endLine": 492
                 }
               },
               "logicalLocations": [
@@ -260,8 +192,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 532,
-                  "endLine": 544
+                  "startLine": 524,
+                  "endLine": 534
                 }
               },
               "logicalLocations": [
@@ -277,25 +209,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 580,
-                  "endLine": 592
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "connector_template_no_functions",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
-                },
-                "region": {
-                  "startLine": 595,
-                  "endLine": 607
+                  "startLine": 566,
+                  "endLine": 576
                 }
               },
               "logicalLocations": [
@@ -311,8 +226,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 499,
-                  "endLine": 512
+                  "startLine": 495,
+                  "endLine": 506
                 }
               },
               "logicalLocations": [
@@ -328,8 +243,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 547,
-                  "endLine": 560
+                  "startLine": 537,
+                  "endLine": 548
                 }
               },
               "logicalLocations": [
@@ -345,42 +260,8 @@
                   "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
                 },
                 "region": {
-                  "startLine": 788,
-                  "endLine": 813
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_register_connector_template_allow_custom_connector_functions",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
-                },
-                "region": {
-                  "startLine": 832,
-                  "endLine": 856
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_register_connector_template_disallow_custom_connector_functions",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
-                },
-                "region": {
-                  "startLine": 681,
-                  "endLine": 701
+                  "startLine": 626,
+                  "endLine": 645
                 }
               },
               "logicalLocations": [
@@ -413,8 +294,8 @@
                   "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
                 },
                 "region": {
-                  "startLine": 112,
-                  "endLine": 126
+                  "startLine": 111,
+                  "endLine": 123
                 }
               },
               "logicalLocations": [
@@ -430,8 +311,8 @@
                   "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
                 },
                 "region": {
-                  "startLine": 372,
-                  "endLine": 410
+                  "startLine": 224,
+                  "endLine": 259
                 }
               },
               "logicalLocations": [
@@ -447,8 +328,8 @@
                   "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
                 },
                 "region": {
-                  "startLine": 291,
-                  "endLine": 335
+                  "startLine": 163,
+                  "endLine": 191
                 }
               },
               "logicalLocations": [
@@ -464,76 +345,8 @@
                   "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
                 },
                 "region": {
-                  "startLine": 212,
-                  "endLine": 246
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_custom_connector_template_loader_custom_connector_functions_disabled",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
-                },
-                "region": {
-                  "startLine": 251,
-                  "endLine": 286
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_custom_connector_template_loader_custom_connector_functions_disabled_custom_functions",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
-                },
-                "region": {
-                  "startLine": 412,
-                  "endLine": 434
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_custom_connector_template_loader_disallowed_modules",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
-                },
-                "region": {
-                  "startLine": 184,
-                  "endLine": 207
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_custom_connector_template_loader_invalid_functions",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
-                },
-                "region": {
-                  "startLine": 146,
-                  "endLine": 179
+                  "startLine": 141,
+                  "endLine": 158
                 }
               },
               "logicalLocations": [
@@ -549,8 +362,8 @@
                   "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
                 },
                 "region": {
-                  "startLine": 137,
-                  "endLine": 141
+                  "startLine": 134,
+                  "endLine": 136
                 }
               },
               "logicalLocations": [
@@ -566,25 +379,8 @@
                   "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
                 },
                 "region": {
-                  "startLine": 620,
-                  "endLine": 629
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_function_loader",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
-                },
-                "region": {
-                  "startLine": 340,
-                  "endLine": 367
+                  "startLine": 196,
+                  "endLine": 219
                 }
               },
               "logicalLocations": [

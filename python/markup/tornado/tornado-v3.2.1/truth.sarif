@@ -19,23 +19,6 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "tornado/test/web_test.py"
-                },
-                "region": {
-                  "startLine": 2005,
-                  "endLine": 2019
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_refresh_token",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "tornado/web.py"
                 },
                 "region": {

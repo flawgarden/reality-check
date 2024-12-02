@@ -15,7 +15,25 @@
             "text": "CVE-2015-8213"
           },
           "ruleId": "CWE-200",
-          "locations": []
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "django/utils/formats.py"
+                },
+                "region": {
+                  "startLine": 78,
+                  "endLine": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_format",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -22,8 +22,8 @@
                   "uri": "tornado/test/web_test.py"
                 },
                 "region": {
-                  "startLine": 2005,
-                  "endLine": 2021
+                  "startLine": 2011,
+                  "endLine": 2027
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "tornado/web.py"
                 },
                 "region": {
-                  "startLine": 1100,
-                  "endLine": 1121
+                  "startLine": 1102,
+                  "endLine": 1124
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "tornado/web.py"
                 },
                 "region": {
-                  "startLine": 1086,
-                  "endLine": 1098
+                  "startLine": 1102,
+                  "endLine": 1124
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "tornado/web.py"
                 },
                 "region": {
-                  "startLine": 1123,
-                  "endLine": 1152
+                  "startLine": 1152,
+                  "endLine": 1185
                 }
               },
               "logicalLocations": [
@@ -108,7 +108,7 @@
                 },
                 "region": {
                   "startLine": 1062,
-                  "endLine": 1084
+                  "endLine": 1100
                 }
               },
               "logicalLocations": [

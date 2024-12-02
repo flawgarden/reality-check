@@ -22,8 +22,8 @@
                   "uri": "nova/api/ec2/cloud.py"
                 },
                 "region": {
-                  "startLine": 690,
-                  "endLine": 751
+                  "startLine": 598,
+                  "endLine": 623
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "nova/api/ec2/cloud.py"
                 },
                 "region": {
-                  "startLine": 770,
-                  "endLine": 806
+                  "startLine": 642,
+                  "endLine": 664
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "nova/api/openstack/compute/contrib/security_groups.py"
                 },
                 "region": {
-                  "startLine": 272,
-                  "endLine": 311
+                  "startLine": 286,
+                  "endLine": 303
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "nova/db/api.py"
                 },
                 "region": {
-                  "startLine": 1154,
-                  "endLine": 1156
+                  "startLine": 1305,
+                  "endLine": 1308
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "nova/db/api.py"
                 },
                 "region": {
-                  "startLine": 1190,
-                  "endLine": 1192
+                  "startLine": 1342,
+                  "endLine": 1344
                 }
               },
               "logicalLocations": [
@@ -107,8 +107,8 @@
                   "uri": "nova/db/sqlalchemy/api.py"
                 },
                 "region": {
-                  "startLine": 2907,
-                  "endLine": 2911
+                  "startLine": 3576,
+                  "endLine": 3581
                 }
               },
               "logicalLocations": [
@@ -124,8 +124,8 @@
                   "uri": "nova/db/sqlalchemy/api.py"
                 },
                 "region": {
-                  "startLine": 2972,
-                  "endLine": 2976
+                  "startLine": 3642,
+                  "endLine": 3646
                 }
               },
               "logicalLocations": [
@@ -138,62 +138,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "nova/quota.py"
-                },
-                "region": {
-                  "startLine": 74,
-                  "endLine": 90
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "_get_default_quotas",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/quota.py"
-                },
-                "region": {
-                  "startLine": 193,
-                  "endLine": 204
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "allowed_security_group_rules",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/quota.py"
-                },
-                "region": {
-                  "startLine": 181,
-                  "endLine": 190
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "allowed_security_groups",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "nova/tests/api/ec2/test_cloud.py"
                 },
                 "region": {
-                  "startLine": 451,
-                  "endLine": 462
+                  "startLine": 543,
+                  "endLine": 554
                 }
               },
               "logicalLocations": [
@@ -209,8 +158,8 @@
                   "uri": "nova/tests/api/ec2/test_cloud.py"
                 },
                 "region": {
-                  "startLine": 274,
-                  "endLine": 284
+                  "startLine": 366,
+                  "endLine": 372
                 }
               },
               "logicalLocations": [
@@ -227,7 +176,7 @@
                 },
                 "region": {
                   "startLine": 25,
-                  "endLine": 30
+                  "endLine": 31
                 }
               },
               "logicalLocations": [
@@ -243,8 +192,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quota_classes.py"
                 },
                 "region": {
-                  "startLine": 151,
-                  "endLine": 181
+                  "startLine": 161,
+                  "endLine": 193
                 }
               },
               "logicalLocations": [
@@ -260,8 +209,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quota_classes.py"
                 },
                 "region": {
-                  "startLine": 39,
-                  "endLine": 69
+                  "startLine": 49,
+                  "endLine": 74
                 }
               },
               "logicalLocations": [
@@ -277,7 +226,7 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quota_classes.py"
                 },
                 "region": {
-                  "startLine": 85,
+                  "startLine": 90,
                   "endLine": 100
                 }
               },
@@ -294,8 +243,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quota_classes.py"
                 },
                 "region": {
-                  "startLine": 102,
-                  "endLine": 115
+                  "startLine": 109,
+                  "endLine": 118
                 }
               },
               "logicalLocations": [
@@ -311,8 +260,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quota_classes.py"
                 },
                 "region": {
-                  "startLine": 124,
-                  "endLine": 149
+                  "startLine": 132,
+                  "endLine": 159
                 }
               },
               "logicalLocations": [
@@ -329,7 +278,7 @@
                 },
                 "region": {
                   "startLine": 27,
-                  "endLine": 32
+                  "endLine": 33
                 }
               },
               "logicalLocations": [
@@ -345,8 +294,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 180,
-                  "endLine": 210
+                  "startLine": 192,
+                  "endLine": 224
                 }
               },
               "logicalLocations": [
@@ -362,8 +311,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 41,
-                  "endLine": 70
+                  "startLine": 42,
+                  "endLine": 75
                 }
               },
               "logicalLocations": [
@@ -379,8 +328,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 72,
-                  "endLine": 93
+                  "startLine": 77,
+                  "endLine": 100
                 }
               },
               "logicalLocations": [
@@ -396,8 +345,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 107,
-                  "endLine": 120
+                  "startLine": 114,
+                  "endLine": 123
                 }
               },
               "logicalLocations": [
@@ -413,8 +362,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 122,
-                  "endLine": 133
+                  "startLine": 131,
+                  "endLine": 139
                 }
               },
               "logicalLocations": [
@@ -430,8 +379,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 154,
-                  "endLine": 178
+                  "startLine": 164,
+                  "endLine": 190
                 }
               },
               "logicalLocations": [
@@ -447,8 +396,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_security_groups.py"
                 },
                 "region": {
-                  "startLine": 912,
-                  "endLine": 926
+                  "startLine": 1001,
+                  "endLine": 1016
                 }
               },
               "logicalLocations": [
@@ -464,8 +413,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_security_groups.py"
                 },
                 "region": {
-                  "startLine": 225,
-                  "endLine": 235
+                  "startLine": 260,
+                  "endLine": 271
                 }
               },
               "logicalLocations": [
@@ -481,268 +430,13 @@
                   "uri": "nova/tests/test_quota.py"
                 },
                 "region": {
-                  "startLine": 51,
-                  "endLine": 72
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "_stub_class",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 52,
-                  "endLine": 69
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "_stub_class.fake_quota_class_get_all_by_name",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 74,
-                  "endLine": 95
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "_stub_project",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 75,
-                  "endLine": 92
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "_stub_project.fake_quota_get_all_by_project",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 36,
-                  "endLine": 49
+                  "startLine": 43,
+                  "endLine": 77
                 }
               },
               "logicalLocations": [
                 {
                   "name": "setUp",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 157,
-                  "endLine": 172
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_class_quotas",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 140,
-                  "endLine": 155
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_class_quotas_noclass",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 97,
-                  "endLine": 111
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_default_quotas",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 113,
-                  "endLine": 138
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_default_quotas_unlimited",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 174,
-                  "endLine": 190
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_project_quotas_defaults_noclass",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 210,
-                  "endLine": 227
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_project_quotas_defaults_withclass",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 192,
-                  "endLine": 208
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_project_quotas_overrides_noclass",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 229,
-                  "endLine": 246
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_project_quotas_overrides_withclass",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 441,
-                  "endLine": 457
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_unlimited_security_group_rules",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 443,
-                  "endLine": 444
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_unlimited_security_group_rules.fake_security_group_rule_count_by_group",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_quota.py"
-                },
-                "region": {
-                  "startLine": 431,
-                  "endLine": 439
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_unlimited_security_groups",
                   "kind": "function"
                 }
               ]

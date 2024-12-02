@@ -56,8 +56,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 143,
-                  "endLine": 144
+                  "startLine": 142,
+                  "endLine": 143
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 146,
-                  "endLine": 154
+                  "startLine": 145,
+                  "endLine": 153
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 227,
-                  "endLine": 244
+                  "startLine": 225,
+                  "endLine": 242
                 }
               },
               "logicalLocations": [
@@ -107,8 +107,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 157,
-                  "endLine": 216
+                  "startLine": 156,
+                  "endLine": 214
                 }
               },
               "logicalLocations": [
@@ -124,8 +124,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 70,
-                  "endLine": 139
+                  "startLine": 69,
+                  "endLine": 138
                 }
               },
               "logicalLocations": [
@@ -141,8 +141,8 @@
                   "uri": "vyper/semantics/types/subscriptable.py"
                 },
                 "region": {
-                  "startLine": 102,
-                  "endLine": 110
+                  "startLine": 110,
+                  "endLine": 118
                 }
               },
               "logicalLocations": [
@@ -201,8 +201,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 143,
-                  "endLine": 144
+                  "startLine": 142,
+                  "endLine": 143
                 }
               },
               "logicalLocations": [
@@ -218,8 +218,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 146,
-                  "endLine": 154
+                  "startLine": 145,
+                  "endLine": 153
                 }
               },
               "logicalLocations": [
@@ -235,8 +235,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 227,
-                  "endLine": 244
+                  "startLine": 225,
+                  "endLine": 242
                 }
               },
               "logicalLocations": [
@@ -252,8 +252,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 157,
-                  "endLine": 216
+                  "startLine": 156,
+                  "endLine": 214
                 }
               },
               "logicalLocations": [
@@ -269,8 +269,8 @@
                   "uri": "vyper/semantics/analysis/data_positions.py"
                 },
                 "region": {
-                  "startLine": 70,
-                  "endLine": 139
+                  "startLine": 69,
+                  "endLine": 138
                 }
               },
               "logicalLocations": [
@@ -286,8 +286,8 @@
                   "uri": "vyper/semantics/types/subscriptable.py"
                 },
                 "region": {
-                  "startLine": 102,
-                  "endLine": 110
+                  "startLine": 110,
+                  "endLine": 118
                 }
               },
               "logicalLocations": [

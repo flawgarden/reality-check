@@ -22,8 +22,8 @@
                   "uri": "zerver/tests/test_bots.py"
                 },
                 "region": {
-                  "startLine": 1172,
-                  "endLine": 1212
+                  "startLine": 1173,
+                  "endLine": 1207
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "zerver/views/users.py"
                 },
                 "region": {
-                  "startLine": 305,
-                  "endLine": 407
+                  "startLine": 290,
+                  "endLine": 374
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "zerver/views/users.py"
                 },
                 "region": {
-                  "startLine": 173,
-                  "endLine": 232
+                  "startLine": 170,
+                  "endLine": 226
                 }
               },
               "logicalLocations": [

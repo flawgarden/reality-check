@@ -73,8 +73,8 @@
                   "uri": "omeroweb/webclient/views.py"
                 },
                 "region": {
-                  "startLine": 2777,
-                  "endLine": 3139
+                  "startLine": 2772,
+                  "endLine": 3134
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "omeroweb/webgateway/views.py"
                 },
                 "region": {
-                  "startLine": 2895,
-                  "endLine": 3027
+                  "startLine": 2899,
+                  "endLine": 3017
                 }
               },
               "logicalLocations": [
@@ -167,8 +167,8 @@
                   "uri": "omeroweb/webclient/views.py"
                 },
                 "region": {
-                  "startLine": 2777,
-                  "endLine": 3139
+                  "startLine": 2772,
+                  "endLine": 3134
                 }
               },
               "logicalLocations": [
@@ -184,8 +184,8 @@
                   "uri": "omeroweb/webgateway/views.py"
                 },
                 "region": {
-                  "startLine": 2895,
-                  "endLine": 3027
+                  "startLine": 2899,
+                  "endLine": 3017
                 }
               },
               "logicalLocations": [

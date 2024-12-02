@@ -19,45 +19,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "mlflow/pyfunc/_mlflow_pyfunc_backend_predict.py"
-                },
-                "region": {
-                  "startLine": 18,
-                  "endLine": 25
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "main",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "mlflow/pyfunc/_mlflow_pyfunc_backend_predict.py"
-                },
-                "region": {
-                  "startLine": 9,
-                  "endLine": 15
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "parse_args",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "mlflow/pyfunc/backend.py"
                 },
                 "region": {
-                  "startLine": 136,
-                  "endLine": 162
+                  "startLine": 134,
+                  "endLine": 161
                 }
               },
               "logicalLocations": [
@@ -73,8 +39,8 @@
                   "uri": "mlflow/pyfunc/scoring_server/__init__.py"
                 },
                 "region": {
-                  "startLine": 328,
-                  "endLine": 367
+                  "startLine": 326,
+                  "endLine": 363
                 }
               },
               "logicalLocations": [
@@ -90,98 +56,13 @@
                   "uri": "tests/models/test_cli.py"
                 },
                 "region": {
-                  "startLine": 746,
-                  "endLine": 762
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_host_invalid_value",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/models/test_cli.py"
-                },
-                "region": {
-                  "startLine": 748,
-                  "endLine": 749
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_host_invalid_value.predict",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/models/test_cli.py"
-                },
-                "region": {
-                  "startLine": 174,
-                  "endLine": 333
+                  "startLine": 172,
+                  "endLine": 331
                 }
               },
               "logicalLocations": [
                 {
                   "name": "test_predict",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/models/test_cli.py"
-                },
-                "region": {
-                  "startLine": 336,
-                  "endLine": 373
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_predict_check_content_type",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/models/test_cli.py"
-                },
-                "region": {
-                  "startLine": 376,
-                  "endLine": 462
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_predict_check_input_path",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/models/test_cli.py"
-                },
-                "region": {
-                  "startLine": 465,
-                  "endLine": 500
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_predict_check_output_path",
                   "kind": "function"
                 }
               ]

@@ -23,7 +23,7 @@
                 },
                 "region": {
                   "startLine": 34,
-                  "endLine": 112
+                  "endLine": 115
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "flask_appbuilder/security/api.py"
                 },
                 "region": {
-                  "startLine": 117,
-                  "endLine": 148
+                  "startLine": 120,
+                  "endLine": 151
                 }
               },
               "logicalLocations": [
@@ -277,8 +277,8 @@
                   "uri": "flask_appbuilder/security/schemas.py"
                 },
                 "region": {
-                  "startLine": 24,
-                  "endLine": 28
+                  "startLine": 22,
+                  "endLine": 26
                 }
               },
               "logicalLocations": [

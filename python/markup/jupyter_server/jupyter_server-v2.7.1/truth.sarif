@@ -15,7 +15,25 @@
             "text": "CVE-2023-40170"
           },
           "ruleId": "CWE-306",
-          "locations": []
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "jupyter_server/base/handlers.py"
+                },
+                "region": {
+                  "startLine": 856,
+                  "endLine": 863
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

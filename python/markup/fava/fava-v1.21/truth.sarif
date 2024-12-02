@@ -22,8 +22,8 @@
                   "uri": "src/fava/application.py"
                 },
                 "region": {
-                  "startLine": 375,
-                  "endLine": 393
+                  "startLine": 371,
+                  "endLine": 389
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "src/fava/template_filters.py"
                 },
                 "region": {
-                  "startLine": 148,
-                  "endLine": 159
+                  "startLine": 147,
+                  "endLine": 158
                 }
               },
               "logicalLocations": [

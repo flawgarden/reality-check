@@ -90,8 +90,8 @@
                   "uri": "wagtail/images/models.py"
                 },
                 "region": {
-                  "startLine": 271,
-                  "endLine": 273
+                  "startLine": 270,
+                  "endLine": 272
                 }
               },
               "logicalLocations": [
@@ -107,8 +107,8 @@
                   "uri": "wagtail/images/models.py"
                 },
                 "region": {
-                  "startLine": 282,
-                  "endLine": 290
+                  "startLine": 281,
+                  "endLine": 289
                 }
               },
               "logicalLocations": [
@@ -124,8 +124,8 @@
                   "uri": "wagtail/images/models.py"
                 },
                 "region": {
-                  "startLine": 275,
-                  "endLine": 280
+                  "startLine": 274,
+                  "endLine": 279
                 }
               },
               "logicalLocations": [
@@ -294,8 +294,8 @@
                   "uri": "wagtail/images/fields.py"
                 },
                 "region": {
-                  "startLine": 139,
-                  "endLine": 181
+                  "startLine": 122,
+                  "endLine": 164
                 }
               },
               "logicalLocations": [
@@ -311,8 +311,8 @@
                   "uri": "wagtail/images/tests/test_admin_views.py"
                 },
                 "region": {
-                  "startLine": 570,
-                  "endLine": 606
+                  "startLine": 508,
+                  "endLine": 544
                 }
               },
               "logicalLocations": [

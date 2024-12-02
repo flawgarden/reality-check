@@ -881,8 +881,8 @@
                   "uri": "synapse/http/client.py"
                 },
                 "region": {
-                  "startLine": 760,
-                  "endLine": 772
+                  "startLine": 742,
+                  "endLine": 754
                 }
               },
               "logicalLocations": [
@@ -898,8 +898,8 @@
                   "uri": "synapse/http/client.py"
                 },
                 "region": {
-                  "startLine": 668,
-                  "endLine": 736
+                  "startLine": 650,
+                  "endLine": 718
                 }
               },
               "logicalLocations": [
@@ -915,8 +915,8 @@
                   "uri": "synapse/http/client.py"
                 },
                 "region": {
-                  "startLine": 785,
-                  "endLine": 802
+                  "startLine": 767,
+                  "endLine": 784
                 }
               },
               "logicalLocations": [
@@ -949,8 +949,8 @@
                   "uri": "synapse/http/matrixfederationclient.py"
                 },
                 "region": {
-                  "startLine": 934,
-                  "endLine": 999
+                  "startLine": 944,
+                  "endLine": 1009
                 }
               },
               "logicalLocations": [

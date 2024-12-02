@@ -22,8 +22,8 @@
                   "uri": "nova/tests/test_virt.py"
                 },
                 "region": {
-                  "startLine": 89,
-                  "endLine": 92
+                  "startLine": 101,
+                  "endLine": 104
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "nova/tests/test_virt.py"
                 },
                 "region": {
-                  "startLine": 94,
-                  "endLine": 97
+                  "startLine": 106,
+                  "endLine": 109
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "nova/tests/test_virt.py"
                 },
                 "region": {
-                  "startLine": 99,
-                  "endLine": 103
+                  "startLine": 111,
+                  "endLine": 115
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 387,
-                  "endLine": 418
+                  "startLine": 384,
+                  "endLine": 415
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 328,
-                  "endLine": 341
+                  "startLine": 325,
+                  "endLine": 338
                 }
               },
               "logicalLocations": [
@@ -107,8 +107,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 349,
-                  "endLine": 370
+                  "startLine": 346,
+                  "endLine": 367
                 }
               },
               "logicalLocations": [
@@ -124,8 +124,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 344,
-                  "endLine": 346
+                  "startLine": 341,
+                  "endLine": 343
                 }
               },
               "logicalLocations": [
@@ -141,8 +141,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 373,
-                  "endLine": 384
+                  "startLine": 370,
+                  "endLine": 381
                 }
               },
               "logicalLocations": [
@@ -158,8 +158,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 314,
-                  "endLine": 325
+                  "startLine": 311,
+                  "endLine": 322
                 }
               },
               "logicalLocations": [
@@ -184,8 +184,8 @@
                   "uri": "nova/tests/test_virt.py"
                 },
                 "region": {
-                  "startLine": 89,
-                  "endLine": 92
+                  "startLine": 101,
+                  "endLine": 104
                 }
               },
               "logicalLocations": [
@@ -201,8 +201,8 @@
                   "uri": "nova/tests/test_virt.py"
                 },
                 "region": {
-                  "startLine": 94,
-                  "endLine": 97
+                  "startLine": 106,
+                  "endLine": 109
                 }
               },
               "logicalLocations": [
@@ -218,8 +218,8 @@
                   "uri": "nova/tests/test_virt.py"
                 },
                 "region": {
-                  "startLine": 99,
-                  "endLine": 103
+                  "startLine": 111,
+                  "endLine": 115
                 }
               },
               "logicalLocations": [
@@ -235,8 +235,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 387,
-                  "endLine": 418
+                  "startLine": 384,
+                  "endLine": 415
                 }
               },
               "logicalLocations": [
@@ -252,8 +252,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 328,
-                  "endLine": 341
+                  "startLine": 325,
+                  "endLine": 338
                 }
               },
               "logicalLocations": [
@@ -269,8 +269,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 349,
-                  "endLine": 370
+                  "startLine": 346,
+                  "endLine": 367
                 }
               },
               "logicalLocations": [
@@ -286,8 +286,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 344,
-                  "endLine": 346
+                  "startLine": 341,
+                  "endLine": 343
                 }
               },
               "logicalLocations": [
@@ -303,8 +303,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 373,
-                  "endLine": 384
+                  "startLine": 370,
+                  "endLine": 381
                 }
               },
               "logicalLocations": [
@@ -320,153 +320,8 @@
                   "uri": "nova/virt/disk/api.py"
                 },
                 "region": {
-                  "startLine": 314,
-                  "endLine": 325
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "_join_and_check_path_within_fs",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "kind": "pass",
-          "message": {
-            "text": "CVE-2012-3447"
-          },
-          "ruleId": "CWE-264",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_virt.py"
-                },
-                "region": {
-                  "startLine": 155,
-                  "endLine": 164
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "setUp",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_virt.py"
-                },
-                "region": {
-                  "startLine": 160,
-                  "endLine": 162
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "setUp.nonroot_execute",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_virt.py"
-                },
-                "region": {
-                  "startLine": 166,
-                  "endLine": 169
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_check_safe_path",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_virt.py"
-                },
-                "region": {
-                  "startLine": 171,
-                  "endLine": 174
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_check_unsafe_path",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_virt.py"
-                },
-                "region": {
-                  "startLine": 176,
-                  "endLine": 180
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_inject_files_with_bad_path",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_xenapi.py"
-                },
-                "region": {
-                  "startLine": 657,
-                  "endLine": 692
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_spawn_netinject_file",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/test_xenapi.py"
-                },
-                "region": {
-                  "startLine": 680,
-                  "endLine": 681
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_spawn_netinject_file._readlink_handler",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/virt/disk/api.py"
-                },
-                "region": {
-                  "startLine": 358,
-                  "endLine": 371
+                  "startLine": 311,
+                  "endLine": 322
                 }
               },
               "logicalLocations": [

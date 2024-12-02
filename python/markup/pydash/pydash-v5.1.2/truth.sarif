@@ -15,7 +15,42 @@
             "text": "CVE-2023-26145"
           },
           "ruleId": "CWE-77",
-          "locations": []
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pydash/helpers.py"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 187
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_base_get_object",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pydash/helpers.py"
+                },
+                "region": {
+                  "startLine": 189,
+                  "endLine": 218
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "base_set",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

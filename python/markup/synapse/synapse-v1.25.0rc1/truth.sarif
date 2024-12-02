@@ -22,8 +22,8 @@
                   "uri": "synapse/config/federation.py"
                 },
                 "region": {
-                  "startLine": 72,
-                  "endLine": 120
+                  "startLine": 44,
+                  "endLine": 69
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "synapse/config/federation.py"
                 },
                 "region": {
-                  "startLine": 27,
-                  "endLine": 70
+                  "startLine": 24,
+                  "endLine": 42
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "synapse/crypto/keyring.py"
                 },
                 "region": {
-                  "startLine": 578,
-                  "endLine": 582
+                  "startLine": 605,
+                  "endLine": 609
                 }
               },
               "logicalLocations": [
@@ -108,7 +108,7 @@
                 },
                 "region": {
                   "startLine": 46,
-                  "endLine": 56
+                  "endLine": 58
                 }
               },
               "logicalLocations": [
@@ -192,8 +192,8 @@
                   "uri": "synapse/http/matrixfederationclient.py"
                 },
                 "region": {
-                  "startLine": 218,
-                  "endLine": 255
+                  "startLine": 221,
+                  "endLine": 258
                 }
               },
               "logicalLocations": [
@@ -209,8 +209,8 @@
                   "uri": "synapse/push/httppusher.py"
                 },
                 "region": {
-                  "startLine": 60,
-                  "endLine": 106
+                  "startLine": 65,
+                  "endLine": 107
                 }
               },
               "logicalLocations": [
@@ -243,8 +243,8 @@
                   "uri": "synapse/server.py"
                 },
                 "region": {
-                  "startLine": 383,
-                  "endLine": 390
+                  "startLine": 384,
+                  "endLine": 391
                 }
               },
               "logicalLocations": [
@@ -261,7 +261,7 @@
                 },
                 "region": {
                   "startLine": 370,
-                  "endLine": 380
+                  "endLine": 381
                 }
               },
               "logicalLocations": [
@@ -311,8 +311,8 @@
                   "uri": "tests/api/test_filtering.py"
                 },
                 "region": {
-                  "startLine": 46,
-                  "endLine": 60
+                  "startLine": 43,
+                  "endLine": 46
                 }
               },
               "logicalLocations": [
@@ -397,7 +397,7 @@
                 },
                 "region": {
                   "startLine": 33,
-                  "endLine": 59
+                  "endLine": 57
                 }
               },
               "logicalLocations": [
@@ -448,7 +448,7 @@
                 },
                 "region": {
                   "startLine": 34,
-                  "endLine": 63
+                  "endLine": 61
                 }
               },
               "logicalLocations": [
@@ -481,8 +481,8 @@
                   "uri": "tests/handlers/test_typing.py"
                 },
                 "region": {
-                  "startLine": 183,
-                  "endLine": 211
+                  "startLine": 188,
+                  "endLine": 216
                 }
               },
               "logicalLocations": [
@@ -498,8 +498,8 @@
                   "uri": "tests/handlers/test_typing.py"
                 },
                 "region": {
-                  "startLine": 251,
-                  "endLine": 298
+                  "startLine": 256,
+                  "endLine": 303
                 }
               },
               "logicalLocations": [
@@ -515,8 +515,8 @@
                   "uri": "tests/http/federation/test_matrix_federation_agent.py"
                 },
                 "region": {
-                  "startLine": 80,
-                  "endLine": 110
+                  "startLine": 81,
+                  "endLine": 111
                 }
               },
               "logicalLocations": [
@@ -532,8 +532,8 @@
                   "uri": "tests/http/federation/test_matrix_federation_agent.py"
                 },
                 "region": {
-                  "startLine": 721,
-                  "endLine": 772
+                  "startLine": 722,
+                  "endLine": 773
                 }
               },
               "logicalLocations": [
@@ -549,8 +549,8 @@
                   "uri": "tests/push/test_http.py"
                 },
                 "region": {
-                  "startLine": 37,
-                  "endLine": 56
+                  "startLine": 43,
+                  "endLine": 57
                 }
               },
               "logicalLocations": [
@@ -566,8 +566,8 @@
                   "uri": "tests/replication/_base.py"
                 },
                 "region": {
-                  "startLine": 257,
-                  "endLine": 342
+                  "startLine": 259,
+                  "endLine": 344
                 }
               },
               "logicalLocations": [
@@ -583,8 +583,8 @@
                   "uri": "tests/replication/_base.py"
                 },
                 "region": {
-                  "startLine": 61,
-                  "endLine": 89
+                  "startLine": 58,
+                  "endLine": 86
                 }
               },
               "logicalLocations": [
@@ -736,8 +736,8 @@
                   "uri": "tests/rest/client/v1/test_rooms.py"
                 },
                 "region": {
-                  "startLine": 45,
-                  "endLine": 61
+                  "startLine": 46,
+                  "endLine": 62
                 }
               },
               "logicalLocations": [
@@ -840,40 +840,6 @@
                 "region": {
                   "startLine": 29,
                   "endLine": 31
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "make_homeserver",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/storage/test_redaction.py"
-                },
-                "region": {
-                  "startLine": 33,
-                  "endLine": 38
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "make_homeserver",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/storage/test_roommember.py"
-                },
-                "region": {
-                  "startLine": 37,
-                  "endLine": 41
                 }
               },
               "logicalLocations": [

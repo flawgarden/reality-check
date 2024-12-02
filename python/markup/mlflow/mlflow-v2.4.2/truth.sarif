@@ -56,8 +56,8 @@
                   "uri": "tests/models/test_cli.py"
                 },
                 "region": {
-                  "startLine": 172,
-                  "endLine": 331
+                  "startLine": 167,
+                  "endLine": 322
                 }
               },
               "logicalLocations": [

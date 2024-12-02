@@ -23,7 +23,7 @@
                 },
                 "region": {
                   "startLine": 42,
-                  "endLine": 79
+                  "endLine": 114
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "sydent/util/stringutils.py"
                 },
                 "region": {
-                  "startLine": 27,
-                  "endLine": 36
+                  "startLine": 39,
+                  "endLine": 51
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "sydent/util/stringutils.py"
                 },
                 "region": {
-                  "startLine": 39,
-                  "endLine": 70
+                  "startLine": 54,
+                  "endLine": 67
                 }
               },
               "logicalLocations": [
@@ -107,8 +107,8 @@
                   "uri": "tests/test_register.py"
                 },
                 "region": {
-                  "startLine": 24,
-                  "endLine": 26
+                  "startLine": 25,
+                  "endLine": 27
                 }
               },
               "logicalLocations": [
@@ -124,8 +124,8 @@
                   "uri": "tests/test_register.py"
                 },
                 "region": {
-                  "startLine": 28,
-                  "endLine": 45
+                  "startLine": 29,
+                  "endLine": 46
                 }
               },
               "logicalLocations": [
@@ -138,28 +138,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "tests/test_util.py"
-                },
-                "region": {
-                  "startLine": 7,
-                  "endLine": 26
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_is_valid_hostname",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "sydent/hs_federation/verifier.py"
                 },
                 "region": {
-                  "startLine": 142,
-                  "endLine": 215
+                  "startLine": 147,
+                  "endLine": 220
                 }
               },
               "logicalLocations": [
@@ -172,79 +155,11 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sydent/http/servlets/threepidunbindservlet.py"
-                },
-                "region": {
-                  "startLine": 50,
-                  "endLine": 172
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "_async_render_POST",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "sydent/threepid/bind.py"
                 },
                 "region": {
-                  "startLine": 124,
-                  "endLine": 191
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "_notify",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "sydent/hs_federation/verifier.py"
-                },
-                "region": {
-                  "startLine": 142,
-                  "endLine": 215
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "authenticate_request",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "sydent/http/servlets/registerservlet.py"
-                },
-                "region": {
-                  "startLine": 42,
-                  "endLine": 114
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "render_POST",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "sydent/threepid/bind.py"
-                },
-                "region": {
-                  "startLine": 124,
-                  "endLine": 191
+                  "startLine": 173,
+                  "endLine": 248
                 }
               },
               "logicalLocations": [
@@ -260,25 +175,8 @@
                   "uri": "sydent/util/stringutils.py"
                 },
                 "region": {
-                  "startLine": 42,
-                  "endLine": 55
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "is_valid_hostname",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "sydent/util/stringutils.py"
-                },
-                "region": {
-                  "startLine": 94,
-                  "endLine": 119
+                  "startLine": 106,
+                  "endLine": 131
                 }
               },
               "logicalLocations": [
@@ -294,8 +192,8 @@
                   "uri": "sydent/util/stringutils.py"
                 },
                 "region": {
-                  "startLine": 58,
-                  "endLine": 91
+                  "startLine": 70,
+                  "endLine": 103
                 }
               },
               "logicalLocations": [
@@ -464,8 +362,8 @@
                   "uri": "sydent/http/httpclient.py"
                 },
                 "region": {
-                  "startLine": 114,
-                  "endLine": 126
+                  "startLine": 115,
+                  "endLine": 127
                 }
               },
               "logicalLocations": [
@@ -481,8 +379,8 @@
                   "uri": "sydent/sydent.py"
                 },
                 "region": {
-                  "startLine": 208,
-                  "endLine": 363
+                  "startLine": 262,
+                  "endLine": 483
                 }
               },
               "logicalLocations": [
@@ -498,8 +396,8 @@
                   "uri": "sydent/sydent.py"
                 },
                 "region": {
-                  "startLine": 547,
-                  "endLine": 550
+                  "startLine": 692,
+                  "endLine": 695
                 }
               },
               "logicalLocations": [

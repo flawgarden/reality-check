@@ -66,23 +66,6 @@
                   "kind": "function"
                 }
               ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/test_utils.py"
-                },
-                "region": {
-                  "startLine": 23,
-                  "endLine": 24
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_spinal_case",
-                  "kind": "function"
-                }
-              ]
             }
           ]
         },
@@ -106,40 +89,6 @@
               "logicalLocations": [
                 {
                   "name": "get_list",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "end_to_end_tests/golden-master/my_test_api_client/api/tests.py"
-                },
-                "region": {
-                  "startLine": 15,
-                  "endLine": 18
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "get_user_list",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "end_to_end_tests/golden-master/my_test_api_client/async_api/tests.py"
-                },
-                "region": {
-                  "startLine": 15,
-                  "endLine": 18
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "get_user_list",
                   "kind": "function"
                 }
               ]
@@ -218,8 +167,8 @@
                   "uri": "openapi_python_client/parser/openapi.py"
                 },
                 "region": {
-                  "startLine": 176,
-                  "endLine": 199
+                  "startLine": 172,
+                  "endLine": 195
                 }
               },
               "logicalLocations": [
@@ -337,59 +286,8 @@
                   "uri": "openapi_python_client/utils.py"
                 },
                 "region": {
-                  "startLine": 6,
-                  "endLine": 7
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "_sanitize",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "openapi_python_client/utils.py"
-                },
-                "region": {
-                  "startLine": 10,
+                  "startLine": 12,
                   "endLine": 13
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "group_title",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "openapi_python_client/utils.py"
-                },
-                "region": {
-                  "startLine": 24,
-                  "endLine": 25
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "kebab_case",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "openapi_python_client/utils.py"
-                },
-                "region": {
-                  "startLine": 20,
-                  "endLine": 21
                 }
               },
               "logicalLocations": [
@@ -405,8 +303,8 @@
                   "uri": "openapi_python_client/utils.py"
                 },
                 "region": {
-                  "startLine": 16,
-                  "endLine": 17
+                  "startLine": 6,
+                  "endLine": 9
                 }
               },
               "logicalLocations": [

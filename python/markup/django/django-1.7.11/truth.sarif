@@ -22,8 +22,8 @@
                   "uri": "django/utils/formats.py"
                 },
                 "region": {
-                  "startLine": 103,
-                  "endLine": 140
+                  "startLine": 96,
+                  "endLine": 133
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "tests/i18n/tests.py"
                 },
                 "region": {
-                  "startLine": 1252,
-                  "endLine": 1253
+                  "startLine": 831,
+                  "endLine": 832
                 }
               },
               "logicalLocations": [

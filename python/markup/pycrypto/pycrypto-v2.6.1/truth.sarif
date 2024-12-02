@@ -22,8 +22,8 @@
                   "uri": "lib/Crypto/Random/Fortuna/FortunaAccumulator.py"
                 },
                 "region": {
-                  "startLine": 112,
-                  "endLine": 119
+                  "startLine": 129,
+                  "endLine": 136
                 }
               },
               "logicalLocations": [

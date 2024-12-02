@@ -22,8 +22,8 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 2191,
-                  "endLine": 2193
+                  "startLine": 2137,
+                  "endLine": 2145
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 1576,
-                  "endLine": 1577
+                  "startLine": 1403,
+                  "endLine": 1404
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 2195,
-                  "endLine": 2197
+                  "startLine": 1861,
+                  "endLine": 1863
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 2209,
-                  "endLine": 2212
+                  "startLine": 1943,
+                  "endLine": 1946
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 2199,
-                  "endLine": 2201
+                  "startLine": 1865,
+                  "endLine": 1867
                 }
               },
               "logicalLocations": [

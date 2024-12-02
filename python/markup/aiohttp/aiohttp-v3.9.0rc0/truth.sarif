@@ -22,8 +22,8 @@
                   "uri": "aiohttp/client_reqrep.py"
                 },
                 "region": {
-                  "startLine": 252,
-                  "endLine": 333
+                  "startLine": 258,
+                  "endLine": 339
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "tests/test_client_request.py"
                 },
                 "region": {
-                  "startLine": 92,
-                  "endLine": 94
+                  "startLine": 104,
+                  "endLine": 106
                 }
               },
               "logicalLocations": [

@@ -22,8 +22,8 @@
                   "uri": "mlflow/utils/uri.py"
                 },
                 "region": {
-                  "startLine": 422,
-                  "endLine": 449
+                  "startLine": 424,
+                  "endLine": 451
                 }
               },
               "logicalLocations": [
@@ -124,8 +124,8 @@
                   "uri": "tests/utils/test_uri.py"
                 },
                 "region": {
-                  "startLine": 778,
-                  "endLine": 780
+                  "startLine": 792,
+                  "endLine": 794
                 }
               },
               "logicalLocations": [
@@ -141,8 +141,8 @@
                   "uri": "tests/utils/test_uri.py"
                 },
                 "region": {
-                  "startLine": 738,
-                  "endLine": 739
+                  "startLine": 752,
+                  "endLine": 753
                 }
               },
               "logicalLocations": [
@@ -158,8 +158,8 @@
                   "uri": "tests/utils/test_uri.py"
                 },
                 "region": {
-                  "startLine": 874,
-                  "endLine": 876
+                  "startLine": 888,
+                  "endLine": 890
                 }
               },
               "logicalLocations": [
@@ -175,8 +175,8 @@
                   "uri": "tests/utils/test_uri.py"
                 },
                 "region": {
-                  "startLine": 750,
-                  "endLine": 751
+                  "startLine": 764,
+                  "endLine": 765
                 }
               },
               "logicalLocations": [
@@ -201,8 +201,8 @@
                   "uri": "mlflow/utils/uri.py"
                 },
                 "region": {
-                  "startLine": 422,
-                  "endLine": 446
+                  "startLine": 424,
+                  "endLine": 451
                 }
               },
               "logicalLocations": [
@@ -235,8 +235,8 @@
                   "uri": "tests/tracking/test_rest_tracking.py"
                 },
                 "region": {
-                  "startLine": 663,
-                  "endLine": 692
+                  "startLine": 516,
+                  "endLine": 545
                 }
               },
               "logicalLocations": [
@@ -252,81 +252,13 @@
                   "uri": "tests/tracking/test_rest_tracking.py"
                 },
                 "region": {
-                  "startLine": 669,
-                  "endLine": 674
+                  "startLine": 522,
+                  "endLine": 527
                 }
               },
               "logicalLocations": [
                 {
                   "name": "test_path_validation.assert_response",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/tracking/test_rest_tracking.py"
-                },
-                "region": {
-                  "startLine": 562,
-                  "endLine": 564
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_validate_path_is_safe_bad",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/tracking/test_rest_tracking.py"
-                },
-                "region": {
-                  "startLine": 525,
-                  "endLine": 526
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_validate_path_is_safe_good",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/tracking/test_rest_tracking.py"
-                },
-                "region": {
-                  "startLine": 658,
-                  "endLine": 660
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_validate_path_is_safe_windows_bad",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "tests/tracking/test_rest_tracking.py"
-                },
-                "region": {
-                  "startLine": 537,
-                  "endLine": 538
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_validate_path_is_safe_windows_good",
                   "kind": "function"
                 }
               ]

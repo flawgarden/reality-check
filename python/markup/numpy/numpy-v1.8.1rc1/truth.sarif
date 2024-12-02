@@ -22,8 +22,8 @@
                   "uri": "numpy/core/tests/test_memmap.py"
                 },
                 "region": {
-                  "startLine": 56,
-                  "endLine": 66
+                  "startLine": 59,
+                  "endLine": 69
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "numpy/core/tests/test_memmap.py"
                 },
                 "region": {
-                  "startLine": 35,
-                  "endLine": 40
+                  "startLine": 38,
+                  "endLine": 43
                 }
               },
               "logicalLocations": [
@@ -56,30 +56,13 @@
                   "uri": "numpy/core/tests/test_multiarray.py"
                 },
                 "region": {
-                  "startLine": 2313,
-                  "endLine": 2320
+                  "startLine": 2309,
+                  "endLine": 2317
                 }
               },
               "logicalLocations": [
                 {
                   "name": "setUp",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "numpy/core/tests/test_multiarray.py"
-                },
-                "region": {
-                  "startLine": 2322,
-                  "endLine": 2323
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "tearDown",
                   "kind": "function"
                 }
               ]
@@ -107,8 +90,8 @@
                   "uri": "numpy/f2py/f2py2e.py"
                 },
                 "region": {
-                  "startLine": 409,
-                  "endLine": 581
+                  "startLine": 413,
+                  "endLine": 585
                 }
               },
               "logicalLocations": [
@@ -141,8 +124,8 @@
                   "uri": "numpy/lib/tests/test_io.py"
                 },
                 "region": {
-                  "startLine": 186,
-                  "endLine": 195
+                  "startLine": 154,
+                  "endLine": 163
                 }
               },
               "logicalLocations": [
@@ -167,8 +150,8 @@
                   "uri": "numpy/core/tests/test_memmap.py"
                 },
                 "region": {
-                  "startLine": 56,
-                  "endLine": 66
+                  "startLine": 59,
+                  "endLine": 69
                 }
               },
               "logicalLocations": [
@@ -184,8 +167,8 @@
                   "uri": "numpy/core/tests/test_memmap.py"
                 },
                 "region": {
-                  "startLine": 35,
-                  "endLine": 40
+                  "startLine": 38,
+                  "endLine": 43
                 }
               },
               "logicalLocations": [
@@ -201,30 +184,13 @@
                   "uri": "numpy/core/tests/test_multiarray.py"
                 },
                 "region": {
-                  "startLine": 2313,
-                  "endLine": 2320
+                  "startLine": 2309,
+                  "endLine": 2317
                 }
               },
               "logicalLocations": [
                 {
                   "name": "setUp",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "numpy/core/tests/test_multiarray.py"
-                },
-                "region": {
-                  "startLine": 2322,
-                  "endLine": 2323
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "tearDown",
                   "kind": "function"
                 }
               ]
@@ -252,8 +218,8 @@
                   "uri": "numpy/f2py/f2py2e.py"
                 },
                 "region": {
-                  "startLine": 409,
-                  "endLine": 581
+                  "startLine": 413,
+                  "endLine": 585
                 }
               },
               "logicalLocations": [
@@ -286,8 +252,8 @@
                   "uri": "numpy/lib/tests/test_io.py"
                 },
                 "region": {
-                  "startLine": 186,
-                  "endLine": 195
+                  "startLine": 154,
+                  "endLine": 163
                 }
               },
               "logicalLocations": [

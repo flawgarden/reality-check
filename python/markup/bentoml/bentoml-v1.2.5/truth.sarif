@@ -22,8 +22,8 @@
                   "uri": "src/_bentoml_impl/client/__init__.py"
                 },
                 "region": {
-                  "startLine": 34,
-                  "endLine": 37
+                  "startLine": 36,
+                  "endLine": 39
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "src/_bentoml_impl/server/app.py"
                 },
                 "region": {
-                  "startLine": 181,
-                  "endLine": 207
+                  "startLine": 185,
+                  "endLine": 211
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "src/_bentoml_impl/server/app.py"
                 },
                 "region": {
-                  "startLine": 62,
-                  "endLine": 127
+                  "startLine": 64,
+                  "endLine": 105
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "src/_bentoml_impl/server/app.py"
                 },
                 "region": {
-                  "startLine": 399,
-                  "endLine": 476
+                  "startLine": 411,
+                  "endLine": 488
                 }
               },
               "logicalLocations": [

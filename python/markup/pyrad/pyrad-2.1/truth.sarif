@@ -22,8 +22,8 @@
                   "uri": "pyrad/packet.py"
                 },
                 "region": {
-                  "startLine": 202,
-                  "endLine": 218
+                  "startLine": 220,
+                  "endLine": 236
                 }
               },
               "logicalLocations": [
@@ -39,42 +39,8 @@
                   "uri": "pyrad/packet.py"
                 },
                 "region": {
-                  "startLine": 220,
-                  "endLine": 229
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "CreateID",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pyrad/packet.py"
-                },
-                "region": {
-                  "startLine": 202,
-                  "endLine": 218
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "CreateAuthenticator",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pyrad/packet.py"
-                },
-                "region": {
-                  "startLine": 220,
-                  "endLine": 229
+                  "startLine": 238,
+                  "endLine": 247
                 }
               },
               "logicalLocations": [
@@ -99,8 +65,8 @@
                   "uri": "pyrad/packet.py"
                 },
                 "region": {
-                  "startLine": 202,
-                  "endLine": 218
+                  "startLine": 220,
+                  "endLine": 236
                 }
               },
               "logicalLocations": [
@@ -116,42 +82,8 @@
                   "uri": "pyrad/packet.py"
                 },
                 "region": {
-                  "startLine": 220,
-                  "endLine": 229
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "CreateID",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pyrad/packet.py"
-                },
-                "region": {
-                  "startLine": 202,
-                  "endLine": 218
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "CreateAuthenticator",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pyrad/packet.py"
-                },
-                "region": {
-                  "startLine": 220,
-                  "endLine": 229
+                  "startLine": 238,
+                  "endLine": 247
                 }
               },
               "logicalLocations": [

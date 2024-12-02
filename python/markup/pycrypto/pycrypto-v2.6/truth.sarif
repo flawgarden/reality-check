@@ -15,7 +15,42 @@
             "text": "CVE-2013-1445"
           },
           "ruleId": "CWE-310",
-          "locations": []
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/Random/_UserFriendlyRNG.py"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "reinit",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/SelfTest/Random/__init__.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_tests",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

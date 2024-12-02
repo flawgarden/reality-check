@@ -73,8 +73,8 @@
                   "uri": "mlflow/pyfunc/scoring_server/__init__.py"
                 },
                 "region": {
-                  "startLine": 328,
-                  "endLine": 367
+                  "startLine": 426,
+                  "endLine": 465
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,8 @@
                   "uri": "tests/models/test_cli.py"
                 },
                 "region": {
-                  "startLine": 746,
-                  "endLine": 762
+                  "startLine": 747,
+                  "endLine": 763
                 }
               },
               "logicalLocations": [
@@ -107,8 +107,8 @@
                   "uri": "tests/models/test_cli.py"
                 },
                 "region": {
-                  "startLine": 748,
-                  "endLine": 749
+                  "startLine": 749,
+                  "endLine": 750
                 }
               },
               "logicalLocations": [
@@ -125,7 +125,7 @@
                 },
                 "region": {
                   "startLine": 174,
-                  "endLine": 333
+                  "endLine": 334
                 }
               },
               "logicalLocations": [
@@ -141,8 +141,8 @@
                   "uri": "tests/models/test_cli.py"
                 },
                 "region": {
-                  "startLine": 336,
-                  "endLine": 373
+                  "startLine": 337,
+                  "endLine": 374
                 }
               },
               "logicalLocations": [
@@ -158,8 +158,8 @@
                   "uri": "tests/models/test_cli.py"
                 },
                 "region": {
-                  "startLine": 376,
-                  "endLine": 462
+                  "startLine": 377,
+                  "endLine": 463
                 }
               },
               "logicalLocations": [
@@ -175,8 +175,8 @@
                   "uri": "tests/models/test_cli.py"
                 },
                 "region": {
-                  "startLine": 465,
-                  "endLine": 500
+                  "startLine": 466,
+                  "endLine": 501
                 }
               },
               "logicalLocations": [

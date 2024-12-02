@@ -19,74 +19,6 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "nova/tests/api/openstack/compute/contrib/test_quota_classes.py"
-                },
-                "region": {
-                  "startLine": 25,
-                  "endLine": 29
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "quota_set",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/api/openstack/compute/contrib/test_quota_classes.py"
-                },
-                "region": {
-                  "startLine": 38,
-                  "endLine": 63
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_format_quota_set",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/api/openstack/compute/contrib/test_quota_classes.py"
-                },
-                "region": {
-                  "startLine": 79,
-                  "endLine": 91
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_quotas_update_as_admin",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "nova/tests/api/openstack/compute/contrib/test_quota_classes.py"
-                },
-                "region": {
-                  "startLine": 93,
-                  "endLine": 103
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test_quotas_update_as_user",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
@@ -107,8 +39,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 40,
-                  "endLine": 64
+                  "startLine": 45,
+                  "endLine": 55
                 }
               },
               "logicalLocations": [
@@ -124,8 +56,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 66,
-                  "endLine": 84
+                  "startLine": 72,
+                  "endLine": 90
                 }
               },
               "logicalLocations": [
@@ -141,8 +73,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 98,
-                  "endLine": 109
+                  "startLine": 104,
+                  "endLine": 115
                 }
               },
               "logicalLocations": [
@@ -158,8 +90,8 @@
                   "uri": "nova/tests/api/openstack/compute/contrib/test_quotas.py"
                 },
                 "region": {
-                  "startLine": 111,
-                  "endLine": 120
+                  "startLine": 117,
+                  "endLine": 126
                 }
               },
               "logicalLocations": [

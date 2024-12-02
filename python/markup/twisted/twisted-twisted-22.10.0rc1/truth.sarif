@@ -22,8 +22,8 @@
                   "uri": "twisted/web/vhost.py"
                 },
                 "region": {
-                  "startLine": 33,
-                  "endLine": 37
+                  "startLine": 77,
+                  "endLine": 87
                 }
               },
               "logicalLocations": [
