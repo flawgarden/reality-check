@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-crypto-v0.16.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-48795"
+          },
+          "ruleId": "CWE-354",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake.go"
+                },
+                "region": {
+                  "startLine": 202,
+                  "endLine": 225
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readLoop",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake.go"
+                },
+                "region": {
+                  "startLine": 445,
+                  "endLine": 518
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sendKexInit",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 113,
+                  "endLine": 128
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readPacket",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 130,
+                  "endLine": 167
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readPacket",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 174
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writePacket",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 176,
+                  "endLine": 196
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writePacket",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

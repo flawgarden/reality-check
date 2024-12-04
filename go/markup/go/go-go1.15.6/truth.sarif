@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-go-go1.15.6"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-3114"
+          },
+          "ruleId": "CWE-682",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224.go"
+                },
+                "region": {
+                  "startLine": 390,
+                  "endLine": 497
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "p224Contract",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestToFromBig",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "p224AlternativeToBig",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

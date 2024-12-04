@@ -6,6 +6,11 @@ ___________________________________________________________
 ___________________________________________________________
 ___________________________________________________________
 
+
+CVE-2023-39533 <- files not present?
+
+___________________________________________________________
+
 SKIPPED VULNERABILITIES:
 
 CVE-2022-31022,https://github.com/blevesearch/bleve,1c7509d6a17d36f265c90b4e8f4e3a3182fe79ff,CWE-288,, <-
@@ -15,3 +20,28 @@ CVE-2015-10023,https://github.com/Fumon/trello-octometric,a1f1754933fbf21e2221fb
 CVE-2015-10044,https://github.com/gophergala/sqldump,76db54e9073b5248b8863e71a63d66a32d567d21,CWE-89,,
 CVE-2016-15036,https://github.com/deis/workflow-manager,31fe3bccbdde134a185752e53380330d16053f7f,CWE-362,, <- old
 CVE-2021-33194,https://github.com/golang/net,37e1c6afe02340126705deced573a85ab75209d7,CWE-835,, <- no versions prior the patched one
+
+___________________________________________________________
+___________________________________________________________
+___________________________________________________________
+
+UNMAPPED VULNERABILITIES:
+
+CVE-2022-4684,https://github.com/usememos/memos,dca35bde877aab6e64ef51b52e590b5d48f692f9,CWE-284,7ec22482c16bbcacfbfe369c216c022623601723,c0cb01b5279fcdca7810ba932aa57d9f55a9e946
+CVE-2022-4686,https://github.com/usememos/memos,dca35bde877aab6e64ef51b52e590b5d48f692f9,CWE-639,7ec22482c16bbcacfbfe369c216c022623601723,c0cb01b5279fcdca7810ba932aa57d9f55a9e946
+CVE-2022-4687,https://github.com/usememos/memos,dca35bde877aab6e64ef51b52e590b5d48f692f9,CWE-269,7ec22482c16bbcacfbfe369c216c022623601723,c0cb01b5279fcdca7810ba932aa57d9f55a9e946
+CVE-2022-4688,https://github.com/usememos/memos,dca35bde877aab6e64ef51b52e590b5d48f692f9,CWE-285,7ec22482c16bbcacfbfe369c216c022623601723,c0cb01b5279fcdca7810ba932aa57d9f55a9e946
+CVE-2022-4689,https://github.com/usememos/memos,dca35bde877aab6e64ef51b52e590b5d48f692f9,CWE-284,7ec22482c16bbcacfbfe369c216c022623601723,c0cb01b5279fcdca7810ba932aa57d9f55a9e946
+CVE-2023-4696,https://github.com/usememos/memos,c9aa2eeb9852047e4f41915eb30726bd25f07ecd,CWE-284,2e34ce90a118b7b04b45fa93fe7fa177dc28697c,ca770c87d63e19801b9975eb9a4ed12f80eaa884
+CVE-2023-4697,https://github.com/usememos/memos,c9aa2eeb9852047e4f41915eb30726bd25f07ecd,CWE-269,2e34ce90a118b7b04b45fa93fe7fa177dc28697c,ca770c87d63e19801b9975eb9a4ed12f80eaa884
+CVE-2023-4698,https://github.com/usememos/memos,c9aa2eeb9852047e4f41915eb30726bd25f07ecd,CWE-20,2e34ce90a118b7b04b45fa93fe7fa177dc28697c,ca770c87d63e19801b9975eb9a4ed12f80eaa884
+CVE-2024-22199,https://github.com/gofiber/template,28cff3ac4d4c117ab25b5396954676d624b6cb46,"CWE-20,CWE-79,CWE-116",fd5a1ab847ebbf537447561827f310ba70fd0998,28cff3ac4d4c117ab25b5396954676d624b6cb46
+CVE-2022-24732,https://github.com/foxcpp/maddy,7ee6a39c6a1939b376545f030a5efd6f90913583,"CWE-324,CWE-613",aac8bd885483b88453a0f94c2d9821814a2c12a2,211e1a67ee9d65bea7c34346eb7affb639f9d22a
+CVE-2019-5736,https://github.com/opencontainers/runc,0a8e4117e7f715d5fbeef398405813ce8e88558b,CWE-78,ccb5efd37fb7c86364786e9137e22948751de7ed,69ae5da6afdcaaf38285a10b36f362e41cb298d6
+CVE-2018-12018,https://github.com/ethereum/go-ethereum,a5237a27eaf81946a3edb4fafe13ed6359d119e4,CWE-129,eae63c511ceafab14b92e274c1b18bf1700e2d3d,dea1ce052a10cd7d401a5c04f83f371a06fe293c
+CVE-2020-26264,https://github.com/ethereum/go-ethereum,bddd103a9f0af27ef533f04e06ea429cf76b6d46,CWE-400,cc05b050df5f88e80bb26aaf6d2f339c49c2d702,e7872729012a4871397307b12cc3f4772ffcbec6
+CVE-2022-29162,https://github.com/opencontainers/runc,d04de3a9b72d7a2455c1885fc75eb36d02cd17b5,CWE-276,52de29d7e0f8c0899bd7efb8810dd07f0073fa87,a916309fff0f838eb94e928713dbc3c0d0ac7aa4
+CVE-2023-25809,https://github.com/opencontainers/runc,0d62b950e60f6980b54fe3bafd9a9c608dc1df17,CWE-281,5fd4c4d144137e991c4acebb2146ab1483a97925,f19387a6bec4944c770f7668ab51c4348d9c2f38
+CVE-2024-21626,https://github.com/opencontainers/runc,02120488a4c0fc487d1ed2867e901eeed7ce8ecf,"CWE-403,CWE-668",4bccb38cc9cf198d52bebf2b3a90cd14e7af8c06,51d5e94601ceffbbd85688df1c928ecccbfa4685
+CVE-2019-11502,https://github.com/snapcore/snapd,bdbfeebef03245176ae0dc323392bb0522a339b1,CWE-59,a7015ae4381f817002ce9a491f551976f4f4cb01,7d3222250d98ff1baf8ad4e7df283b40a35d960c
+CVE-2022-23525,https://github.com/helm/helm,638ebffbc2e445156f3978f02fd83d9af1e56f5b,CWE-476,50f003e5ee8704ec937a756c646870227d7c8b58,835b7334cfe2e5e27870ab3ed4135f136eecc704

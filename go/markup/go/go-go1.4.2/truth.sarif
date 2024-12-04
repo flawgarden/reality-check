@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-go-go1.4.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2015-5739"
+          },
+          "ruleId": "CWE-444",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/net/textproto/reader.go"
+                },
+                "region": {
+                  "startLine": 564,
+                  "endLine": 588
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "canonicalMIMEHeaderKey",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/net/textproto/reader_test.go"
+                },
+                "region": {
+                  "startLine": 175,
+                  "endLine": 194
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestReadMIMEHeaderNonCompliant",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

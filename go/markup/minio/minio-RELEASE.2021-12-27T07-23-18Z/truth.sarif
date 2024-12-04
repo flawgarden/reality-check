@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-minio-RELEASE.2021-12-27T07-23-18Z"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-43858"
+          },
+          "ruleId": "CWE-863",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cmd/admin-handlers-users.go"
+                },
+                "region": {
+                  "startLine": 343,
+                  "endLine": 430
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AddUser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cmd/admin-handlers-users_test.go"
+                },
+                "region": {
+                  "startLine": 158,
+                  "endLine": 200
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestIAMInternalIDPServerSuite",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cmd/admin-handlers-users_test.go"
+                },
+                "region": {
+                  "startLine": 202,
+                  "endLine": 289
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestUserCreate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cmd/admin-handlers-users_test.go"
+                },
+                "region": {
+                  "startLine": 291,
+                  "endLine": 391
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestUserPolicyEscalationBug",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cmd/iam.go"
+                },
+                "region": {
+                  "startLine": 957,
+                  "endLine": 981
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CreateUser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "cmd/signature-v4-utils_test.go"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestCheckValid",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

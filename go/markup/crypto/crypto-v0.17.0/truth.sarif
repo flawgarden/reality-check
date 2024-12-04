@@ -1,0 +1,279 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-crypto-v0.17.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-48795"
+          },
+          "ruleId": "CWE-354",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake.go"
+                },
+                "region": {
+                  "startLine": 609,
+                  "endLine": 731
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "enterKeyExchange",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake.go"
+                },
+                "region": {
+                  "startLine": 216,
+                  "endLine": 242
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readLoop",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake.go"
+                },
+                "region": {
+                  "startLine": 467,
+                  "endLine": 553
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sendKexInit",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake_test.go"
+                },
+                "region": {
+                  "startLine": 846,
+                  "endLine": 905
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestSeqNumIncrease",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake_test.go"
+                },
+                "region": {
+                  "startLine": 718,
+                  "endLine": 765
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestStrictKEXResetSeqFirstKEX",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake_test.go"
+                },
+                "region": {
+                  "startLine": 767,
+                  "endLine": 844
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestStrictKEXResetSeqSuccessiveKEX",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake_test.go"
+                },
+                "region": {
+                  "startLine": 907,
+                  "endLine": 940
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestStrictKEXUnexpectedMsg",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake_test.go"
+                },
+                "region": {
+                  "startLine": 400,
+                  "endLine": 400
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setInitialKEXDone",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/handshake_test.go"
+                },
+                "region": {
+                  "startLine": 398,
+                  "endLine": 398
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setStrictMode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 128,
+                  "endLine": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readPacket",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 146,
+                  "endLine": 186
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readPacket",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setInitialKEXDone",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setStrictMode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 188,
+                  "endLine": 193
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writePacket",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ssh/transport.go"
+                },
+                "region": {
+                  "startLine": 195,
+                  "endLine": 218
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writePacket",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-argo-cd-v2.6.15"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-40029"
+          },
+          "ruleId": "CWE-532",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "util/db/cluster.go"
+                },
+                "region": {
+                  "startLine": 367,
+                  "endLine": 428
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SecretToCluster",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "util/db/cluster.go"
+                },
+                "region": {
+                  "startLine": 320,
+                  "endLine": 364
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "clusterToSecret",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "util/db/cluster_test.go"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 114
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestClusterToSecret_LastAppliedConfigurationRejected",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "util/db/cluster_test.go"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Test_secretToCluster_LastAppliedConfigurationDropped",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

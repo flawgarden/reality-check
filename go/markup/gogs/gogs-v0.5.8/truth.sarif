@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-gogs-v0.5.8"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2014-8681"
+          },
+          "ruleId": "CWE-89",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "models/issue.go"
+                },
+                "region": {
+                  "startLine": 193,
+                  "endLine": 241
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "GetIssues",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "models/repo.go"
+                },
+                "region": {
+                  "startLine": 1144,
+                  "endLine": 1149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FilterSQLInject",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "models/repo.go"
+                },
+                "region": {
+                  "startLine": 1152,
+                  "endLine": 1172
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SearchRepositoryByName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "models/user.go"
+                },
+                "region": {
+                  "startLine": 577,
+                  "endLine": 587
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "SearchUserByName",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

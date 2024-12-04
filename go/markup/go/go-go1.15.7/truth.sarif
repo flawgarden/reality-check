@@ -1,0 +1,194 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-go-go1.15.7"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-3114"
+          },
+          "ruleId": "CWE-682",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224.go"
+                },
+                "region": {
+                  "startLine": 390,
+                  "endLine": 508
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "p224Contract",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Generate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 287,
+                  "endLine": 314
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestP224Invert",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestP224ToFromBig",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 136
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestP224Mul",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 138,
+                  "endLine": 160
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestP224Square",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 185,
+                  "endLine": 206
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestP224Reduce",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "generateLimb",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 97,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "isInBounds",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/crypto/elliptic/p224_test.go"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "p224AlternativeToBig",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

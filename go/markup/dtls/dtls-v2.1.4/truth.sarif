@@ -1,0 +1,118 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-dtls-v2.1.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-29189"
+          },
+          "ruleId": "CWE-120",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "fragment_buffer.go"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "push",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "fragment_buffer.go"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "size",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "fragment_buffer_test.go"
+                },
+                "region": {
+                  "startLine": 9,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestFragmentBuffer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "fragment_buffer_test.go"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 131
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestFragmentBuffer_Overflow",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2022-29222"
+          },
+          "ruleId": "CWE-295",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "flight4Parse",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

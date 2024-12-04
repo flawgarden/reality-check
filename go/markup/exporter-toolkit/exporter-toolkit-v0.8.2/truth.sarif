@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-exporter-toolkit-v0.8.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-46146"
+          },
+          "ruleId": "CWE-303",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "web/handler.go"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 143
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ServeHTTP",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "web/handler_test.go"
+                },
+                "region": {
+                  "startLine": 141,
+                  "endLine": 186
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestByPassBasicAuthVuln",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

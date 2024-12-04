@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-argo-cd-v2.6.13"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-40025"
+          },
+          "ruleId": "CWE-613",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/application/terminal.go"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NewHandler",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/application/terminal.go"
+                },
+                "region": {
+                  "startLine": 119,
+                  "endLine": 283
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ServeHTTP",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/application/websocket.go"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newTerminalSession",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

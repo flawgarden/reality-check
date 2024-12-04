@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-argo-cd-v2.3.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2022-24768"
+          },
+          "ruleId": "CWE-862",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "controller/appcontroller_test.go"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newFakeController",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "controller/cache/cache.go"
+                },
+                "region": {
+                  "startLine": 440,
+                  "endLine": 449
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IterateHierarchy",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "controller/cache/mocks/LiveStateCache.go"
+                },
+                "region": {
+                  "startLine": 179,
+                  "endLine": 190
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IterateHierarchy",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pkg/apis/application/v1alpha1/app_project_types.go"
+                },
+                "region": {
+                  "startLine": 315,
+                  "endLine": 323
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IsLiveResourcePermitted",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/e2e/app_management_test.go"
+                },
+                "region": {
+                  "startLine": 912,
+                  "endLine": 970
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestPermissions",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-argo-cd-v2.6.14"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-40025"
+          },
+          "ruleId": "CWE-613",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/application/terminal.go"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NewHandler",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/application/terminal.go"
+                },
+                "region": {
+                  "startLine": 122,
+                  "endLine": 286
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ServeHTTP",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/application/websocket.go"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getToken",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/application/websocket.go"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newTerminalSession",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/application/websocket_test.go"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestReconnect",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/application/websocket_test.go"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "reconnect",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-40029"
+          },
+          "ruleId": "CWE-532",
+          "locations": []
+        }
+      ]
+    }
+  ]
+}

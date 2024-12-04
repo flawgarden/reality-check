@@ -1,0 +1,381 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-gnark-v0.9.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-44378"
+          },
+          "ruleId": "CWE-697",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/r1cs/api.go"
+                },
+                "region": {
+                  "startLine": 572,
+                  "endLine": 598
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Cmp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/r1cs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 112
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AssertIsLessOrEqual",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/r1cs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 174,
+                  "endLine": 234
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MustBeLessOrEqCst",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/r1cs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 114,
+                  "endLine": 169
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mustBeLessOrEqVar",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/scs/api.go"
+                },
+                "region": {
+                  "startLine": 475,
+                  "endLine": 500
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Cmp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/scs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 132,
+                  "endLine": 158
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AssertIsLessOrEqual",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/scs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 215,
+                  "endLine": 274
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "MustBeLessOrEqCst",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/scs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 160,
+                  "endLine": 210
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mustBeLessOrEqVar",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/backend/circuits/hint.go"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Define",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Define",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Define",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Define",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Define",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestIssue836AssertIsLess",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestIssue836Cmp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 132
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestIssue836MathCmpAssertIsLessEqBounded",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 134,
+                  "endLine": 154
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestIssueXXXMathCmpAssertIsLessEqFull",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getNBitsHint",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/regression_tests/issue_836_test.go"
+                },
+                "region": {
+                  "startLine": 156,
+                  "endLine": 167
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "maliciousNbitsHint",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "std/math/bits/conversion.go"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 120
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "OmitModulusCheck",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "std/math/bits/conversion_binary.go"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 114
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "toBinary",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

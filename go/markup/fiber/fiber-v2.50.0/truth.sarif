@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-fiber-v2.50.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-45128"
+          },
+          "ruleId": "CWE-807",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "middleware/csrf/csrf.go"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "New",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "middleware/csrf/csrf.go"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 148
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getRawFromStorage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "middleware/csrf/csrf_test.go"
+                },
+                "region": {
+                  "startLine": 158,
+                  "endLine": 199
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Test_CSRF_ExpiredToken",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "middleware/csrf/extractors.go"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CsrfFromCookie",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "middleware/csrf/extractors.go"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CsrfFromForm",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "middleware/csrf/extractors.go"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CsrfFromHeader",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "middleware/csrf/extractors.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CsrfFromParam",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "middleware/csrf/extractors.go"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "CsrfFromQuery",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "middleware/csrf/helpers.go"
+                },
+                "region": {
+                  "startLine": 11,
+                  "endLine": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "compareStrings",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
