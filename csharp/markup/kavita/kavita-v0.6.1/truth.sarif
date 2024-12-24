@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-kavita-v0.6.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-3945"
+          },
+          "ruleId": "CWE-307",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/AccountController.cs"
+                },
+                "region": {
+                  "startLine": 642,
+                  "endLine": 692
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountController_ConfirmEmail",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/AccountController.cs"
+                },
+                "region": {
+                  "startLine": 702,
+                  "endLine": 734
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountController_ConfirmEmailUpdate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/AccountController.cs"
+                },
+                "region": {
+                  "startLine": 738,
+                  "endLine": 764
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountController_ConfirmForgotPassword",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/AccountController.cs"
+                },
+                "region": {
+                  "startLine": 819,
+                  "endLine": 845
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountController_ConfirmMigrationEmail",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/AccountController.cs"
+                },
+                "region": {
+                  "startLine": 183,
+                  "endLine": 223
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountController_Login",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "API/Controllers/AccountController.cs"
+                },
+                "region": {
+                  "startLine": 888,
+                  "endLine": 935
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AccountController_MigrateEmail",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

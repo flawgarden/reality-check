@@ -1,0 +1,968 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-synapse-v1.24.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-21273"
+          },
+          "ruleId": "CWE-601",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/app/generic_worker.py"
+                },
+                "region": {
+                  "startLine": 265,
+                  "endLine": 297
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/config/federation.py"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "generate_config_section",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/config/federation.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "read_config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/crypto/keyring.py"
+                },
+                "region": {
+                  "startLine": 578,
+                  "endLine": 582
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/federation/federation_server.py"
+                },
+                "region": {
+                  "startLine": 846,
+                  "endLine": 865
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/federation/transport/client.py"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/handlers/federation.py"
+                },
+                "region": {
+                  "startLine": 123,
+                  "endLine": 172
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/handlers/identity.py"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/client.py"
+                },
+                "region": {
+                  "startLine": 257,
+                  "endLine": 341
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/client.py"
+                },
+                "region": {
+                  "startLine": 304,
+                  "endLine": 308
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__.__getattr__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/federation/matrix_federation_agent.py"
+                },
+                "region": {
+                  "startLine": 68,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/matrixfederationclient.py"
+                },
+                "region": {
+                  "startLine": 219,
+                  "endLine": 265
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/matrixfederationclient.py"
+                },
+                "region": {
+                  "startLine": 234,
+                  "endLine": 238
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__.__getattr__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/push/httppusher.py"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/rest/media/v1/media_repository.py"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/server.py"
+                },
+                "region": {
+                  "startLine": 518,
+                  "endLine": 522
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_http_client",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/api/test_filtering.py"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/app/test_frontend_proxy.py"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/app/test_openid_listener.py"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/crypto/test_keyring.py"
+                },
+                "region": {
+                  "startLine": 316,
+                  "endLine": 319
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/handlers/test_device.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/handlers/test_directory.py"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/handlers/test_federation.py"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/handlers/test_presence.py"
+                },
+                "region": {
+                  "startLine": 464,
+                  "endLine": 468
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/handlers/test_profile.py"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/handlers/test_typing.py"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/handlers/test_typing.py"
+                },
+                "region": {
+                  "startLine": 183,
+                  "endLine": 211
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_started_typing_remote_send",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/handlers/test_typing.py"
+                },
+                "region": {
+                  "startLine": 251,
+                  "endLine": 298
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_stopped_typing",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/push/test_http.py"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/replication/_base.py"
+                },
+                "region": {
+                  "startLine": 257,
+                  "endLine": 342
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_worker_hs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/replication/_base.py"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepare",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/replication/test_federation_sender_shard.py"
+                },
+                "region": {
+                  "startLine": 71,
+                  "endLine": 132
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_send_event_sharded",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/replication/test_federation_sender_shard.py"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_send_event_single_sender",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/replication/test_federation_sender_shard.py"
+                },
+                "region": {
+                  "startLine": 134,
+                  "endLine": 205
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_send_typing_sharded",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/replication/test_pusher_shard.py"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 193
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_send_push_multiple_workers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/replication/test_pusher_shard.py"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_send_push_single_worker",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/rest/admin/test_admin.py"
+                },
+                "region": {
+                  "startLine": 171,
+                  "endLine": 215
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/rest/client/v1/test_presence.py"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/rest/client/v1/test_profile.py"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/rest/client/v1/test_rooms.py"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/rest/client/v1/test_typing.py"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/rest/key/v2/test_remote_key_resource.py"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/rest/key/v2/test_remote_key_resource.py"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 198
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepare",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/rest/media/v1/test_media_storage.py"
+                },
+                "region": {
+                  "startLine": 175,
+                  "endLine": 219
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/storage/test_e2e_room_keys.py"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/storage/test_purge.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/storage/test_redaction.py"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/storage/test_roommember.py"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_homeserver",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_federation.py"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 101
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_server.py"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-21274"
+          },
+          "ruleId": "CWE-770",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/client.py"
+                },
+                "region": {
+                  "startLine": 742,
+                  "endLine": 754
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "dataReceived",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/client.py"
+                },
+                "region": {
+                  "startLine": 650,
+                  "endLine": 718
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_file",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/client.py"
+                },
+                "region": {
+                  "startLine": 767,
+                  "endLine": 784
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readBodyToFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/federation/well_known_resolver.py"
+                },
+                "region": {
+                  "startLine": 220,
+                  "endLine": 270
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_make_well_known_request",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "synapse/http/matrixfederationclient.py"
+                },
+                "region": {
+                  "startLine": 944,
+                  "endLine": 1009
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_file",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

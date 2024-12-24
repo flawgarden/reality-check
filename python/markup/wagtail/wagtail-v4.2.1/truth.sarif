@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-wagtail-v4.2.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-28837"
+          },
+          "ruleId": "CWE-770",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "wagtail/documents/models.py"
+                },
+                "region": {
+                  "startLine": 137,
+                  "endLine": 145
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_set_document_file_metadata",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "wagtail/documents/models.py"
+                },
+                "region": {
+                  "startLine": 125,
+                  "endLine": 126
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_set_file_hash",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "wagtail/documents/models.py"
+                },
+                "region": {
+                  "startLine": 128,
+                  "endLine": 135
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_file_hash",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "wagtail/images/models.py"
+                },
+                "region": {
+                  "startLine": 269,
+                  "endLine": 270
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_set_file_hash",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "wagtail/images/models.py"
+                },
+                "region": {
+                  "startLine": 281,
+                  "endLine": 289
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_set_image_file_metadata",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "wagtail/images/models.py"
+                },
+                "region": {
+                  "startLine": 272,
+                  "endLine": 279
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_file_hash",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "wagtail/images/fields.py"
+                },
+                "region": {
+                  "startLine": 122,
+                  "endLine": 164
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "to_python",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

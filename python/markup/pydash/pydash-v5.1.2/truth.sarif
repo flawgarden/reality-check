@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-pydash-v5.1.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-26145"
+          },
+          "ruleId": "CWE-77",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pydash/helpers.py"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 187
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_base_get_object",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pydash/helpers.py"
+                },
+                "region": {
+                  "startLine": 189,
+                  "endLine": 218
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "base_set",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

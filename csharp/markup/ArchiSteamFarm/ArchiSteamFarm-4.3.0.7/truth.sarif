@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-ArchiSteamFarm-4.3.0.7"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-32795"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Commands.cs"
+                },
+                "region": {
+                  "startLine": 289,
+                  "endLine": 344
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArchiSteamFarm_Commands_HandleMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Commands.cs"
+                },
+                "region": {
+                  "startLine": 346,
+                  "endLine": 403
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArchiSteamFarm_Commands_HandleMessage",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

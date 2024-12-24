@@ -1,0 +1,245 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-sydent-v2.3.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-29431"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sydent/http/servlets/registerservlet.py"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 114
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "render_POST",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sydent/util/stringutils.py"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "is_valid_client_secret",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_auth.py"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_can_read_token_from_headers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_auth.py"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_can_read_token_from_query_parameters",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sydent/http/servlets/threepidunbindservlet.py"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 173
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_async_render_POST",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sydent/threepid/bind.py"
+                },
+                "region": {
+                  "startLine": 124,
+                  "endLine": 191
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_notify",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sydent/hs_federation/verifier.py"
+                },
+                "region": {
+                  "startLine": 147,
+                  "endLine": 220
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "authenticate_request",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sydent/util/stringutils.py"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "is_valid_hostname",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sydent/http/httpclient.py"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 127
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "sydent/sydent.py"
+                },
+                "region": {
+                  "startLine": 208,
+                  "endLine": 363
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/utils.py"
+                },
+                "region": {
+                  "startLine": 166,
+                  "endLine": 241
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_request",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/utils.py"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "make_sydent",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/utils.py"
+                },
+                "region": {
+                  "startLine": 257,
+                  "endLine": 272
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setup_logging",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

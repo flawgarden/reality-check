@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-aiohttp-v3.9.0rc0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-49082"
+          },
+          "ruleId": "CWE-93",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "aiohttp/client_reqrep.py"
+                },
+                "region": {
+                  "startLine": 258,
+                  "endLine": 339
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_client_request.py"
+                },
+                "region": {
+                  "startLine": 104,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_method_invalid",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_web_request.py"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_base_ctor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_web_request.py"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_ctor",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

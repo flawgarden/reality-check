@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-django-1.7.11"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2015-8213"
+          },
+          "ruleId": "CWE-200",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "django/utils/formats.py"
+                },
+                "region": {
+                  "startLine": 96,
+                  "endLine": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_format",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/i18n/tests.py"
+                },
+                "region": {
+                  "startLine": 831,
+                  "endLine": 832
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_format_arbitrary_settings",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

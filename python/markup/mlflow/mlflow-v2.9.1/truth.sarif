@@ -1,0 +1,160 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-mlflow-v2.9.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-6909"
+          },
+          "ruleId": "CWE-29",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mlflow/utils/uri.py"
+                },
+                "region": {
+                  "startLine": 419,
+                  "endLine": 439
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "validate_path_is_safe",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/store/artifact/test_http_artifact_repo.py"
+                },
+                "region": {
+                  "startLine": 250,
+                  "endLine": 263
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_list_artifacts_malicious_path",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/tracking/test_rest_tracking.py"
+                },
+                "region": {
+                  "startLine": 661,
+                  "endLine": 690
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_path_validation",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/tracking/test_rest_tracking.py"
+                },
+                "region": {
+                  "startLine": 667,
+                  "endLine": 672
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_path_validation.assert_response",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/tracking/test_rest_tracking.py"
+                },
+                "region": {
+                  "startLine": 560,
+                  "endLine": 562
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_validate_path_is_safe_bad",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/tracking/test_rest_tracking.py"
+                },
+                "region": {
+                  "startLine": 525,
+                  "endLine": 526
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_validate_path_is_safe_good",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/tracking/test_rest_tracking.py"
+                },
+                "region": {
+                  "startLine": 656,
+                  "endLine": 658
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_validate_path_is_safe_windows_bad",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/tracking/test_rest_tracking.py"
+                },
+                "region": {
+                  "startLine": 537,
+                  "endLine": 538
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_validate_path_is_safe_windows_good",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

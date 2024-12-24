@@ -260,8 +260,8 @@
                   "uri": "flask_appbuilder/models/sqla/interface.py"
                 },
                 "region": {
-                  "startLine": 725,
-                  "endLine": 747
+                  "startLine": 723,
+                  "endLine": 745
                 }
               },
               "logicalLocations": [
@@ -277,8 +277,8 @@
                   "uri": "flask_appbuilder/models/sqla/interface.py"
                 },
                 "region": {
-                  "startLine": 773,
-                  "endLine": 796
+                  "startLine": 771,
+                  "endLine": 794
                 }
               },
               "logicalLocations": [
@@ -294,8 +294,8 @@
                   "uri": "flask_appbuilder/models/sqla/interface.py"
                 },
                 "region": {
-                  "startLine": 798,
-                  "endLine": 818
+                  "startLine": 796,
+                  "endLine": 816
                 }
               },
               "logicalLocations": [
@@ -311,8 +311,8 @@
                   "uri": "flask_appbuilder/models/sqla/interface.py"
                 },
                 "region": {
-                  "startLine": 749,
-                  "endLine": 771
+                  "startLine": 747,
+                  "endLine": 769
                 }
               },
               "logicalLocations": [

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-HtmlSanitizer-v8.0.723"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-44390"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/HtmlSanitizer/HtmlSanitizer.cs"
+                },
+                "region": {
+                  "startLine": 452,
+                  "endLine": 466
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "GanssXss_HtmlSanitizer_RemoveComments",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/HtmlSanitizer/HtmlSanitizer.cs"
+                },
+                "region": {
+                  "startLine": 468,
+                  "endLine": 547
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "GanssXss_HtmlSanitizer_DoSanitize",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

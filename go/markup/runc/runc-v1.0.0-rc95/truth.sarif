@@ -1,0 +1,160 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-runc-v1.0.0-rc95"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-30465"
+          },
+          "ruleId": "CWE-362",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/container_linux.go"
+                },
+                "region": {
+                  "startLine": 1244,
+                  "endLine": 1299
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepareCriuRestoreMounts",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 672,
+                  "endLine": 696
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createDeviceNode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 334,
+                  "endLine": 377
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "doTmpfsCopyUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 239,
+                  "endLine": 302
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mountCgroupV1",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 379,
+                  "endLine": 482
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mountToRootfs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/utils/utils.go"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 143
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "WithProcfd",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/utils/utils.go"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "stripRoot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/utils/utils_test.go"
+                },
+                "region": {
+                  "startLine": 147,
+                  "endLine": 180
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestStripRoot",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

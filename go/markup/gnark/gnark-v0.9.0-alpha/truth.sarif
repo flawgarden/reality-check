@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-gnark-v0.9.0-alpha"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-44378"
+          },
+          "ruleId": "CWE-697",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/r1cs/api.go"
+                },
+                "region": {
+                  "startLine": 571,
+                  "endLine": 594
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Cmp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/r1cs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AssertIsLessOrEqual",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/r1cs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 227
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mustBeLessOrEqCst",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/r1cs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 167
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mustBeLessOrEqVar",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/scs/api.go"
+                },
+                "region": {
+                  "startLine": 475,
+                  "endLine": 496
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Cmp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/scs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 132,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AssertIsLessOrEqual",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/scs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 193,
+                  "endLine": 258
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mustBeLessOrEqCst",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "frontend/cs/scs/api_assertions.go"
+                },
+                "region": {
+                  "startLine": 141,
+                  "endLine": 191
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mustBeLessOrEqVar",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/backend/circuits/hint.go"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Define",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

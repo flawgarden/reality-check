@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Umbraco-CMS-release-7.7.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-15280"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Umbraco.Web/umbraco.presentation/umbraco/dialogs/importDocumenttype.aspx.cs"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "umbraco.presentation.umbraco.dialogs_importDocumentType_import_Click",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Umbraco.Web/umbraco.presentation/umbraco/dialogs/importDocumenttype.aspx.cs"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 114
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "umbraco.presentation.umbraco.dialogs_importDocumentType_submit_Click",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

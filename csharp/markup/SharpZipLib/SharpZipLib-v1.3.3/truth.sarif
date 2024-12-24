@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-SharpZipLib-v1.3.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-32841"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/ICSharpCode.SharpZipLib/Tar/TarArchive.cs"
+                },
+                "region": {
+                  "startLine": 645,
+                  "endLine": 710
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ICSharpCode.SharpZipLib.Tar_TarArchive_ExtractEntry",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

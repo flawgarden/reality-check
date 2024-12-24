@@ -1,0 +1,203 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-omero-web-v5.8.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-21376"
+          },
+          "ruleId": "CWE-200",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/decorators.py"
+                },
+                "region": {
+                  "startLine": 583,
+                  "endLine": 585
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepare_context",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/webclient/decorators.py"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 173
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepare_context",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/webclient/forms.py"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/webclient/views.py"
+                },
+                "region": {
+                  "startLine": 2772,
+                  "endLine": 3134
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "manage_action_containers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/webgateway/views.py"
+                },
+                "region": {
+                  "startLine": 2899,
+                  "endLine": 3017
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_table_query",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-21377"
+          },
+          "ruleId": "CWE-601",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/decorators.py"
+                },
+                "region": {
+                  "startLine": 583,
+                  "endLine": 585
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepare_context",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/webclient/decorators.py"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 173
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepare_context",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/webclient/forms.py"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 144
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/webclient/views.py"
+                },
+                "region": {
+                  "startLine": 2772,
+                  "endLine": 3134
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "manage_action_containers",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "omeroweb/webgateway/views.py"
+                },
+                "region": {
+                  "startLine": 2899,
+                  "endLine": 3017
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_table_query",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -83,23 +83,6 @@
                   "kind": "function"
                 }
               ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "django/http/__init__.py"
-                },
-                "region": {
-                  "startLine": 169,
-                  "endLine": 188
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "get_host",
-                  "kind": "function"
-                }
-              ]
             }
           ]
         }

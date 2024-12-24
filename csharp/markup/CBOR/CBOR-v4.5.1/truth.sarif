@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-CBOR-v4.5.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-21909"
+          },
+          "ruleId": "CWE-407",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CBOR/PeterO/Cbor/CBORObject.cs"
+                },
+                "region": {
+                  "startLine": 7917,
+                  "endLine": 7990
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PeterO.Cbor_CBORObject_MapCompare",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CBOR/PeterO/Cbor/PropertyMap.cs"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "PeterO.Cbor_PropertyMap_OrderedDictionary_OrderedDictionary",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CBORTest/CBORGenerator.cs"
+                },
+                "region": {
+                  "startLine": 133,
+                  "endLine": 235
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Test_CBORGenerator_Generate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "CBORTest/CBORGenerator.cs"
+                },
+                "region": {
+                  "startLine": 237,
+                  "endLine": 247
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Test_CBORGenerator_GenerateSmall",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

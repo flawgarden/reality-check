@@ -1,0 +1,2064 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-server-1.9.5.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-16806"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/Messages/MessageBuilder.cs"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 100
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.Messages_MessageBuilder_WriteMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/Messages/MessageBuilder.cs"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.Messages_MessageBuilder_WriteScreenFrame",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/DisplayPacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_DisplayPacketHandler_ChangeScreenResolution",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/DisplayPacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_DisplayPacketHandler_RotateDisplay",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/DisplayPacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_DisplayPacketHandler_SetPrimaryDisplay",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/GpuPacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_GpuPacketHandler_GetGpuTemp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ProcessPacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ProcessPacketHandler_StartProcess",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 197
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_GetScreenFrame",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 359,
+                  "endLine": 373
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_HandleKeyDown",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 336,
+                  "endLine": 351
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_HandleKeyUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 424,
+                  "endLine": 427
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_HandleMouseDown",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 419,
+                  "endLine": 422
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_HandleMouseUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 395,
+                  "endLine": 412
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_HandleMoveMouse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 211,
+                  "endLine": 274
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_HandlePacket",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 414,
+                  "endLine": 417
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_HandleRightClick",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 375,
+                  "endLine": 382
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_HandleScroll",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 286,
+                  "endLine": 289
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_RightDown",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 281,
+                  "endLine": 284
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_RightUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Network/PacketHandlers/ScreenSharePacketHandler.cs"
+                },
+                "region": {
+                  "startLine": 113,
+                  "endLine": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Network.PacketHandlers_ScreenSharePacketHandler_StartScreenShare",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Services/LocalSystem/SystemService.cs"
+                },
+                "region": {
+                  "startLine": 225,
+                  "endLine": 228
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Services.LocalSystem_SystemService_GetCpuTemps",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Services/LocalSystem/SystemService.cs"
+                },
+                "region": {
+                  "startLine": 201,
+                  "endLine": 222
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Services.LocalSystem_SystemService_GetDisplayInformation",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Services/LocalSystem/SystemService.cs"
+                },
+                "region": {
+                  "startLine": 231,
+                  "endLine": 249
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Services.LocalSystem_SystemService_GetMotherBoard",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Services/LocalSystem/SystemService.cs"
+                },
+                "region": {
+                  "startLine": 252,
+                  "endLine": 274
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Services.LocalSystem_SystemService_GetNetworkInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Services/Update/UpdateService.cs"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Services.Update_UpdateService_CheckForServerUpdates",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/SystemData.cs"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_SystemData_GetCpuTemps",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/SystemData.cs"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_SystemData_GetGpuTemp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
+                },
+                "region": {
+                  "startLine": 169,
+                  "endLine": 217
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_UlteriusApiServer_HandleConnect",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
+                },
+                "region": {
+                  "startLine": 152,
+                  "endLine": 163
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_UlteriusApiServer_HandleDisconnect",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
+                },
+                "region": {
+                  "startLine": 113,
+                  "endLine": 123
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_UlteriusApiServer_HandleEncryptedMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
+                },
+                "region": {
+                  "startLine": 125,
+                  "endLine": 128
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_UlteriusApiServer_HandleError",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 145
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_UlteriusApiServer_HandlePlainTextMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
+                },
+                "region": {
+                  "startLine": 251,
+                  "endLine": 254
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_UlteriusApiServer_Log",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
+                },
+                "region": {
+                  "startLine": 224,
+                  "endLine": 249
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_UlteriusApiServer_SendWelcomeMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/UlteriusApiServer.cs"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api_UlteriusApiServer_Start",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/DesktopWatcher.cs"
+                },
+                "region": {
+                  "startLine": 15,
+                  "endLine": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_DesktopWatcher_Start",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/DesktopWatcher.cs"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_DesktopWatcher_WatchDesktop",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_GetAllMonitorsFriendlyNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_GetDeviceFriendlyName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 436,
+                  "endLine": 468
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_GetMonitors",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 184,
+                  "endLine": 189
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_GetWindowRectangle",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_MonitorFriendlyName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 281,
+                  "endLine": 284
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_Equals",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 286,
+                  "endLine": 293
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_Equals",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 295,
+                  "endLine": 298
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_GetHashCode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 206,
+                  "endLine": 212
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_RECT",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 214,
+                  "endLine": 216
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_RECT",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 300,
+                  "endLine": 304
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_ToString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 276,
+                  "endLine": 279
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_operator !=",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 271,
+                  "endLine": 274
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_operator ==",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 266,
+                  "endLine": 269
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_operator RECT",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/Display.cs"
+                },
+                "region": {
+                  "startLine": 261,
+                  "endLine": 264
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32_Display_RECT_operator Rectangle",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_DesktopDuplicator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 104
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_DesktopDuplicator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 279,
+                  "endLine": 312
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_ExtractRect",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 165
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_GetBestAdapter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 170,
+                  "endLine": 198
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_GetLatestFrame",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 314,
+                  "endLine": 340
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_ProcessFrame",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 342,
+                  "endLine": 353
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_ReleaseFrame",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 200,
+                  "endLine": 227
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_RetrieveFrame",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 229,
+                  "endLine": 276
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_RetrieveFrameMetadata",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/DesktopDuplication/DesktopDuplicator.cs"
+                },
+                "region": {
+                  "startLine": 109,
+                  "endLine": 122
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare.DesktopDuplication_DesktopDuplicator_FinalImage_set",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/ScreenData.cs"
+                },
+                "region": {
+                  "startLine": 250,
+                  "endLine": 262
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare_ScreenData_GetScreenPicDxgi",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Api/Win32/ScreenShare/ScreenData.cs"
+                },
+                "region": {
+                  "startLine": 363,
+                  "endLine": 388
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Api.Win32.ScreenShare_ScreenData_SetupDuplication",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Program.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer_Program_Main",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/TerminalServer/Messaging/WebSocketHandler.cs"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.TerminalServer.Messaging_WebSocketHandler_HandleConnectionAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/TerminalServer/Messaging/WebSocketQueueServer.cs"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 130
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.TerminalServer.Messaging_WebSocketQueueServer_AcceptWebSocketClientsAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/TerminalServer/Messaging/WebSocketQueueServer.cs"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 104
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.TerminalServer.Messaging_WebSocketQueueServer_HttpNegotiation",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/TerminalServer/Messaging/WebSocketQueueServer.cs"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.TerminalServer.Messaging_WebSocketQueueServer_StartAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/TerminalServer/Messaging/WebSocketQueueServer.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.TerminalServer.Messaging_WebSocketQueueServer_WebSocketQueueServer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Ulterius.cs"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer_Ulterius_Setup",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "endLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_FindIndexedProcessName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 175
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_FindPidFromIndexedProcessName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 93
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_GetChildProcesses",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_GetChildrenById",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 151,
+                  "endLine": 162
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_GetProcess",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_GetProcessName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_GetProcessWindows",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_IsService",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 178,
+                  "endLine": 197
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_KillProcessAndChildren",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 204,
+                  "endLine": 207
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_Parent",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/ProcessExtensions.cs"
+                },
+                "region": {
+                  "startLine": 199,
+                  "endLine": 202
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_ProcessExtensions_ProgramIsRunning",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 214,
+                  "endLine": 234
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_CharListToSet",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 339,
+                  "endLine": 342
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_CommaSeparate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 421,
+                  "endLine": 437
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_CreateMD5",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 351,
+                  "endLine": 354
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_EqualsIgnoreCase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 396,
+                  "endLine": 419
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_Form",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 446,
+                  "endLine": 475
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_FormatString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 236,
+                  "endLine": 281
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_GetBytesReadable",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 477,
+                  "endLine": 503
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_Initialize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 356,
+                  "endLine": 360
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_IsBase64String",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 130
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_IsLike",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 154,
+                  "endLine": 163
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_IsSubPathOf",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 136,
+                  "endLine": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_IsValidEmail",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 362,
+                  "endLine": 384
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_IsValidJson",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 194,
+                  "endLine": 206
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_Right",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 288,
+                  "endLine": 296
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_ToSecureString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 297,
+                  "endLine": 311
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_ToUnsecureString",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_UnicodeUtf8",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 170,
+                  "endLine": 188
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Extensions_StringExtensions_WithEnding",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Security/AuthUtils.cs"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities.Security_AuthUtils_AuthWindows",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Tools.cs"
+                },
+                "region": {
+                  "startLine": 331,
+                  "endLine": 370
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities_Tools_ConfigureServer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Tools.cs"
+                },
+                "region": {
+                  "startLine": 375,
+                  "endLine": 386
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities_Tools_OpenFirewallForProgram",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Tools.cs"
+                },
+                "region": {
+                  "startLine": 96,
+                  "endLine": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities_Tools_RestartAgent",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Tools.cs"
+                },
+                "region": {
+                  "startLine": 79,
+                  "endLine": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities_Tools_RestartDaemon",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/Utilities/Tools.cs"
+                },
+                "region": {
+                  "startLine": 388,
+                  "endLine": 393
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.Utilities_Tools_RunningAsService",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/WebServer/HttpServer.cs"
+                },
+                "region": {
+                  "startLine": 260,
+                  "endLine": 342
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.WebServer_HttpServer_Process",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.WebSocketAPI_WebSocketEventListener_Dispose",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.WebSocketAPI_WebSocketEventListener_ListenAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.WebSocketAPI_WebSocketEventListener_Start",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.WebSocketAPI_WebSocketEventListener_Stop",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.WebSocketAPI_WebSocketEventListener_WebSocketEventListener",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "RemoteTaskServer/WebSocketAPI/WebSocketEventListener.cs"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusServer.WebSocketAPI_WebSocketEventListener_WebSocketEventListener",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "UlteriusAgent/Program.cs"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusAgent_Program_Main",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "UlteriusAgent/UlteriusAgent.cs"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusAgent_UlteriusAgent_EndProcessTree",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "UlteriusAgent/UlteriusAgent.cs"
+                },
+                "region": {
+                  "startLine": 102,
+                  "endLine": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusAgent_UlteriusAgent_HandleEvent",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "UlteriusAgent/UlteriusAgent.cs"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusAgent_UlteriusAgent_Respawn",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "UlteriusAgent/UlteriusAgent.cs"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusAgent_UlteriusAgent_Start",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "UlteriusAgent/UlteriusAgent.cs"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusAgent_UlteriusAgent_Stop",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "UlteriusAgent/UlteriusAgent.cs"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusAgent_UlteriusAgent_UlteriusAgent",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "UlteriusAgent/UlteriusAgent.cs"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 100
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "UlteriusAgent_UlteriusAgent_UlteriusInstanceOnOnStateChange",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

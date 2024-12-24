@@ -1,0 +1,255 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-whoogle-search-v0.8.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-22203"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 431,
+                  "endLine": 469
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 482,
+                  "endLine": 520
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "element",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 526,
+                  "endLine": 594
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "window",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-22204"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 431,
+                  "endLine": 469
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 482,
+                  "endLine": 520
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "element",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 526,
+                  "endLine": 594
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "window",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-22205"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 431,
+                  "endLine": 469
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 482,
+                  "endLine": 520
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "element",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 526,
+                  "endLine": 594
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "window",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2024-22417"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 431,
+                  "endLine": 469
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 482,
+                  "endLine": 520
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "element",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 526,
+                  "endLine": 594
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "window",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -51,6 +51,7 @@ def convert(
         "runs": [{"tool": {"driver": {"name": "reality-check-benchmark-" + version}}}],
     }
     results = []
+    print(version)
     for cve in version_to_cves[version]:
         if cve_to_vul_version[cve] == version:
             vul_csv_path_str = cve_to_vul_csv[cve]

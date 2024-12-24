@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-NuGetGallery-v2023.04.25"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2024-37304"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/NuGetGallery/Services/MarkdownService.cs"
+                },
+                "region": {
+                  "startLine": 191,
+                  "endLine": 295
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "NuGetGallery_MarkdownService_GetHtmlFromMarkdownMarkdig",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

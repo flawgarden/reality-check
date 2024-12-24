@@ -1,0 +1,373 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-openapi-python-client-v.0.5.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2020-15141"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/__init__.py"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test___init__.py"
+                },
+                "region": {
+                  "startLine": 481,
+                  "endLine": 571
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test__build_api",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_templates/conftest.py"
+                },
+                "region": {
+                  "startLine": 6,
+                  "endLine": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "env",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2020-15142"
+          },
+          "ruleId": "CWE-94",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/fastapi_app/__init__.py"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_list",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/golden-master/my_test_api_client/models/a_model.py"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "from_dict",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/golden-master/my_test_api_client/models/a_model.py"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "from_dict._parse_a_camel_date_time",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/golden-master/my_test_api_client/models/a_model.py"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "to_dict",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/__init__.py"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/openapi.py"
+                },
+                "region": {
+                  "startLine": 172,
+                  "endLine": 195
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "from_data",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 244,
+                  "endLine": 259
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__post_init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 77,
+                  "endLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__post_init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 92,
+                  "endLine": 101
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_imports",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 36,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_type_string",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 384,
+                  "endLine": 425
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "property_from_data",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 290,
+                  "endLine": 303
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "values_from_list",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/utils.py"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "pascal_case",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/utils.py"
+                },
+                "region": {
+                  "startLine": 6,
+                  "endLine": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "snake_case",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test___post_init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_get_imports",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 498,
+                  "endLine": 513
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_array",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

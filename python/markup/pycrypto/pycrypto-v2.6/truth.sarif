@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-pycrypto-v2.6"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2013-1445"
+          },
+          "ruleId": "CWE-310",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/Random/_UserFriendlyRNG.py"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "reinit",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/SelfTest/Random/__init__.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_tests",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

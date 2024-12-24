@@ -1,0 +1,194 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-runc-v1.0.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-43784"
+          },
+          "ruleId": "CWE-190",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/container_linux.go"
+                },
+                "region": {
+                  "startLine": 1192,
+                  "endLine": 1223
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "makeCriuRestoreMountpoints",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/container_linux.go"
+                },
+                "region": {
+                  "startLine": 540,
+                  "endLine": 567
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newInitProcess",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/container_linux.go"
+                },
+                "region": {
+                  "startLine": 569,
+                  "endLine": 594
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newSetnsProcess",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/init_linux.go"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 107
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "newContainerInit",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 334,
+                  "endLine": 377
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "doTmpfsCopyUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 1044,
+                  "endLine": 1080
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mountPropagate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 379,
+                  "endLine": 482
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mountToRootfs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 214,
+                  "endLine": 237
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepareBindMount",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepareRootfs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/standard_init_linux.go"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 245
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Init",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

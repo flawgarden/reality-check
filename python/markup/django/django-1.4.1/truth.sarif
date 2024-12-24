@@ -22,8 +22,8 @@
                   "uri": "django/contrib/auth/views.py"
                 },
                 "region": {
-                  "startLine": 142,
-                  "endLine": 177
+                  "startLine": 135,
+                  "endLine": 179
                 }
               },
               "logicalLocations": [

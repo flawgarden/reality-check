@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-BearFTP-0.3.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-8815"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "BearFTP/Program.cs"
+                },
+                "region": {
+                  "startLine": 274,
+                  "endLine": 998
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BearFTP_Program_Main",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "BearFTP/Config.cs"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "BearFTP_Config_Config",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

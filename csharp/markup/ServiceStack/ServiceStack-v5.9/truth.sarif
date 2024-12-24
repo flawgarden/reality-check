@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-ServiceStack-v5.9"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2020-28042"
+          },
+          "ruleId": "CWE-347",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/ServiceStack.Common/EnumerableExtensions.cs"
+                },
+                "region": {
+                  "startLine": 235,
+                  "endLine": 242
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ServiceStack_EnumerableExtensions_EquivalentTo",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

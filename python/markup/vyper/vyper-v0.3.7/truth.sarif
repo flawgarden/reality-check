@@ -1,0 +1,135 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-vyper-v0.3.7"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-30837"
+          },
+          "ruleId": "CWE-789",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 210,
+                  "endLine": 227
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_code_offsets",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 142,
+                  "endLine": 199
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_storage_slots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_storage_slots_with_overrides",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-46247"
+          },
+          "ruleId": "CWE-193",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 210,
+                  "endLine": 227
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_code_offsets",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 142,
+                  "endLine": 199
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_storage_slots",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "vyper/semantics/analysis/data_positions.py"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_storage_slots_with_overrides",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

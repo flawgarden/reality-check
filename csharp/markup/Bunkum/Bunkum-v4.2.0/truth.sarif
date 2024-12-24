@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Bunkum-v4.2.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-45814"
+          },
+          "ruleId": "CWE-772",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Bunkum.Core/Services/AuthenticationService.cs"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AuthenticationService_AddParameterToEndpoint",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

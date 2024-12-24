@@ -1,0 +1,194 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Dnn.Platform-v9.2.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2017-0929"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Library/Services/GeneratedImage/DnnImageHandler.cs"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 445
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetNuke.Services.GeneratedImage_DnnImageHandler_GenerateImage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Library/Services/GeneratedImage/FilterTransform/ImageResizeTransform.cs"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetNuke.Services.GeneratedImage.FilterTransform_ImageResizeTransform_ProcessImage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Library/Services/GeneratedImage/ImageHandlerInternal.cs"
+                },
+                "region": {
+                  "startLine": 411,
+                  "endLine": 437
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetNuke.Services.GeneratedImage_ImageHandlerInternal_RenderImage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Tests/DNN.Integration.Test.Framework/Helpers/PortalAliasHelper.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DNN.Integration.Test.Framework.Helpers_PortalAliasHelper_AddPortalAlias",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Tests/DNN.Integration.Test.Framework/Helpers/PortalAliasHelper.cs"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DNN.Integration.Test.Framework.Helpers_PortalAliasHelper_GetAllPortalAliaes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Tests/DNN.Integration.Test.Framework/Helpers/PortalAliasHelper.cs"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DNN.Integration.Test.Framework.Helpers_PortalAliasHelper_GetPortalAliaes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Tests/DNN.Integration.Test.Framework/Helpers/PortalAliasHelper.cs"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DNN.Integration.Test.Framework.Helpers_PortalAliasHelper_GetPrimaryPortalAlias",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Tests/DotNetNuke.Tests.Integration/Tests/Library/ImageHandlerTests.cs"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetNuke.Tests.Integration.Tests.Library_ImageHandlerTests_Using_Image_Handler_For_Foreign_Site_ShouldFail",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Tests/DotNetNuke.Tests.Integration/Tests/Library/ImageHandlerTests.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetNuke.Tests.Integration.Tests.Library_ImageHandlerTests_Using_Image_Handler_For_Main_Alias_ShouldPass",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Tests/DotNetNuke.Tests.Integration/Tests/Library/ImageHandlerTests.cs"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetNuke.Tests.Integration.Tests.Library_ImageHandlerTests_Using_Image_Handler_From_All_Alias_ShouldPass",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

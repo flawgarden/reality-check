@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Blogifier-v2.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-12277"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 271,
+                  "endLine": 278
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_DeleteAuthor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 239,
+                  "endLine": 253
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_Find",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 278,
+                  "endLine": 312
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_Reset",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 399,
+                  "endLine": 430
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_TitleFromUri",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

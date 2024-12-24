@@ -1,0 +1,891 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-recurly-client-net-1.7.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-0907"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 145,
+                  "endLine": 150
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_DeleteBillingInfo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 326,
+                  "endLine": 335
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_GetActiveRedemptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 229,
+                  "endLine": 240
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_GetAdjustments",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 290,
+                  "endLine": 293
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_GetNotes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 246,
+                  "endLine": 254
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_GetShippingAddresses",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 270,
+                  "endLine": 274
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_GetSubscriptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 282,
+                  "endLine": 288
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_GetTransactions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 198,
+                  "endLine": 207
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_InvoicePendingCharges",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 212,
+                  "endLine": 221
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_PreviewInvoicePendingCharges",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 170
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Account_Update",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 563,
+                  "endLine": 568
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Accounts_Close",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 547,
+                  "endLine": 556
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Accounts_Get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Account.cs"
+                },
+                "region": {
+                  "startLine": 585,
+                  "endLine": 590
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Accounts_Reopen",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/AccountBalance.cs"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_AccountBalance_Get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/AddOn.cs"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_AddOn_Create",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/AddOn.cs"
+                },
+                "region": {
+                  "startLine": 85,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_AddOn_Delete",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/AddOn.cs"
+                },
+                "region": {
+                  "startLine": 74,
+                  "endLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_AddOn_Update",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Adjustment.cs"
+                },
+                "region": {
+                  "startLine": 105,
+                  "endLine": 112
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Adjustment_Create",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Adjustment.cs"
+                },
+                "region": {
+                  "startLine": 119,
+                  "endLine": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Adjustment_Delete",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Adjustment.cs"
+                },
+                "region": {
+                  "startLine": 269,
+                  "endLine": 276
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Adjustments_Get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/BillingInfo.cs"
+                },
+                "region": {
+                  "startLine": 187,
+                  "endLine": 190
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_BillingInfo_BillingInfoUrl",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Coupon.cs"
+                },
+                "region": {
+                  "startLine": 192,
+                  "endLine": 196
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Coupon_Deactivate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Coupon.cs"
+                },
+                "region": {
+                  "startLine": 182,
+                  "endLine": 187
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Coupon_Restore",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Coupon.cs"
+                },
+                "region": {
+                  "startLine": 175,
+                  "endLine": 180
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Coupon_Update",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Coupon.cs"
+                },
+                "region": {
+                  "startLine": 533,
+                  "endLine": 542
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Coupons_Get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/CouponRedemption.cs"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_CouponRedemption_Delete",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/CouponRedemption.cs"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_CouponRedemption_Redeem",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Export.cs"
+                },
+                "region": {
+                  "startLine": 110,
+                  "endLine": 118
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Exports_DownloadExportFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/GiftCard.cs"
+                },
+                "region": {
+                  "startLine": 310,
+                  "endLine": 319
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_GiftCards_Get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Invoice.cs"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 127
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Invoice_Create",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Invoice.cs"
+                },
+                "region": {
+                  "startLine": 132,
+                  "endLine": 138
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Invoice_Preview",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Invoice.cs"
+                },
+                "region": {
+                  "startLine": 502,
+                  "endLine": 511
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Invoices_Create",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Invoice.cs"
+                },
+                "region": {
+                  "startLine": 454,
+                  "endLine": 457
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Invoices_List",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/MeasuredUnit.cs"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_MeasuredUnit_Delete",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/MeasuredUnit.cs"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_MeasuredUnit_Update",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Plan.cs"
+                },
+                "region": {
+                  "startLine": 127,
+                  "endLine": 130
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Plan_Deactivate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Plan.cs"
+                },
+                "region": {
+                  "startLine": 144,
+                  "endLine": 160
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Plan_GetAddOn",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Plan.cs"
+                },
+                "region": {
+                  "startLine": 117,
+                  "endLine": 122
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Plan_Update",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Plan.cs"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Plan_AddOns_get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Plan.cs"
+                },
+                "region": {
+                  "startLine": 425,
+                  "endLine": 434
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Plans_Get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Subscription.cs"
+                },
+                "region": {
+                  "startLine": 387,
+                  "endLine": 392
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Subscription_Cancel",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Subscription.cs"
+                },
+                "region": {
+                  "startLine": 363,
+                  "endLine": 376
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Subscription_ChangeSubscription",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Subscription.cs"
+                },
+                "region": {
+                  "startLine": 499,
+                  "endLine": 507
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Subscription_GetRedemptions",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Subscription.cs"
+                },
+                "region": {
+                  "startLine": 478,
+                  "endLine": 483
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Subscription_Postpone",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Subscription.cs"
+                },
+                "region": {
+                  "startLine": 444,
+                  "endLine": 466
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Subscription_PreviewChange",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Subscription.cs"
+                },
+                "region": {
+                  "startLine": 397,
+                  "endLine": 402
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Subscription_Reactivate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Subscription.cs"
+                },
+                "region": {
+                  "startLine": 408,
+                  "endLine": 413
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Subscription_Terminate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Subscription.cs"
+                },
+                "region": {
+                  "startLine": 485,
+                  "endLine": 497
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Subscription_UpdateNotes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Subscription.cs"
+                },
+                "region": {
+                  "startLine": 958,
+                  "endLine": 966
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Subscriptions_Get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Transaction.cs"
+                },
+                "region": {
+                  "startLine": 146,
+                  "endLine": 151
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Transaction_Refund",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Library/Transaction.cs"
+                },
+                "region": {
+                  "startLine": 397,
+                  "endLine": 406
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Recurly_Transactions_Get",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

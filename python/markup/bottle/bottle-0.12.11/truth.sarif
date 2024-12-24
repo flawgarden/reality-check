@@ -22,8 +22,8 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 2197,
-                  "endLine": 2198
+                  "startLine": 2143,
+                  "endLine": 2151
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 1576,
-                  "endLine": 1579
+                  "startLine": 1401,
+                  "endLine": 1404
                 }
               },
               "logicalLocations": [
@@ -56,8 +56,8 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 1581,
-                  "endLine": 1585
+                  "startLine": 1407,
+                  "endLine": 1411
                 }
               },
               "logicalLocations": [
@@ -73,8 +73,8 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 2200,
-                  "endLine": 2201
+                  "startLine": 1869,
+                  "endLine": 1871
                 }
               },
               "logicalLocations": [
@@ -90,8 +90,25 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 2212,
-                  "endLine": 2215
+                  "startLine": 1944,
+                  "endLine": 1944
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "append",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 1949,
+                  "endLine": 1952
                 }
               },
               "logicalLocations": [
@@ -107,8 +124,25 @@
                   "uri": "bottle.py"
                 },
                 "region": {
-                  "startLine": 2203,
-                  "endLine": 2204
+                  "startLine": 1873,
+                  "endLine": 1875
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "replace",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bottle.py"
+                },
+                "region": {
+                  "startLine": 1945,
+                  "endLine": 1945
                 }
               },
               "logicalLocations": [
@@ -124,8 +158,8 @@
                   "uri": "test/test_environ.py"
                 },
                 "region": {
-                  "startLine": 701,
-                  "endLine": 710
+                  "startLine": 671,
+                  "endLine": 691
                 }
               },
               "logicalLocations": [

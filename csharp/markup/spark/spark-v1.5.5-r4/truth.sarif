@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-spark-v1.5.5-r4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-32054"
+          },
+          "ruleId": "CWE-706",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Spark.Engine/Extensions/HttpRequestFhirExtensions.cs"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 175
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Spark.Engine.Extensions_HttpRequestFhirExtensions_AcquireHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Spark.Engine/Extensions/HttpRequestFhirExtensions.cs"
+                },
+                "region": {
+                  "startLine": 179,
+                  "endLine": 201
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Spark.Engine.Extensions_HttpRequestFhirExtensions_AcquireHeaders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Spark.Engine/Formatters/NetCore/BinaryOutputFormatter.cs"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Spark.Engine.Formatters_BinaryOutputFormatter_WriteResponseBodyAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Spark.Engine/Handlers/NetCore/FormatTypeHandler.cs"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Spark.Engine.Handlers.NetCore_FormatTypeHandler_InvokeAsync",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

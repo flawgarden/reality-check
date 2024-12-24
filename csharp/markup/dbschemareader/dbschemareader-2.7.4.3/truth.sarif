@@ -1,0 +1,806 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-dbschemareader-2.7.4.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-26207"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/Data/InsertWriter.cs"
+                },
+                "region": {
+                  "startLine": 289,
+                  "endLine": 302
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.Data_InsertWriter_GetAllColumns",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/Data/InsertWriter.cs"
+                },
+                "region": {
+                  "startLine": 271,
+                  "endLine": 280
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.Data_InsertWriter_PrepareTemplate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/Data/ScriptWriter.cs"
+                },
+                "region": {
+                  "startLine": 130,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.Data_ScriptWriter_ReadTable",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/Data/ScriptWriter.cs"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.Data_ScriptWriter_ReadTable",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/ConstraintWriterBase.cs"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_ConstraintWriterBase_ConstraintWriterBase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/ConstraintWriterBase.cs"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_ConstraintWriterBase_EscapeName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/Db2/TablesGenerator.cs"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen.Db2_TablesGenerator_WriteDrops",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/DropTables.cs"
+                },
+                "region": {
+                  "startLine": 9,
+                  "endLine": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_DropTables_Write",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/MigrationGenerator.cs"
+                },
+                "region": {
+                  "startLine": 209,
+                  "endLine": 226
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_MigrationGenerator_AddConstraint",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/MigrationGenerator.cs"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_MigrationGenerator_CreateTableGenerator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/MigrationGenerator.cs"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_MigrationGenerator_Escape",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/MigrationGenerator.cs"
+                },
+                "region": {
+                  "startLine": 16,
+                  "endLine": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_MigrationGenerator_MigrationGenerator",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/MySql/TablesGenerator.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen.MySql_TablesGenerator_WriteDrops",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/SqlServer/TableGenerator.cs"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 101
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen.SqlServer_TableGenerator_CreateConstraintWriter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/SqlServer/TablesGenerator.cs"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen.SqlServer_TablesGenerator_WriteDrops",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/TableGeneratorBase.cs"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_TableGeneratorBase_EscapeName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/TableGeneratorBase.cs"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_TableGeneratorBase_TableGeneratorBase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/TablesGeneratorBase.cs"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_TablesGeneratorBase_TablesGeneratorBase",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlGen/TablesGeneratorBase.cs"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader.SqlGen_TablesGeneratorBase_Write",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlWriter.cs"
+                },
+                "region": {
+                  "startLine": 736,
+                  "endLine": 742
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader_SqlWriter_FindIdentityColumn",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlWriter.cs"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader_SqlWriter_ParametersByType",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlWriter.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader_SqlWriter_SqlWriter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReader/SqlWriter.cs"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 97
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReader_SqlWriter_EscapeNames_set",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReaderTest/SqlGen/Migrations/UnitTests/MigrationAddColumn.cs"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReaderTest.SqlGen.Migrations.UnitTests_MigrationAddColumn_TestSqlServerNoEscapeNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReaderTest/SqlGen/Migrations/UnitTests/MigrationAddForeignKey.cs"
+                },
+                "region": {
+                  "startLine": 109,
+                  "endLine": 126
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReaderTest.SqlGen.Migrations.UnitTests_MigrationAddForeignKey_TestOracleNoSchemaNoEscapeNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReaderTest/SqlGen/Migrations/UnitTests/MigrationAddForeignKey.cs"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReaderTest.SqlGen.Migrations.UnitTests_MigrationAddForeignKey_TestSqlServerNoEscapeNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReaderTest/SqlGen/Migrations/UnitTests/MigrationAddIndex.cs"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 129
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReaderTest.SqlGen.Migrations.UnitTests_MigrationAddIndex_TestSqlServerNoSchemaNoEscapeNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReaderTest/SqlGen/Migrations/UnitTests/MigrationAddPrimaryKey.cs"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReaderTest.SqlGen.Migrations.UnitTests_MigrationAddPrimaryKey_TestAddPrimaryKeyNoEscapeNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReaderTest/SqlGen/Migrations/UnitTests/MigrationCreateTable.cs"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReaderTest.SqlGen.Migrations.UnitTests_MigrationCreateTable_TestSqlServerCreateTableNoSchemaNoEscapeNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaReaderTest/SqlGen/Migrations/UnitTests/MigrationDropColumn.cs"
+                },
+                "region": {
+                  "startLine": 51,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaReaderTest.SqlGen.Migrations.UnitTests_MigrationDropColumn_TestSqlServerNoSchemaNoEscapeNames",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/Form1.Designer.cs"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 317
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_Form1_InitializeComponent",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/Form1.cs"
+                },
+                "region": {
+                  "startLine": 421,
+                  "endLine": 424
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_Form1_BuildSqlTasks",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/Form1.cs"
+                },
+                "region": {
+                  "startLine": 447,
+                  "endLine": 487
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_Form1_BuildTableMenu",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/Form1.cs"
+                },
+                "region": {
+                  "startLine": 426,
+                  "endLine": 445
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_Form1_BuildViewMenu",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/Form1.cs"
+                },
+                "region": {
+                  "startLine": 296,
+                  "endLine": 419
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_Form1_TreeMouseUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/Form1.cs"
+                },
+                "region": {
+                  "startLine": 555,
+                  "endLine": 558
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_Form1_tsbQuote_Click",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_BuildAllTableDdl",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 125
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_BuildSqlWriter",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_BuildTableDdl",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 155,
+                  "endLine": 167
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_BuildTableInsert",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 127,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_BuildTableSelect",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 142,
+                  "endLine": 154
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_BuildTableSelectPaged",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 168,
+                  "endLine": 180
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_BuildTableUpdate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_DeleteAllData",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 73,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_GetData",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DatabaseSchemaViewer/SqlTasks.cs"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DatabaseSchemaViewer_SqlTasks_SqlTasks",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

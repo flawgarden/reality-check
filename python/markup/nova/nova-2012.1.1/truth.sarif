@@ -1,0 +1,203 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-nova-2012.1.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2012-3360"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 360,
+                  "endLine": 392
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_admin_password_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 309,
+                  "endLine": 314
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_file_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 325,
+                  "endLine": 344
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_key_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 317,
+                  "endLine": 322
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_metadata_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 347,
+                  "endLine": 357
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_net_into_fs",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2012-3361"
+          },
+          "ruleId": "CWE-264",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 360,
+                  "endLine": 392
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_admin_password_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 309,
+                  "endLine": 314
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_file_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 325,
+                  "endLine": 344
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_key_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 317,
+                  "endLine": 322
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_metadata_into_fs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "nova/virt/disk/api.py"
+                },
+                "region": {
+                  "startLine": 347,
+                  "endLine": 357
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_inject_net_into_fs",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

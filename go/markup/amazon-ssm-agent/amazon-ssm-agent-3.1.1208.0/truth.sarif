@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-amazon-ssm-agent-3.1.1208.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-29527"
+          },
+          "ruleId": "CWE-732",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "agent/session/utility/utility_unix.go"
+                },
+                "region": {
+                  "startLine": 135,
+                  "endLine": 143
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "changeModeOfSudoersFile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "agent/session/utility/utility_unix.go"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 131
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createSudoersFileIfNotPresent",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

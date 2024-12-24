@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-pycrypto-v2.6.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2013-1445"
+          },
+          "ruleId": "CWE-310",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/Random/Fortuna/FortunaAccumulator.py"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 136
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_forget_last_reseed",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/Random/_UserFriendlyRNG.py"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "reinit",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/SelfTest/Random/__init__.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_tests",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/SelfTest/Random/test__UserFriendlyRNG.py"
+                },
+                "region": {
+                  "startLine": 50,
+                  "endLine": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_get_reseed_count",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/SelfTest/Random/test__UserFriendlyRNG.py"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_task_main",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/SelfTest/Random/test__UserFriendlyRNG.py"
+                },
+                "region": {
+                  "startLine": 160,
+                  "endLine": 165
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_tests",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/Crypto/SelfTest/Random/test__UserFriendlyRNG.py"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "runTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

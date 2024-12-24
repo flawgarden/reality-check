@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-recurly-client-python-2.6.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-0906"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "recurly/resource.py"
+                },
+                "region": {
+                  "startLine": 640,
+                  "endLine": 642
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_create",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "recurly/resource.py"
+                },
+                "region": {
+                  "startLine": 599,
+                  "endLine": 612
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "all",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "recurly/resource.py"
+                },
+                "region": {
+                  "startLine": 615,
+                  "endLine": 622
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "count",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "recurly/resource.py"
+                },
+                "region": {
+                  "startLine": 333,
+                  "endLine": 343
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

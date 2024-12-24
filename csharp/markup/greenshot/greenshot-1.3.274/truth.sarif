@@ -260,30 +260,13 @@
                   "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
                 },
                 "region": {
-                  "startLine": 264,
-                  "endLine": 270
+                  "startLine": 262,
+                  "endLine": 278
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Greenshot.Editor.Drawing_FreehandContainer_if",
-                  "kind": "function"
-                }
-              ]
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/Greenshot.Editor/Drawing/FreehandContainer.cs"
-                },
-                "region": {
-                  "startLine": 272,
-                  "endLine": 275
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "Greenshot.Editor.Drawing_FreehandContainer_if",
+                  "name": "Greenshot.Editor.Drawing_FreehandContainer_DrawingBounds_get",
                   "kind": "function"
                 }
               ]

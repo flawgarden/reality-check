@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-fides-2.19.1a0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-41319"
+          },
+          "ruleId": "CWE-693",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/fides/api/service/connectors/saas/connector_registry_service.py"
+                },
+                "region": {
+                  "startLine": 142,
+                  "endLine": 160
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_register_template",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/api/v1/endpoints/test_saas_config_endpoints.py"
+                },
+                "region": {
+                  "startLine": 719,
+                  "endLine": 742
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_register_connector_template",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/ops/service/connectors/test_connector_template_loaders.py"
+                },
+                "region": {
+                  "startLine": 264,
+                  "endLine": 302
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_custom_connector_save_template_with_functions",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

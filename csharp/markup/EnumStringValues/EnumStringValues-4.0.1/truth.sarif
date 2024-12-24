@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-EnumStringValues-4.0.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-36620"
+          },
+          "ruleId": "CWE-400",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "EnumStringValues/EnumExtensions.cs"
+                },
+                "region": {
+                  "startLine": 293,
+                  "endLine": 308
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "EnumStringValues_EnumExtensions_BuildCacheDictionaryForParseStringValue",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "EnumStringValues/EnumExtensions.cs"
+                },
+                "region": {
+                  "startLine": 268,
+                  "endLine": 287
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "EnumStringValues_EnumExtensions_TryParseStringValueToEnum_ViaCache",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

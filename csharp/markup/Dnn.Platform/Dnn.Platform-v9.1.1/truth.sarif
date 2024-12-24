@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Dnn.Platform-v9.1.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2017-0929"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Library/Services/GeneratedImage/DnnImageHandler.cs"
+                },
+                "region": {
+                  "startLine": 117,
+                  "endLine": 558
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetNuke.Services.GeneratedImage_DnnImageHandler_GenerateImage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Library/Services/GeneratedImage/FilterTransform/ImageResizeTransform.cs"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetNuke.Services.GeneratedImage.FilterTransform_ImageResizeTransform_ProcessImage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DNN Platform/Library/Services/GeneratedImage/ImageHandlerInternal.cs"
+                },
+                "region": {
+                  "startLine": 384,
+                  "endLine": 410
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "DotNetNuke.Services.GeneratedImage_ImageHandlerInternal_RenderImage",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

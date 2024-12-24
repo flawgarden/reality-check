@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-IdentityServer4-2.1.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2018-8899"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/IdentityServer4/Endpoints/Results/AuthorizeResult.cs"
+                },
+                "region": {
+                  "startLine": 175,
+                  "endLine": 185
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IdentityServer4.Endpoints.Results_AuthorizeResult_GetFormPostHtml",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

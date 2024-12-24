@@ -1,0 +1,832 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-openapi-python-client-v.0.5.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-15141"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/__init__.py"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/__init__.py"
+                },
+                "region": {
+                  "startLine": 212,
+                  "endLine": 240
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_build_api",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test___init__.py"
+                },
+                "region": {
+                  "startLine": 481,
+                  "endLine": 571
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test__build_api",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_templates/conftest.py"
+                },
+                "region": {
+                  "startLine": 6,
+                  "endLine": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "env",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_utils.py"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_kebab_case",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-15142"
+          },
+          "ruleId": "CWE-94",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/fastapi_app/__init__.py"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_list",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/fastapi_app/__init__.py"
+                },
+                "region": {
+                  "startLine": 73,
+                  "endLine": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_defaults",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/golden-master/my_test_api_client/api/tests.py"
+                },
+                "region": {
+                  "startLine": 15,
+                  "endLine": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_user_list",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/golden-master/my_test_api_client/api/tests.py"
+                },
+                "region": {
+                  "startLine": 99,
+                  "endLine": 174
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_defaults_tests_test_defaults_post",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/golden-master/my_test_api_client/models/a_model.py"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "from_dict",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/golden-master/my_test_api_client/models/a_model.py"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "from_dict._parse_a_camel_date_time",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "end_to_end_tests/golden-master/my_test_api_client/models/a_model.py"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "to_dict",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/__init__.py"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 104
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/openapi.py"
+                },
+                "region": {
+                  "startLine": 177,
+                  "endLine": 200
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "from_data",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 296,
+                  "endLine": 308
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__post_init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__post_init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 449,
+                  "endLine": 491
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_property_from_data",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "_validate_default",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 100,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_imports",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_type_string",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 494,
+                  "endLine": 500
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "property_from_data",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/parser/properties.py"
+                },
+                "region": {
+                  "startLine": 339,
+                  "endLine": 353
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "values_from_list",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/utils.py"
+                },
+                "region": {
+                  "startLine": 11,
+                  "endLine": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "fix_keywords",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/utils.py"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "group_title",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/utils.py"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "kebab_case",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/utils.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "pascal_case",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/utils.py"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "remove_string_escapes",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/utils.py"
+                },
+                "region": {
+                  "startLine": 7,
+                  "endLine": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sanitize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "openapi_python_client/utils.py"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "snake_case",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_openapi.py"
+                },
+                "region": {
+                  "startLine": 534,
+                  "endLine": 589
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_from_data",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test___post_init",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 256,
+                  "endLine": 268
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test__validate_default",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 57,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test__validate_default",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 270,
+                  "endLine": 278
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test__validate_default_enum_items",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 104
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_get_imports",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 669,
+                  "endLine": 685
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_array",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 698,
+                  "endLine": 708
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_array_invalid_items",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 580,
+                  "endLine": 605
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_enum",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 607,
+                  "endLine": 621
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_ref",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 646,
+                  "endLine": 667
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_simple_types",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 623,
+                  "endLine": 635
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_string",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 710,
+                  "endLine": 731
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_union",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 733,
+                  "endLine": 743
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_union_bad_type",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_openapi_parser/test_properties.py"
+                },
+                "region": {
+                  "startLine": 766,
+                  "endLine": 775
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_property_from_data_validation_error",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_utils.py"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test__fix_keywords",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_utils.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test__sanitize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "tests/test_utils.py"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_no_string_escapes",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

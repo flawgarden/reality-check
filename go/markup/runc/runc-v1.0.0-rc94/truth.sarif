@@ -1,0 +1,211 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-runc-v1.0.0-rc94"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2021-30465"
+          },
+          "ruleId": "CWE-362",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/container_linux.go"
+                },
+                "region": {
+                  "startLine": 1194,
+                  "endLine": 1226
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "makeCriuRestoreMountpoints",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/container_linux.go"
+                },
+                "region": {
+                  "startLine": 1245,
+                  "endLine": 1292
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepareCriuRestoreMounts",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 652,
+                  "endLine": 661
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "bindMountDeviceNode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 664,
+                  "endLine": 685
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createDeviceNode",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 240,
+                  "endLine": 300
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mountCgroupV1",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 302,
+                  "endLine": 329
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mountCgroupV2",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 1071,
+                  "endLine": 1084
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mountNewCgroup",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 1038,
+                  "endLine": 1069
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mountPropagate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 331,
+                  "endLine": 476
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "mountToRootfs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 213,
+                  "endLine": 238
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "prepareBindMount",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "libcontainer/rootfs_linux.go"
+                },
+                "region": {
+                  "startLine": 1026,
+                  "endLine": 1034
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "remount",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

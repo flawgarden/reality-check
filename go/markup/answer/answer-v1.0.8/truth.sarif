@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-answer-v1.0.8"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2023-1974"
+          },
+          "ruleId": "CWE-1230",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/service/uploader/upload.go"
+                },
+                "region": {
+                  "startLine": 207,
+                  "endLine": 221
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Dexif",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/service/uploader/upload.go"
+                },
+                "region": {
+                  "startLine": 181,
+                  "endLine": 205
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "uploadFile",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

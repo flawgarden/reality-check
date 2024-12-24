@@ -1,0 +1,271 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-rdiffweb-2.5.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4720"
+          },
+          "ruleId": "CWE-601",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/notification.py"
+                },
+                "region": {
+                  "startLine": 68,
+                  "endLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "access_token_added",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/notification.py"
+                },
+                "region": {
+                  "startLine": 128,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "user_password_changed",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 122,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_email_changed",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_notification_job",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_notification_job_undefined_last_backup_date",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 155,
+                  "endLine": 171
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_password_change_notification",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 173,
+                  "endLine": 190
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_password_change_with_same_value",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4721"
+          },
+          "ruleId": "CWE-75",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/notification.py"
+                },
+                "region": {
+                  "startLine": 68,
+                  "endLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "access_token_added",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/notification.py"
+                },
+                "region": {
+                  "startLine": 128,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "user_password_changed",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 122,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_email_changed",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_notification_job",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 89
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_notification_job_undefined_last_backup_date",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 155,
+                  "endLine": 171
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_password_change_notification",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "rdiffweb/core/tests/test_notification.py"
+                },
+                "region": {
+                  "startLine": 173,
+                  "endLine": 190
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_password_change_with_same_value",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-numpy-v1.8.1rc1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2014-1858"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/core/tests/test_memmap.py"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_filename",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/core/tests/test_memmap.py"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_open_with_filename",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/core/tests/test_multiarray.py"
+                },
+                "region": {
+                  "startLine": 2309,
+                  "endLine": 2317
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/f2py/__init__.py"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "compile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/f2py/f2py2e.py"
+                },
+                "region": {
+                  "startLine": 413,
+                  "endLine": 585
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "run_compile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/lib/tests/test_io.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "tempdir",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/lib/tests/test_io.py"
+                },
+                "region": {
+                  "startLine": 154,
+                  "endLine": 163
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_big_arrays",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2014-1859"
+          },
+          "ruleId": "CWE-59",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/core/tests/test_memmap.py"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_filename",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/core/tests/test_memmap.py"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_open_with_filename",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/core/tests/test_multiarray.py"
+                },
+                "region": {
+                  "startLine": 2309,
+                  "endLine": 2317
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUp",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/f2py/__init__.py"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "compile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/f2py/f2py2e.py"
+                },
+                "region": {
+                  "startLine": 413,
+                  "endLine": 585
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "run_compile",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/lib/tests/test_io.py"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "tempdir",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "numpy/lib/tests/test_io.py"
+                },
+                "region": {
+                  "startLine": 154,
+                  "endLine": 163
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_big_arrays",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

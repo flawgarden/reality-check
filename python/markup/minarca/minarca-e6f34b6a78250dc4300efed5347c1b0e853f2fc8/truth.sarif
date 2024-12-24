@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-minarca-e6f34b6a78250dc4300efed5347c1b0e853f2fc8"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-3251"
+          },
+          "ruleId": "CWE-311",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "minarca-server/minarca_server/plugins/tests/test_minarca.py"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_with_user_root",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "minarca-server/minarca_server/plugins/tests/test_minarca.py"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_add_user_without_user_root",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

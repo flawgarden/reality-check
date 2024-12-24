@@ -1,0 +1,2077 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-memos-v0.9.1"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4796"
+          },
+          "ruleId": "CWE-648",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4797"
+          },
+          "ruleId": "CWE-307",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4798"
+          },
+          "ruleId": "CWE-639",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4799"
+          },
+          "ruleId": "CWE-639",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4800"
+          },
+          "ruleId": "CWE-940",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4801"
+          },
+          "ruleId": "CWE-1220",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4802"
+          },
+          "ruleId": "CWE-639",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4803"
+          },
+          "ruleId": "CWE-639",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4804"
+          },
+          "ruleId": "CWE-285",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4805"
+          },
+          "ruleId": "CWE-648",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4806"
+          },
+          "ruleId": "CWE-639",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4807"
+          },
+          "ruleId": "CWE-284",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4809"
+          },
+          "ruleId": "CWE-284",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4810"
+          },
+          "ruleId": "CWE-284",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4811"
+          },
+          "ruleId": "CWE-639",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4812"
+          },
+          "ruleId": "CWE-639",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4813"
+          },
+          "ruleId": "CWE-1220",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4814"
+          },
+          "ruleId": "CWE-284",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4851"
+          },
+          "ruleId": "CWE-229",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4863"
+          },
+          "ruleId": "CWE-280",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/memo.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_memo",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/resource.go"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_resource",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/shortcut.go"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_shourtcut",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/tag.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_tag",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/user.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "POST_user",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4844"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/acl.go"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUserSession",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4845"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/acl.go"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUserSession",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4846"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/acl.go"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUserSession",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4847"
+          },
+          "ruleId": "CWE-941",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/acl.go"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUserSession",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4848"
+          },
+          "ruleId": "CWE-940",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/acl.go"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUserSession",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4849"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/acl.go"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUserSession",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-4850"
+          },
+          "ruleId": "CWE-352",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "server/acl.go"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setUserSession",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

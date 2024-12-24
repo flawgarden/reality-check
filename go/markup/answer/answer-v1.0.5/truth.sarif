@@ -1,0 +1,119 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-answer-v1.0.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-1537"
+          },
+          "ruleId": "CWE-294",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/service/action/captcha_service.go"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "VerifyCaptcha",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-1538"
+          },
+          "ruleId": "CWE-203",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/service/action/captcha_service.go"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "VerifyCaptcha",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-1539"
+          },
+          "ruleId": "CWE-307",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/service/action/captcha_service.go"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "VerifyCaptcha",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2023-1976"
+          },
+          "ruleId": "CWE-263",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "internal/service/action/captcha_service.go"
+                },
+                "region": {
+                  "startLine": 143,
+                  "endLine": 149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "VerifyCaptcha",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

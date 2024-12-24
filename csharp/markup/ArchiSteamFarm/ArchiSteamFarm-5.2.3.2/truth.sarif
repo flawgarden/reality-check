@@ -1,0 +1,789 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-ArchiSteamFarm-5.2.3.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-23627"
+          },
+          "ruleId": "CWE-863",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 507,
+                  "endLine": 528
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ProxyAccess",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 85,
+                  "endLine": 318
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_Response",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 544,
+                  "endLine": 564
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_Response2FA",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 588,
+                  "endLine": 608
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_Response2FAConfirm",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 682,
+                  "endLine": 706
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseAddLicense",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 742,
+                  "endLine": 770
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseAdvancedLoot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 857,
+                  "endLine": 885
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseAdvancedRedeem",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 953,
+                  "endLine": 999
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseAdvancedTransfer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1015,
+                  "endLine": 1035
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseBackgroundGamesRedeemer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1099,
+                  "endLine": 1119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseFarm",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1129,
+                  "endLine": 1149
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseFarmingBlacklist",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1196,
+                  "endLine": 1220
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseFarmingBlacklistAdd",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1262,
+                  "endLine": 1286
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseFarmingBlacklistRemove",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1296,
+                  "endLine": 1316
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseFarmingQueue",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1370,
+                  "endLine": 1394
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseFarmingQueueAdd",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1441,
+                  "endLine": 1465
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseFarmingQueueRemove",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1533,
+                  "endLine": 1561
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseInput",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1581,
+                  "endLine": 1601
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseLevel",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1625,
+                  "endLine": 1645
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseLoot",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1647,
+                  "endLine": 1687
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseLootByRealAppIDs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1689,
+                  "endLine": 1713
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseLootByRealAppIDs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1723,
+                  "endLine": 1743
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseMatchActivelyBlacklist",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1777,
+                  "endLine": 1801
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseMatchActivelyBlacklistAdd",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1835,
+                  "endLine": 1859
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseMatchActivelyBlacklistRemove",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 1883,
+                  "endLine": 1907
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseNickname",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2061,
+                  "endLine": 2107
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseOwns",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2133,
+                  "endLine": 2153
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponsePause",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2226,
+                  "endLine": 2250
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponsePlay",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2270,
+                  "endLine": 2290
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponsePointsBalance",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2426,
+                  "endLine": 2450
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponsePrivacy",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2711,
+                  "endLine": 2735
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseRedeem",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2755,
+                  "endLine": 2775
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseReset",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2805,
+                  "endLine": 2825
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseResume",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2841,
+                  "endLine": 2861
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseStart",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2920,
+                  "endLine": 2948
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseStatus",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2964,
+                  "endLine": 2984
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseStop",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 2994,
+                  "endLine": 3014
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseTradingBlacklist",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 3048,
+                  "endLine": 3072
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseTradingBlacklistAdd",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 3106,
+                  "endLine": 3130
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseTradingBlacklistRemove",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 3172,
+                  "endLine": 3196
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseTransfer",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 3198,
+                  "endLine": 3232
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseTransferByRealAppIDs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 3234,
+                  "endLine": 3274
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseTransferByRealAppIDs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 3276,
+                  "endLine": 3326
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseTransferByRealAppIDs",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 3372,
+                  "endLine": 3392
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseUnpackBoosters",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Steam/Interaction/Commands.cs"
+                },
+                "region": {
+                  "startLine": 3428,
+                  "endLine": 3448
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Commands_ResponseWalletBalance",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -22,8 +22,8 @@
                   "uri": "src/saml2/__init__.py"
                 },
                 "region": {
-                  "startLine": 74,
-                  "endLine": 91
+                  "startLine": 73,
+                  "endLine": 90
                 }
               },
               "logicalLocations": [
@@ -39,8 +39,8 @@
                   "uri": "src/saml2/__init__.py"
                 },
                 "region": {
-                  "startLine": 271,
-                  "endLine": 273
+                  "startLine": 270,
+                  "endLine": 272
                 }
               },
               "logicalLocations": [
@@ -133,8 +133,8 @@
                   "uri": "src/saml2/__init__.py"
                 },
                 "region": {
-                  "startLine": 74,
-                  "endLine": 91
+                  "startLine": 73,
+                  "endLine": 90
                 }
               },
               "logicalLocations": [
@@ -150,8 +150,8 @@
                   "uri": "src/saml2/__init__.py"
                 },
                 "region": {
-                  "startLine": 271,
-                  "endLine": 273
+                  "startLine": 270,
+                  "endLine": 272
                 }
               },
               "logicalLocations": [

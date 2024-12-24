@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-IpMatcher-81d77c2f33aa912dbd032b34b9e184fc6e041d89"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-33318"
+          },
+          "ruleId": "CWE-704",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "IpMatcher/Matcher.cs"
+                },
+                "region": {
+                  "startLine": 57,
+                  "endLine": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IpMatcher_Matcher_Add",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "IpMatcher/Matcher.cs"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IpMatcher_Matcher_Exists",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "IpMatcher/Matcher.cs"
+                },
+                "region": {
+                  "startLine": 147,
+                  "endLine": 200
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IpMatcher_Matcher_MatchExists",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "IpMatcher/Matcher.cs"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 140
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IpMatcher_Matcher_Remove",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Git-Credential-Manager-Core-v2.0.280-beta"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2020-26233"
+          },
+          "ruleId": "CWE-706",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/shared/Microsoft.Git.CredentialManager/CommandContext.cs"
+                },
+                "region": {
+                  "startLine": 77,
+                  "endLine": 141
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Microsoft.Git.CredentialManager_CommandContext_CommandContext",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/shared/Microsoft.Git.CredentialManager/Interop/Windows/WindowsEnvironment.cs"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Microsoft.Git.CredentialManager.Interop.Windows_WindowsEnvironment_WindowsEnvironment",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/shared/Microsoft.Git.CredentialManager/Interop/Windows/WindowsEnvironment.cs"
+                },
+                "region": {
+                  "startLine": 68,
+                  "endLine": 98
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Microsoft.Git.CredentialManager.Interop.Windows_WindowsEnvironment_TryLocateExecutable",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

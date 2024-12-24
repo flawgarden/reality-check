@@ -209,13 +209,13 @@
                   "uri": "Snappier/Internal/SnappyDecompressor.cs"
                 },
                 "region": {
-                  "startLine": 545,
-                  "endLine": 554
+                  "startLine": 541,
+                  "endLine": 555
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "Snappier.Internal_SnappyDecompressor_if",
+                  "name": "Snappier.Internal_SnappyDecompressor_ExpectedLength_set",
                   "kind": "function"
                 }
               ]

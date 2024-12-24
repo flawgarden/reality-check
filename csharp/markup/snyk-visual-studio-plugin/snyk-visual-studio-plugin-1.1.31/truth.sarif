@@ -1,0 +1,500 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-snyk-visual-studio-plugin-1.1.31"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-24441"
+          },
+          "ruleId": "CWE-78",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.2022/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_DoNotTrustButton_OnClick",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.2022/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_Hyperlink_OnRequestNavigate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.2022/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_TrustButton_OnClick",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.2022/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 15,
+                  "endLine": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_TrustDialogWindow",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.2022/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "endLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_TrustDialogWindow_OnMouseDown",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Shared/Service/SnykService.cs"
+                },
+                "region": {
+                  "startLine": 233,
+                  "endLine": 263
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Shared.Service_SnykService_InitializeAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Shared/Service/SnykTasksService.cs"
+                },
+                "region": {
+                  "startLine": 241,
+                  "endLine": 270
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Shared.Service_SnykTasksService_IsFolderTrustedAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Shared/Service/SnykTasksService.cs"
+                },
+                "region": {
+                  "startLine": 201,
+                  "endLine": 235
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Shared.Service_SnykTasksService_ScanAsync",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Shared/Service/WorkspaceTrustService.cs"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Shared.Service_WorkspaceTrustService_AddFolderToTrusted",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Shared/Service/WorkspaceTrustService.cs"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Shared.Service_WorkspaceTrustService_IsFolderTrusted",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Shared/Service/WorkspaceTrustService.cs"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Shared.Service_WorkspaceTrustService_IsSubFolderOrEqual",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Shared/Service/WorkspaceTrustService.cs"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Shared.Service_WorkspaceTrustService_WorkspaceTrustService",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Shared/UI/Toolwindow/MessagePanel.xaml.cs"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 162
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Shared.UI.Toolwindow_MessagePanel_TestCodeNow_Click",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 141,
+                  "endLine": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_CreateTempDirectory",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 93,
+                  "endLine": 104
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_WorkspaceTrustServiceTest_AddFolderToTrusted_ExistingFolder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 120
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_WorkspaceTrustServiceTest_AddFolderToTrusted_MultipleFolders",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 71,
+                  "endLine": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_WorkspaceTrustServiceTest_AddFolderToTrusted_NonExistingFolder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_WorkspaceTrustServiceTest_AddFolderToTrusted_RelativeFolder",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 123,
+                  "endLine": 139
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_WorkspaceTrustServiceTest_AddFolderToTrusted_SameFolderTwice",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_WorkspaceTrustServiceTest_IsFolderTrusted_NotTrusted",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_WorkspaceTrustServiceTest_IsFolderTrusted_ParentFolderNotTrusted",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "endLine": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_WorkspaceTrustServiceTest_IsFolderTrusted_SubfolderTrusted",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension.Tests/Service/WorkspaceTrustServiceTest.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension.Tests.Service_WorkspaceTrustServiceTest_WorkspaceTrustServiceTest_IsFolderTrusted_Trusted",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_DoNotTrustButton_OnClick",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_Hyperlink_OnRequestNavigate",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_TrustButton_OnClick",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_TrustDialogWindow",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Snyk.VisualStudio.Extension/TrustDialogWindow.xaml.cs"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Snyk.VisualStudio.Extension_TrustDialogWindow_TrustDialogWindow_OnMouseDown",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

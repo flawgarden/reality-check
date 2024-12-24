@@ -1,0 +1,143 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-Blogifier-v2.4"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2019-12277"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Api/AssetsController.cs"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Api_AssetsController_Get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 225,
+                  "endLine": 232
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core_StringExtensions_SanitizeFileName",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 215,
+                  "endLine": 223
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core_StringExtensions_SanitizePath",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 297,
+                  "endLine": 304
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_DeleteAuthor",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 257,
+                  "endLine": 279
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_Find",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 314,
+                  "endLine": 339
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_Reset",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/Core/Services/StorageService.cs"
+                },
+                "region": {
+                  "startLine": 428,
+                  "endLine": 459
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "Core.Services_StorageService_TitleFromUri",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

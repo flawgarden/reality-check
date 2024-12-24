@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-AutoUpdater.NET-v1.5.7"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2019-20627"
+          },
+          "ruleId": "CWE-611",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "AutoUpdater.NET/AutoUpdater.cs"
+                },
+                "region": {
+                  "startLine": 374,
+                  "endLine": 627
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "AutoUpdaterDotNET_AutoUpdater_BackgroundWorkerDoWork",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

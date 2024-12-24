@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-ArchiSteamFarm-4.3.1.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-32795"
+          },
+          "ruleId": "CWE-20",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Bot.cs"
+                },
+                "region": {
+                  "startLine": 2239,
+                  "endLine": 2279
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArchiSteamFarm_Bot_OnIncomingChatMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Bot.cs"
+                },
+                "region": {
+                  "startLine": 2281,
+                  "endLine": 2325
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArchiSteamFarm_Bot_OnIncomingMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Commands.cs"
+                },
+                "region": {
+                  "startLine": 289,
+                  "endLine": 349
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArchiSteamFarm_Commands_HandleMessage",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ArchiSteamFarm/Commands.cs"
+                },
+                "region": {
+                  "startLine": 351,
+                  "endLine": 413
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "ArchiSteamFarm_Commands_HandleMessage",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

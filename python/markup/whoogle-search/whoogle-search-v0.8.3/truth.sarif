@@ -1,0 +1,187 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-whoogle-search-v0.8.3"
+        }
+      },
+      "results": [
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2024-22203"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 419,
+                  "endLine": 452
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 465,
+                  "endLine": 490
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "element",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2024-22204"
+          },
+          "ruleId": "CWE-22",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 419,
+                  "endLine": 452
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 465,
+                  "endLine": 490
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "element",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2024-22205"
+          },
+          "ruleId": "CWE-918",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 419,
+                  "endLine": 452
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 465,
+                  "endLine": 490
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "element",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "fail",
+          "message": {
+            "text": "CVE-2024-22417"
+          },
+          "ruleId": "CWE-79",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 419,
+                  "endLine": 452
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/routes.py"
+                },
+                "region": {
+                  "startLine": 465,
+                  "endLine": 490
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "element",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

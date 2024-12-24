@@ -1,0 +1,330 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-guardian-vpn-windows-v1.2"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2020-15679"
+          },
+          "ruleId": "CWE-384",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/Account.cs"
+                },
+                "region": {
+                  "startLine": 165,
+                  "endLine": 212
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_Account_GetAccountDetails",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/Account.cs"
+                },
+                "region": {
+                  "startLine": 78,
+                  "endLine": 120
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_Account_ProcessLogin",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/Devices.cs"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_Devices_AddDevice",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/Devices.cs"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_Devices_RemoveDevice",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/Login.cs"
+                },
+                "region": {
+                  "startLine": 185,
+                  "endLine": 197
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_Login_GetHashSha256",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/Login.cs"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_Login_GetLoginURL",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/Login.cs"
+                },
+                "region": {
+                  "startLine": 205,
+                  "endLine": 242
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_Login_GetUniqueToken",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/Login.cs"
+                },
+                "region": {
+                  "startLine": 110,
+                  "endLine": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_Login_StartLogin",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/Login.cs"
+                },
+                "region": {
+                  "startLine": 153,
+                  "endLine": 178
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_Login_VerifyUserLogin",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/LoginSessionManager.cs"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_LoginSessionManager_StartNewSession",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/FxA/ServerList/ServerList.cs"
+                },
+                "region": {
+                  "startLine": 174,
+                  "endLine": 204
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.FxA_ServerList_RetrieveRemoteServerList",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/Main.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork_Entry_Main",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/Main.cs"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 175
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork_Entry_VerifyUser",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/Manager.cs"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 128
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork_Manager_Initialize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/Manager.cs"
+                },
+                "region": {
+                  "startLine": 172,
+                  "endLine": 175
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork_Manager_InitializeViewModels",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/Manager.cs"
+                },
+                "region": {
+                  "startLine": 233,
+                  "endLine": 240
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork_Manager_TerminateUIUpdaters",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/ProductConstants.cs"
+                },
+                "region": {
+                  "startLine": 307,
+                  "endLine": 344
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork_ProductConstants_LoadFxAUrls",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ui/src/ViewModels/MainWindowViewModel.cs"
+                },
+                "region": {
+                  "startLine": 79,
+                  "endLine": 115
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "FirefoxPrivateNetwork.ViewModels_MainWindowViewModel_MainWindowViewModel",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-LiteDB-v5.0.13"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-23535"
+          },
+          "ruleId": "CWE-502",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "startLine": 79,
+                  "endLine": 233
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "LiteDB_BsonMapper_Deserialize",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "LiteDB/Utils/LiteException.cs"
+                },
+                "region": {
+                  "startLine": 316,
+                  "endLine": 319
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "LiteDB_LiteException_AvoidUseOfProcess",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

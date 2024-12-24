@@ -1,0 +1,279 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-onefuzz-2.31.0"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2021-37705"
+          },
+          "ruleId": "CWE-863",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/api-service/__app__/info/__init__.py"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/api-service/__app__/info/__init__.py"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "main",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/api-service/__app__/onefuzzlib/config.py"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "fetch",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/api-service/__app__/onefuzzlib/user_credentials.py"
+                },
+                "region": {
+                  "startLine": 47,
+                  "endLine": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "get_allowed_tenants",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/api-service/__app__/onefuzzlib/user_credentials.py"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "parse_jwt_token",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/api-service/tests/test_auth_check.py"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 124
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_manage_pools",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/api-service/tests/test_auth_check.py"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_modify_config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/deployment/deploy.py"
+                },
+                "region": {
+                  "startLine": 111,
+                  "endLine": 184
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "__init__",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/deployment/deploy.py"
+                },
+                "region": {
+                  "startLine": 928,
+                  "endLine": 1117
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "main",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/deployment/deploy.py"
+                },
+                "region": {
+                  "startLine": 565,
+                  "endLine": 577
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "set_instance_config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/deployment/set_admins.py"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "main",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/deployment/set_admins.py"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "update_allowed_aad_tenants",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pytypes/extra/generate-docs.py"
+                },
+                "region": {
+                  "startLine": 85,
+                  "endLine": 339
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "main",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pytypes/onefuzztypes/models.py"
+                },
+                "region": {
+                  "startLine": 825,
+                  "endLine": 831
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "check_instance_config",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/pytypes/tests/test_instance_config_update.py"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "test_with_admins",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

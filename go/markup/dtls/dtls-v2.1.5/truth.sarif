@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "reality-check-benchmark-dtls-v2.1.5"
+        }
+      },
+      "results": [
+        {
+          "kind": "pass",
+          "message": {
+            "text": "CVE-2022-29222"
+          },
+          "ruleId": "CWE-295",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 205
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "flight4Parse",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler_test.go"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "IsInitialized",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler_test.go"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 116
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "TestFlight4_Process_CertificateVerify",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler_test.go"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "handleQueuedPackets",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler_test.go"
+                },
+                "region": {
+                  "startLine": 16,
+                  "endLine": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "notify",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler_test.go"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "recvHandshake",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler_test.go"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sessionKey",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler_test.go"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setLocalEpoch",
+                  "kind": "function"
+                }
+              ]
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "flight4handler_test.go"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "writePackets",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
